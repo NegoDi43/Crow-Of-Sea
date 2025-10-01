@@ -7,7 +7,7 @@ public class Status : MonoBehaviour
 
     [Header("Status Mutaveis")]
     [SerializeField] private float danoMaximo = 1;
-    [SerializeField] private float velocidade;
+    [SerializeField] private float velocidade = 5;
     [SerializeField] private float stamina = 100;
 
 
@@ -24,6 +24,21 @@ public class Status : MonoBehaviour
         limites();
     }
 
+    // Atualiza os status
+    public void UpDanoMaximo()
+    {
+        danoMaximo += (float)0.25;
+    }
+    public void UpVelocidade()
+    {
+        velocidade += (float)0.25;
+    }
+    public void UpStamina()
+    {
+        stamina += 5;
+    }
+
+    // Limites para os status
     private void limites()
         {
         if (vidaMaxima < 1)
