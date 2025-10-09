@@ -1,13 +1,15 @@
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "PrefabsItens", menuName = "Scriptable Objects/New Item")]
-public class PrefabsItens : ScriptableObject
+[CreateAssetMenu(fileName = "ScriptableObjects")]
+public abstract class PrefabsItens : ScriptableObject
 {
-    public string nome;
-    public int dano;
+    public enum TipoItem { Arma, Armadura, Pocao, Chave, Recurso, Outro }
+
+    [Header("Valores do item")]
+    public string nomeItem;
     public float alcance;
-    public int cura;
-    public int defesa;
+    public TipoItem tipo;
     public Sprite icone;
-    public int numeroEspada;
+
+    [TextArea] public string descricao;
 }
