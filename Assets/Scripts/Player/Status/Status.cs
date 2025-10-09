@@ -5,6 +5,7 @@ public class Status : MonoBehaviour
 {
     [Header("Status base")]
     [SerializeField] private float vidaMaxima = 15;
+    [SerializeField] private float vidaAtual;
 
     [Header("Status Mutaveis")]
     [SerializeField] private float danoMaximo = 1;
@@ -27,7 +28,9 @@ public class Status : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        StartCoroutine(AumentaVida());
         StartCoroutine(AumentaStamina());
+        vidaAtual = vidaMaxima;
         staminaAtual = staminaMax;
 
         playerController = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController2D>();
@@ -38,6 +41,7 @@ public class Status : MonoBehaviour
     {
         limites();
         AtualizaStamina();
+        AtualizaVida();
     }
 
     //Atualiza os Status
@@ -49,9 +53,6 @@ public class Status : MonoBehaviour
         {
             staminaAtual = staminaMax;
         }
-
-       
-
     }
 
     IEnumerator AumentaStamina()
@@ -63,6 +64,25 @@ public class Status : MonoBehaviour
         }
 
         StartCoroutine(AumentaStamina());
+    }
+
+    private void AtualizaVida()
+    {
+        if (vidaAtual > vidaMaxima)
+        {
+            vidaAtual = vidaMaxima;
+        }
+    }
+
+    IEnumerator AumentaVida()
+    {
+        yield return new WaitForSeconds(2);
+        if (vidaAtual < vidaMaxima)
+        {
+            vidaAtual += 1;
+            AtualizaVida();
+        }
+        StartCoroutine(AumentaVida());
     }
 
     // Aumenta os status
@@ -145,6 +165,10 @@ public class Status : MonoBehaviour
     {
         return vidaMaxima;
     }
+    public float GetVidaAtual()
+    {
+        return vidaAtual;
+    }
     public float GetDanoMaximo()
     {
         return danoMaximo;
@@ -153,9 +177,13 @@ public class Status : MonoBehaviour
     {
         return velocidade;
     }
-    public float GetStamina()
+    public float GetStaminaMax()
     {
         return staminaMax;
+    }
+    public float GetStaminaAtual()
+    {
+        return staminaAtual;
     }
     public float GetPontos()
     {
@@ -176,5 +204,11 @@ public class Status : MonoBehaviour
     public float GetPontosStamina()
     {
         return pontosStamina;
+    }
+
+    // Ganhar Pontos
+    public void GanharPontos()
+    {
+        pontos += 3;
     }
 }
