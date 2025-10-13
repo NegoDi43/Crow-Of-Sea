@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: 890c7351cb7955c4c9eab0639c1e7026
+guid: 09aa3093eb5bea248bca80d5fb911ea6
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2255074516774000581
-    second: Soldier-Attack02_Effect_0
-  - first:
-      213: -5637797018831071397
-    second: Soldier-Attack02_Effect_1
+      213: -3337038689812066966
+    second: pixil-frame-0_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -142,13 +139,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Soldier-Attack02_Effect_0
+      name: pixil-frame-0_0
       rect:
         serializedVersion: 2
-        x: 359
-        y: 42
-        width: 11
-        height: 23
+        x: 33
+        y: 234
+        width: 347
+        height: 133
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -157,30 +154,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b3866a5ccad54b0e0800000000000000
-      internalID: -2255074516774000581
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Soldier-Attack02_Effect_1
-      rect:
-        serializedVersion: 2
-        x: 459
-        y: 42
-        width: 11
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b5751d05b7582c1b0800000000000000
-      internalID: -5637797018831071397
+      spriteID: a6d4404fdf470b1d0800000000000000
+      internalID: -3337038689812066966
       vertices: []
       indices: 
       edges: []
@@ -198,9 +173,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Soldier-Attack02_Effect_0: -2255074516774000581
-      Soldier-Attack02_Effect_1: -5637797018831071397
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

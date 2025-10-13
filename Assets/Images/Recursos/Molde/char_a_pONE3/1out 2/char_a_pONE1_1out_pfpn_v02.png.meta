@@ -973,7 +973,40 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      char_a_pONE1_1out_pfpn_v02_0: 6943230558543077928
+      char_a_pONE1_1out_pfpn_v02_1: 2814187264549317749
+      char_a_pONE1_1out_pfpn_v02_10: -5076076471335898490
+      char_a_pONE1_1out_pfpn_v02_11: 8354505406610553805
+      char_a_pONE1_1out_pfpn_v02_12: -2761238958490451334
+      char_a_pONE1_1out_pfpn_v02_13: 2574296101458069380
+      char_a_pONE1_1out_pfpn_v02_14: -5301573436408717172
+      char_a_pONE1_1out_pfpn_v02_15: 2795274256008067853
+      char_a_pONE1_1out_pfpn_v02_16: 3218401308904812551
+      char_a_pONE1_1out_pfpn_v02_17: 5539253237594189264
+      char_a_pONE1_1out_pfpn_v02_18: 5035662877546552961
+      char_a_pONE1_1out_pfpn_v02_19: 1297247460419915760
+      char_a_pONE1_1out_pfpn_v02_2: 8453772408949233638
+      char_a_pONE1_1out_pfpn_v02_20: -2537777310108129385
+      char_a_pONE1_1out_pfpn_v02_21: -3285492402377917621
+      char_a_pONE1_1out_pfpn_v02_22: 8976295705199461046
+      char_a_pONE1_1out_pfpn_v02_23: 3425690397156785456
+      char_a_pONE1_1out_pfpn_v02_24: 8675015888626521248
+      char_a_pONE1_1out_pfpn_v02_25: -3431903630102721659
+      char_a_pONE1_1out_pfpn_v02_26: 5020872157327892036
+      char_a_pONE1_1out_pfpn_v02_27: -7210394473301886442
+      char_a_pONE1_1out_pfpn_v02_28: 1492720604157274249
+      char_a_pONE1_1out_pfpn_v02_29: -3128165583677412227
+      char_a_pONE1_1out_pfpn_v02_3: 6781330204118445933
+      char_a_pONE1_1out_pfpn_v02_30: 751952610429838215
+      char_a_pONE1_1out_pfpn_v02_31: -3477106656060282632
+      char_a_pONE1_1out_pfpn_v02_32: -7686482105578429205
+      char_a_pONE1_1out_pfpn_v02_4: -8417775926707557860
+      char_a_pONE1_1out_pfpn_v02_5: -8874849156896234579
+      char_a_pONE1_1out_pfpn_v02_6: 7775607906132897280
+      char_a_pONE1_1out_pfpn_v02_7: 9039056154883725130
+      char_a_pONE1_1out_pfpn_v02_8: -910898421853188373
+      char_a_pONE1_1out_pfpn_v02_9: 2538337541646957683
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
