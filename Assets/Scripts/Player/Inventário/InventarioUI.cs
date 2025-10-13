@@ -25,6 +25,23 @@ public class InventarioUI : MonoBehaviour
         }
     }
 
+    public void PassarItem(Transform item)
+    {
+        // Implementar lógica para passar o item
+    }
+
+    public void UsarItem(Transform item)
+    {
+        // Implementar lógica para usar o item
+    }
+
+    public void GerrarSlots()
+    {
+        // Implementar lógica para gerar slots
+        GameObject novoSlot = Instantiate(prefabSlot, conteudo);
+
+    }
+
     public PrefabsItens GetItem(PrefabsItens item)
     {
         return item;

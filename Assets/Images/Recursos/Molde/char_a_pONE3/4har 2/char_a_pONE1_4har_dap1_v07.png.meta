@@ -948,7 +948,39 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      char_a_pONE1_4har_dap1_v07_0: -8092494278774065401
+      char_a_pONE1_4har_dap1_v07_1: -4797554889161711263
+      char_a_pONE1_4har_dap1_v07_10: -8444099164440485454
+      char_a_pONE1_4har_dap1_v07_11: -78152928390021165
+      char_a_pONE1_4har_dap1_v07_12: -8887244130363750996
+      char_a_pONE1_4har_dap1_v07_13: -8107278046513838346
+      char_a_pONE1_4har_dap1_v07_14: -4756514237773975609
+      char_a_pONE1_4har_dap1_v07_15: -1327384828254020781
+      char_a_pONE1_4har_dap1_v07_16: 673309955627464763
+      char_a_pONE1_4har_dap1_v07_17: 2962876595630198624
+      char_a_pONE1_4har_dap1_v07_18: 8724120767120969059
+      char_a_pONE1_4har_dap1_v07_19: 3125533666316025068
+      char_a_pONE1_4har_dap1_v07_2: -8025745379922520328
+      char_a_pONE1_4har_dap1_v07_20: -7622540939895565542
+      char_a_pONE1_4har_dap1_v07_21: -1332647358031348610
+      char_a_pONE1_4har_dap1_v07_22: -4158047245550291363
+      char_a_pONE1_4har_dap1_v07_23: 3196970770361477755
+      char_a_pONE1_4har_dap1_v07_24: -7015646447998504263
+      char_a_pONE1_4har_dap1_v07_25: -7795195413695166033
+      char_a_pONE1_4har_dap1_v07_26: -1321356369574879069
+      char_a_pONE1_4har_dap1_v07_27: 2241310724078960333
+      char_a_pONE1_4har_dap1_v07_28: 2173663332155096372
+      char_a_pONE1_4har_dap1_v07_29: 8601627935790474900
+      char_a_pONE1_4har_dap1_v07_3: 48429110323467757
+      char_a_pONE1_4har_dap1_v07_30: -7507024823970276516
+      char_a_pONE1_4har_dap1_v07_31: -3290866022382483430
+      char_a_pONE1_4har_dap1_v07_4: 7660006000175196155
+      char_a_pONE1_4har_dap1_v07_5: -6666797819376724632
+      char_a_pONE1_4har_dap1_v07_6: 4836358605337110597
+      char_a_pONE1_4har_dap1_v07_7: 4064020516874036688
+      char_a_pONE1_4har_dap1_v07_8: -645593886677875618
+      char_a_pONE1_4har_dap1_v07_9: 2302240678057970720
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

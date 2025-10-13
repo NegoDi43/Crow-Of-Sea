@@ -8,28 +8,48 @@ public class Inventario : MonoBehaviour
     public InventarioUI uiInventario;
     public int tamanhoMaximo = 20;
 
+    void Start()
+    {
+        GerraSlots();
+    }
+
     // Adicionar item ao inventário
     public void AdicionarItem(PrefabsItens item)
     {
         // Adiciona novo item
+        if (slots.Count < tamanhoMaximo)
+        {
+
+        }
         slots.Add(new SlotInventario(item, 1));
+        //SlotInventario slot = slots[slots.Count - 1];
         AtualizarUI();
 
-        // Se for uma poção, aumenta a quantidade
-        if (item.tipo == PrefabsItens.TipoItem.Pocao)
+        //// Se for uma poção, aumenta a quantidade
+        //if (item.tipo == PrefabsItens.TipoItem.Pocao)
+        //{
+        //    for (int i = 0; i < slots.Count; i++)
+        //    {
+        //        if (slots[i].item == item)
+        //        {
+        //            slots[i].quantidade++;
+        //            AtualizarUI();
+        //            uiInventario.GetItem(item);
+        //            return;
+        //        }
+        //    }
+        //}
+    }
+
+    public void GerraSlots()
+    {
+        for (int i = 0; i < tamanhoMaximo; i++)
         {
-            for (int i = 0; i < slots.Count; i++)
-            {
-                if (slots[i].item == item)
-                {
-                    slots[i].quantidade++;
-                    AtualizarUI();
-                    uiInventario.GetItem(item);
-                    return;
-                }
-            }
+            slots.Add(new SlotInventario(slots[i].item, 1));
+            AtualizarUI();
         }
     }
+
 
     // Remover item
     public void RemoverItem(PrefabsItens item)
@@ -40,15 +60,14 @@ public class Inventario : MonoBehaviour
             {
                 slots.RemoveAt(i);
                 AtualizarUI();
-                uiInventario.GetItem(item);
 
                 if (item.tipo == PrefabsItens.TipoItem.Pocao)
                 {
                     slots[i].quantidade--;
-                        if (slots[i].quantidade <= 0)
-                        {
-                            slots.RemoveAt(i);
-                        }
+                    if (slots[i].quantidade <= 0)
+                    {
+                        slots.RemoveAt(i);
+                    }
                 }
             }
         }
@@ -59,6 +78,12 @@ public class Inventario : MonoBehaviour
     {
         if (uiInventario != null)
             uiInventario.Atualizar(this);
+    }
+
+
+    public PrefabsItens GetItem(PrefabsItens item)
+    {
+        return item;
     }
 }
 

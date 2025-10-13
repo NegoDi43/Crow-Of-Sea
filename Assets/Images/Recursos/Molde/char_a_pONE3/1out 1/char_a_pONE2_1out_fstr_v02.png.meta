@@ -1273,7 +1273,52 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      char_a_pONE2_1out_fstr_v02_0: 8119556353034403421
+      char_a_pONE2_1out_fstr_v02_1: -7231964665525061502
+      char_a_pONE2_1out_fstr_v02_10: -6426251818711105160
+      char_a_pONE2_1out_fstr_v02_11: -8592239693926554206
+      char_a_pONE2_1out_fstr_v02_12: -3498190305705101764
+      char_a_pONE2_1out_fstr_v02_13: 6691235437086714818
+      char_a_pONE2_1out_fstr_v02_14: -6350372974711449804
+      char_a_pONE2_1out_fstr_v02_15: 3872064359304931244
+      char_a_pONE2_1out_fstr_v02_16: 5802209720374444970
+      char_a_pONE2_1out_fstr_v02_17: -5038258174776166304
+      char_a_pONE2_1out_fstr_v02_18: -4836770107460545600
+      char_a_pONE2_1out_fstr_v02_19: -4573315650580834280
+      char_a_pONE2_1out_fstr_v02_2: 8151904368225999020
+      char_a_pONE2_1out_fstr_v02_20: -5025764793037684735
+      char_a_pONE2_1out_fstr_v02_21: 482721687888586186
+      char_a_pONE2_1out_fstr_v02_22: 7374483921764135730
+      char_a_pONE2_1out_fstr_v02_23: 5163731957429545779
+      char_a_pONE2_1out_fstr_v02_24: 4698939475995851599
+      char_a_pONE2_1out_fstr_v02_25: -8190544811824467906
+      char_a_pONE2_1out_fstr_v02_26: 6100915938429274770
+      char_a_pONE2_1out_fstr_v02_27: -2740463685630231725
+      char_a_pONE2_1out_fstr_v02_28: 7134245700676468864
+      char_a_pONE2_1out_fstr_v02_29: -483577406984671985
+      char_a_pONE2_1out_fstr_v02_3: -4563806108824879862
+      char_a_pONE2_1out_fstr_v02_30: -7893312553395202875
+      char_a_pONE2_1out_fstr_v02_31: -9219174236493060694
+      char_a_pONE2_1out_fstr_v02_32: -5008820954431871548
+      char_a_pONE2_1out_fstr_v02_33: 4750452333968709602
+      char_a_pONE2_1out_fstr_v02_34: -1392958257458568898
+      char_a_pONE2_1out_fstr_v02_35: 1185016863401706319
+      char_a_pONE2_1out_fstr_v02_36: 3280179508601285238
+      char_a_pONE2_1out_fstr_v02_37: -3578651328318914603
+      char_a_pONE2_1out_fstr_v02_38: 835994691561352737
+      char_a_pONE2_1out_fstr_v02_39: -2132110240688404643
+      char_a_pONE2_1out_fstr_v02_4: -5688023725641554238
+      char_a_pONE2_1out_fstr_v02_40: -372845311118660064
+      char_a_pONE2_1out_fstr_v02_41: -6906464961766962612
+      char_a_pONE2_1out_fstr_v02_42: 2995947029416335985
+      char_a_pONE2_1out_fstr_v02_43: -6803210872873749591
+      char_a_pONE2_1out_fstr_v02_44: 9064945432600053913
+      char_a_pONE2_1out_fstr_v02_5: 4765393466021555357
+      char_a_pONE2_1out_fstr_v02_6: -8792069014993062399
+      char_a_pONE2_1out_fstr_v02_7: -7907756592151679522
+      char_a_pONE2_1out_fstr_v02_8: 1993835775756629125
+      char_a_pONE2_1out_fstr_v02_9: -2050511986844233948
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
