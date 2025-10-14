@@ -534,7 +534,7 @@ MonoBehaviour:
   textVelocidade: {fileID: 398999703}
   textStamina: {fileID: 2041028626}
   textPontos: {fileID: 1955977245}
-  status: {fileID: 0}
+  status: {fileID: 1363977826}
 --- !u!4 &256987787
 Transform:
   m_ObjectHideFlags: 0
@@ -1876,9 +1876,9 @@ RectTransform:
   - {fileID: 795120339}
   - {fileID: 1838968932}
   - {fileID: 484812866}
-  - {fileID: 789561896}
   - {fileID: 618573198}
   - {fileID: 1649384118}
+  - {fileID: 789561896}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -3175,37 +3175,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1132757807}
   m_CullTransparentMesh: 1
---- !u!1 &1150841191
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1150841193}
-  m_Layer: 0
-  m_Name: GameObject
-  m_TagString: Player
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1150841193
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1150841191}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 890.536, y: 580.5603, z: -3.2304485}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1240929376
 GameObject:
   m_ObjectHideFlags: 0
@@ -3686,6 +3655,10 @@ GameObject:
   - component: {fileID: 1363977823}
   - component: {fileID: 1363977822}
   - component: {fileID: 1363977821}
+  - component: {fileID: 1363977827}
+  - component: {fileID: 1363977826}
+  - component: {fileID: 1363977825}
+  - component: {fileID: 1363977824}
   m_Layer: 0
   m_Name: skeleton_v2_1_0
   m_TagString: Player
@@ -3790,6 +3763,83 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1363977824
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1363977819}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6eab3be1c7474d84d98ede3dc0aaa23e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  xpPorInimigo: 5
+  xpPorMissao: 50
+  xpNecessarioParaNivelUp: 10
+  xpAtual: 0
+  levellMaximo: 100
+  levelAtual: 0
+  levelText: {fileID: 484812867}
+  status: {fileID: 1363977826}
+--- !u!114 &1363977825
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1363977819}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7afd9c26c67b14341bb05b773c11d188, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  barraDeVida: {fileID: 127291700}
+  barraDeStamina: {fileID: 571752144}
+  barraDeXP: {fileID: 795120340}
+  status: {fileID: 1363977826}
+  xp: {fileID: 1363977824}
+--- !u!114 &1363977826
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1363977819}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebf3429f08865d341a0a2497c9be6faa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vidaMaxima: 15
+  vidaAtual: 0
+  danoMaximo: 1
+  velocidade: 5
+  staminaTotal: 0
+  staminaAtual: 0
+  staminaMax: 0
+  pontos: 0
+  pontosVida: 0
+  pontosDano: 0
+  pontosVelocidade: 0
+  pontosStamina: 0
+  playerController: {fileID: 1363977827}
+--- !u!114 &1363977827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1363977819}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c900e42ee0f2ae64499dc278868a24af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  joystick: {fileID: 1482355324}
+  statusPlayer: {fileID: 1363977826}
+  correndo: 0
 --- !u!1 &1419629377
 GameObject:
   m_ObjectHideFlags: 0
@@ -5528,7 +5578,6 @@ SceneRoots:
   m_Roots:
   - {fileID: 219527814}
   - {fileID: 615776404}
-  - {fileID: 1150841193}
   - {fileID: 505801676}
   - {fileID: 217461393}
   - {fileID: 951854527}
