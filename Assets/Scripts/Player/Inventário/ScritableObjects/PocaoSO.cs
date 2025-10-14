@@ -9,6 +9,7 @@ public class PocaoSO : PrefabsItens
     public float duracaoEfeito;
     public int quantidade;
     TipoItem tipoItem = TipoItem.Pocao;
+    [TextArea] public string descricao;
 
     public void UsarPocao(TipoPocao tipo , int efeito)
     {

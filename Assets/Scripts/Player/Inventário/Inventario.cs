@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Inventario : MonoBehaviour
 {
-    public List<SlotInventario> slots = new List<SlotInventario>();
+    public List<Item> slots = new List<Item>();
     public InventarioUI uiInventario;
     public int tamanhoMaximo = 20;
 
@@ -21,7 +21,7 @@ public class Inventario : MonoBehaviour
         {
 
         }
-        slots.Add(new SlotInventario(item, 1));
+        slots.Add(new Item(item, 1));
         //SlotInventario slot = slots[slots.Count - 1];
         AtualizarUI();
 
@@ -45,7 +45,7 @@ public class Inventario : MonoBehaviour
     {
         for (int i = 0; i < tamanhoMaximo; i++)
         {
-            slots.Add(new SlotInventario(slots[i].item, 1));
+            slots.Add(new Item (slots[i].item, 1));
             AtualizarUI();
         }
     }

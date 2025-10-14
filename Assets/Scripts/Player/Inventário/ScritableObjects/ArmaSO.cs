@@ -6,4 +6,5 @@ public class ArmaSO : PrefabsItens
     public int dano;
     public float velocidadeAtaque;
     TipoItem tipoItem = TipoItem.Arma;
+    [TextArea] public string descricao;
 }

@@ -24,7 +24,7 @@ public class PlayerController2D : MonoBehaviour
 
     public void Correr()
     {         
-        if (Input. && statusPlayer.GetStaminaAtual() > 0)
+        if (statusPlayer.GetStaminaAtual() > 0)
         {
             correndo = true;
             statusPlayer.Correndo();
