@@ -1,49 +1,38 @@
-using TMPro;
-using Unity.VisualScripting;
+using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class InventarioUI : MonoBehaviour
 {
-    public Transform conteudo; // Local onde os ícones vão aparecer
-    public GameObject prefabSlot; // Prefab de cada slot visual
+    public Inventario inventario;
+    public GameObject slotPrefab;
+    public Transform containerSlots;
 
-    public void Atualizar(Inventario inventario)
+    private List<SlotUI> slotsUI = new List<SlotUI>();
+
+    void Awake()
     {
-        // Limpa os slots antigos
-        foreach (Transform filho in conteudo)
-        {
-            Destroy(filho.gameObject);
-        }
+
+    }
+    void Start()
+    {
+        AtualizarUI();
+    }
+
+    public void AtualizarUI()
+    {
+        // Limpa slots antigos
+        foreach (Transform filho in containerSlots)
+        Destroy(filho.gameObject);
+
+        slotsUI.Clear();
 
         // Cria novos slots
-        foreach (SlotInventario slot in inventario.slots)
+        foreach (var slot in inventario.slots)
         {
-            GameObject novoSlot = Instantiate(prefabSlot, conteudo);
-            Image icone = novoSlot.GetComponent<Image>();
-            icone.sprite = slot.item.icone;
+            GameObject novoSlot = Instantiate(slotPrefab, containerSlots);
+            SlotUI slotUI = novoSlot.GetComponent<SlotUI>();
+            slotUI.AtualizarSlot(slot.item, slot.quantidade);
+            slotsUI.Add(slotUI);
         }
-    }
-
-    public void PassarItem(Transform item)
-    {
-        // Implementar lógica para passar o item
-    }
-
-    public void UsarItem(Transform item)
-    {
-        // Implementar lógica para usar o item
-    }
-
-    public void GerrarSlots()
-    {
-        // Implementar lógica para gerar slots
-        GameObject novoSlot = Instantiate(prefabSlot, conteudo);
-
-    }
-
-    public PrefabsItens GetItem(PrefabsItens item)
-    {
-        return item;
     }
 }

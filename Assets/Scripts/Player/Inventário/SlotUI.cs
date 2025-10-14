@@ -1,16 +1,38 @@
 using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
 
 public class SlotUI : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public Image icone;
+    public TextMeshProUGUI quantidadeTexto;
+
+    private PrefabsItens item;
+
+    public void AtualizarSlot(PrefabsItens novoItem, int quantidade)
     {
-        
+        item = novoItem;
+
+        if (item != null)
+        {
+            icone.sprite = item.icone;
+            icone.enabled = true;
+            quantidadeTexto.text = quantidade > 1 ? quantidade.ToString() : "";
+        }
+        else
+        {
+            icone.sprite = null;
+            icone.enabled = false;
+            quantidadeTexto.text = "";
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+    public void ClicarNoSlot()
     {
-        
+        if (item != null)
+        {
+            Debug.Log("Clicou em: " + item.nomeItem);
+            // Aqui você pode abrir descrição, usar item, etc.
+        }
     }
 }
