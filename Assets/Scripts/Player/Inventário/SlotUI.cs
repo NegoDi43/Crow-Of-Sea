@@ -8,8 +8,18 @@ public class SlotUI : MonoBehaviour, IPointerClickHandler
     public Image icone;
     public TextMeshProUGUI quantidadeTexto;
     public TextMeshProUGUI descricao;
+    public float coldownTime = 4f; // Tempo de cooldown em segundos
 
     private PrefabsItens item;
+    
+    void Start()
+    {
+        if (descricao == null)
+        {
+            descricao = GameObject.Find("TextoDescricao").GetComponent<TextMeshProUGUI>();
+        }
+        descricao.text = "";
+    }
 
     public void AtualizarSlot(PrefabsItens novoItem, int quantidade)
     {
@@ -34,6 +44,7 @@ public class SlotUI : MonoBehaviour, IPointerClickHandler
     {
         if (item != null)
         {
+            // Aqui você pode abrir descrição, usar item, etc.
             Debug.Log($"?? Clicou no item: {item.nomeItem} (x{quantidadeTexto})");
             descricao.text = item.descricao;
         }
@@ -42,15 +53,4 @@ public class SlotUI : MonoBehaviour, IPointerClickHandler
             Debug.Log("Slot vazio.");
         }
     }
-
-    //public void ClicarNoSlot()
-    //{
-    //    if (item != null)
-    //    {
-    //        Debug.Log("Clicou em: " + item.nomeItem);
-
-    //        // Aqui você pode abrir descrição, usar item, etc.
-    //        Debug.Log($"Item: {item.nomeItem}\nTipo: {item.tipo}\nAlcance: {item.alcance}");
-    //    }
-    //}
 }
