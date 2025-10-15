@@ -91,16 +91,16 @@ public class Status : MonoBehaviour
     {
         if (pontos > 0)
         {
-            vidaMaxima += 1; 
+            vidaMaxima += 2; 
             pontos -= 1;
-            pontosVida += 1;
+            pontosVida += 2;
         }
     }
     public void UpDanoMaximo()
     {
         if (pontos > 0)
         {
-            danoMaximo += (float)0.25; 
+            danoMaximo += (float)0.10; 
             pontos -= 1;
             pontosDano += 1;
         }
@@ -111,7 +111,7 @@ public class Status : MonoBehaviour
     {
         if (pontos > 0)
         {
-            velocidade += (float)0.25;
+            velocidade += (float)0.10;
             pontos -= 1;
             pontosVelocidade += 1;
         }
