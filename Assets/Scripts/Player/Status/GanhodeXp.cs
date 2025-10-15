@@ -9,7 +9,7 @@ public class GanhodeXp : MonoBehaviour
     [SerializeField] private int xpNecessarioParaNivelUp = 10;
     [SerializeField] private int xpAtual = 0;
 
-    [SerializeField] private int levellMaximo = 100;
+    [SerializeField] private int levellMaximo = 50;
     [SerializeField] private int levelAtual = 0;
     [SerializeField] private TextMeshProUGUI levelText;
 
