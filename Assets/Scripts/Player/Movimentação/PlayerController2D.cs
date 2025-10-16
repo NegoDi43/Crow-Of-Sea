@@ -29,7 +29,6 @@ public class PlayerController2D : MonoBehaviour
             correndo = true;
             statusPlayer.Correndo();
         }
-        
     }
 
     public bool Correndo(bool v)

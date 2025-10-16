@@ -1,5 +1,4 @@
 ﻿using System.Collections.Generic;
-using UnityEditor.SceneManagement;
 using UnityEngine;
 
 public class Inventario : MonoBehaviour
@@ -7,14 +6,14 @@ public class Inventario : MonoBehaviour
     public List<SlotInventario> slots = new List<SlotInventario>();
     public PrefabsItens itemTeste; // Item de teste para adicionar ao inventário
     public InventarioUI inventarioUI;
-    public int tamanhoMaximo = 20;
+    public int tamanhoMaximo = 5;
 
     void Start()
     {
         for (int i = 0; i < tamanhoMaximo; i++)
         {
             AdicionarItem(itemTeste, 5);
-            RemoverItem(itemTeste, 1);
+            RemoverItem(itemTeste, 0);
             inventarioUI.AtualizarUI();
         }
     }
@@ -51,30 +50,28 @@ public class Inventario : MonoBehaviour
     // 🧠 Remover item
     public void RemoverItem(PrefabsItens itemRemover, int quantidade = 1)
     {
-        for (int i = 0; i < slots.Count; i++)
-        {
-            if (slots[i].item == itemRemover)
-            {
-                slots[i].quantidade -= quantidade;
-                slots.Remove(new SlotInventario(itemRemover, quantidade));
-                inventarioUI.AtualizarUI();
+        // Procura o slot correspondente ao item
+        SlotInventario slot = slots.Find(s => s.item == itemRemover);
 
-                // Se quantidade <= 0, remove o slot
-                if (slots[i].quantidade <= 0)
-                {
-                    Debug.Log($"Item {itemRemover.nomeItem} removido completamente.");
-                    inventarioUI.AtualizarUI();
-                }
-                else
-                {
-                    Debug.Log($"Removido {quantidade}x {itemRemover.nomeItem} (restam: {slots[i].quantidade})");
-                    inventarioUI.AtualizarUI();
-                }
-                return;
-            }
+        if (slot == null)
+        {
+            Debug.LogWarning($"Item {itemRemover.nomeItem} não encontrado no inventário.");
+            return;
         }
 
-        Debug.Log("Item não encontrado no inventário.");
+        slot.quantidade -= quantidade;
+
+        if (slot.quantidade <= 0)
+        {
+            Debug.Log($"Item {itemRemover.nomeItem} removido completamente.");
+            slots.Remove(slot);
+            inventarioUI.AtualizarUI();
+        }
+        else
+        {
+            Debug.Log($"Removido {quantidade}x {itemRemover.nomeItem} (restam: {slot.quantidade})");
+            inventarioUI.AtualizarUI();
+        }
     }
 
     // 🧠 Verificar se tem um item

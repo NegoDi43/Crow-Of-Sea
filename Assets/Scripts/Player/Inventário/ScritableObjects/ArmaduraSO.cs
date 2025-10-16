@@ -4,6 +4,4 @@ using UnityEngine;
 public class ArmaduraSO : PrefabsItens
 {
     public int defesa;
-    TipoItem tipoItem = TipoItem.Armadura;
-    [TextArea] public string descricao;
 }

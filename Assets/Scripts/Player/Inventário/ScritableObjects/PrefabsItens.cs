@@ -10,4 +10,5 @@ public abstract class PrefabsItens : ScriptableObject
     public float alcance;
     public TipoItem tipo;
     public Sprite icone = null;
+    [TextArea] public string descricao;
 }
