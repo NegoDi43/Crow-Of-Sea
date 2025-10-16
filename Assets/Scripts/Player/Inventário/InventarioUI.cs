@@ -22,7 +22,7 @@ public class InventarioUI : MonoBehaviour
     {
         // Limpa slots antigos
         foreach (Transform filho in containerSlots)
-        Destroy(filho.gameObject);
+        filho.gameObject.SetActive(false);
 
         slotsUI.Clear();
 
