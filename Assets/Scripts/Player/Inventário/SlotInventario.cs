@@ -1,7 +1,7 @@
 using UnityEngine;
 
 [System.Serializable]
-public class SlotInventario : MonoBehaviour
+public class SlotInventario
 {
     public PrefabsItens item; // Referência ao prefab do item
     public int quantidade = 0; // Quantidade do item no slot
