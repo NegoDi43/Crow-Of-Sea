@@ -6,6 +6,8 @@ public class VirtualJoystick2D : MonoBehaviour, IPointerDownHandler, IDragHandle
     public RectTransform background; // fundo do joystick
     public RectTransform handle;     // bolinha
     public float handleLimit = 0.6f; // limite do movimento do handle (0..1)
+    [SerializeField] private float x;
+    [SerializeField] private float y;
 
     private Vector2 input = Vector2.zero;
     private Vector2 backgroundSize;
@@ -23,8 +25,8 @@ public class VirtualJoystick2D : MonoBehaviour, IPointerDownHandler, IDragHandle
         Vector2 localPoint;
         if (RectTransformUtility.ScreenPointToLocalPointInRectangle(background, eventData.position, eventData.pressEventCamera, out localPoint))
         {
-            float x = localPoint.x / (backgroundSize.x * 0.5f);
-            float y = localPoint.y / (backgroundSize.y * 0.5f);
+            x = localPoint.x / (backgroundSize.x * 0.5f);
+            y = localPoint.y / (backgroundSize.y * 0.5f);
             Vector2 raw = new Vector2(x, y);
 
             // clamp dentro do círculo
@@ -50,4 +52,14 @@ public class VirtualJoystick2D : MonoBehaviour, IPointerDownHandler, IDragHandle
     public Vector2 InputDirection => input;
     public float Horizontal => input.x;
     public float Vertical => input.y;
+
+    public float RetornaX()
+    {
+        return x;
+    }
+    public float RetornaY()
+    {
+        return y;
+    }
+
 }
