@@ -4,15 +4,33 @@ using UnityEngine;
 public class Inventario : MonoBehaviour
 {
     public List<SlotInventario> slots = new List<SlotInventario>();
-    public PrefabsItens itemAtual = SlotUI.ReferenciaItem; // Item de teste para adicionar ao inventário
+    private PrefabsItens itemAtual; // Item de teste para adicionar ao inventário
+    public PrefabsItens itemTeste; // Item de teste para adicionar ao inventário
     public InventarioUI inventarioUI;
     public int tamanhoMaximo = 5;
 
     public void AdicionarUI() => AdicionarItem(itemAtual, 1);
     public void RemoverUI() => RemoverItem(itemAtual, 1);
 
+    void Start()
+    {
+        AdicionarItem(itemTeste, 1);
+    }
+
+    void Update()
+    {
+
+    }
+    
+    // 🧠 Adicionar item
     public void AdicionarItem(PrefabsItens novoItem, int quantidade = 1)
     {
+        itemAtual = SlotUI.referenciaItem; // Atualiza o item atual com a referência do SlotUI
+        if (novoItem == null) // Verificação de item nulo
+        {
+            Debug.LogWarning("Tentando adicionar um item nulo ao inventário.");
+            novoItem = itemAtual;
+        }
         // 1️⃣ Verifica se já existe o mesmo item no inventário
         foreach (SlotInventario slot in slots)
         {
@@ -45,7 +63,6 @@ public class Inventario : MonoBehaviour
                             inventarioUI.AtualizarUI();
                             Debug.Log($"Adicionando poção de velocidade: {novoItem.nomeItem} x{quantidade}");
                             break;
-
                     }
 
                     if (slot.quantidade >= 5)
@@ -82,6 +99,12 @@ public class Inventario : MonoBehaviour
     // 🧠 Remover item
     public void RemoverItem(PrefabsItens itemRemover, int quantidade = 1)
     {
+        if (itemRemover == null) // Verificação de item nulo
+        {
+            Debug.LogWarning("Tentando remover um item nulo ao inventário.");
+            return;
+        }
+
         // Procura o slot correspondente ao item
         SlotInventario slot = slots.Find(s => s.item == itemRemover);
 
@@ -97,6 +120,7 @@ public class Inventario : MonoBehaviour
         {
             Debug.Log($"Item {itemRemover.nomeItem} removido completamente.");
             slots.Remove(slot);
+            itemAtual = null;
             inventarioUI.AtualizarUI();
         }
         else

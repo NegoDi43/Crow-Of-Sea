@@ -8,10 +8,9 @@ public class SlotUI : MonoBehaviour, IPointerClickHandler
     public Image icone;
     public TextMeshProUGUI quantidadeTexto;
     public TextMeshProUGUI descricao;
-    public GameObject[] butoes;
     public float coldownTime = 4f; // Tempo de cooldown em segundos
-    private PrefabsItens item;
-    public static PrefabsItens ReferenciaItem;
+    public PrefabsItens item;
+    public static PrefabsItens referenciaItem;
 
     void Start()
     {
@@ -19,18 +18,6 @@ public class SlotUI : MonoBehaviour, IPointerClickHandler
         {
             descricao = GameObject.Find("TextoDescricao").GetComponent<TextMeshProUGUI>();
         }
-
-        if (butoes == null || butoes.Length == 0)
-        {
-            butoes[0] = GameObject.Find("Adicionar").GetComponent<GameObject>();
-            butoes[1] = GameObject.Find("Remover").GetComponent<GameObject>();
-        }
-
-        foreach (GameObject botao in butoes)
-        {
-            botao.SetActive(false);
-        }
-
         descricao.text = "";
     }
 
@@ -42,7 +29,7 @@ public class SlotUI : MonoBehaviour, IPointerClickHandler
         {
             icone.sprite = item.icone;
             icone.enabled = true;
-            quantidadeTexto.text = quantidade > 1 ? quantidade.ToString() : "";
+            quantidadeTexto.text = quantidade >= 1 ? quantidade.ToString() : "0";
         }
         else
         {
@@ -59,26 +46,18 @@ public class SlotUI : MonoBehaviour, IPointerClickHandler
 
         if (item != null)
         {
-            ReferenciaItem = item;
+            referenciaItem = item;
 
             // Aqui você pode abrir descrição, usar item, etc.
-            Debug.Log($"?? Clicou no item: {item.nomeItem} (x{quantidadeTexto})");
+            Debug.Log($"?? Clicou no item: {item.nomeItem} (x{quantidadeTexto.text})");
             descricao.text = item.descricao;
-
-            foreach (GameObject botao in butoes)
-            {
-                botao.SetActive(true);
-            }
 
             while (tempo < coldownTime)
             {
                 tempo += Time.deltaTime;
+
                 if (tempo >= coldownTime)
                 {
-                    foreach (GameObject botao in butoes)
-                    {
-                        botao.SetActive(false);
-                    }
                     descricao.text = "";
                 }
             }
@@ -87,7 +66,7 @@ public class SlotUI : MonoBehaviour, IPointerClickHandler
         else
         {
             Debug.Log("Slot vazio.");
-            ReferenciaItem = null;
+            referenciaItem = null;
         }
     }
 }
