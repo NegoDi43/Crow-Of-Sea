@@ -4,19 +4,12 @@ using UnityEngine;
 public class Inventario : MonoBehaviour
 {
     public List<SlotInventario> slots = new List<SlotInventario>();
-    public PrefabsItens itemTeste; // Item de teste para adicionar ao inventário
+    public PrefabsItens itemAtual = SlotUI.ReferenciaItem; // Item de teste para adicionar ao inventário
     public InventarioUI inventarioUI;
     public int tamanhoMaximo = 5;
 
-    void Start()
-    {
-        for (int i = 0; i < tamanhoMaximo; i++)
-        {
-            AdicionarItem(itemTeste, 5);
-            RemoverItem(itemTeste, 0);
-            inventarioUI.AtualizarUI();
-        }
-    }
+    public void AdicionarUI() => AdicionarItem(itemAtual, 1);
+    public void RemoverUI() => RemoverItem(itemAtual, 1);
 
     public void AdicionarItem(PrefabsItens novoItem, int quantidade = 1)
     {
@@ -25,10 +18,49 @@ public class Inventario : MonoBehaviour
         {
             if (slot.item == novoItem)
             {
-                slots.Add(new SlotInventario(novoItem, quantidade));
+                if (novoItem.tipo == PrefabsItens.TipoItem.Pocao)   //As Poções empilham!
+                {
+                    // 🔹 Pega a referência da classe filha
+                    PocaoSO pocao = novoItem as PocaoSO;
 
-                slot.quantidade += quantidade;
-                inventarioUI.AtualizarUI();
+                    switch (pocao.tipoPocao)
+                    {
+                        case PocaoSO.TipoPocao.Vida:
+                            slot.quantidade += quantidade;
+                            inventarioUI.AtualizarUI();
+                            Debug.Log($"Adicionando poção de vida: {novoItem.nomeItem} x{quantidade}");
+                            break;
+                        case PocaoSO.TipoPocao.Estamina:    
+                            slot.quantidade += quantidade;
+                            inventarioUI.AtualizarUI();
+                            Debug.Log($"Adicionando poção de estamina: {novoItem.nomeItem} x{quantidade}");
+                            break;
+                        case PocaoSO.TipoPocao.Dano:
+                            slot.quantidade += quantidade;
+                            inventarioUI.AtualizarUI();
+                            Debug.Log($"Adicionando poção de dano: {novoItem.nomeItem} x{quantidade}");
+                            break;
+                        default:
+                            slot.quantidade += quantidade;
+                            inventarioUI.AtualizarUI();
+                            Debug.Log($"Adicionando poção de velocidade: {novoItem.nomeItem} x{quantidade}");
+                            break;
+
+                    }
+
+                    if (slot.quantidade >= 5)
+                    {
+                        slot.quantidade = 5; // Limite máximo de poções por slot
+                        inventarioUI.AtualizarUI();
+                    }
+                }
+                else
+                {
+                    slots.Add(new SlotInventario(novoItem, quantidade));
+                    inventarioUI.AtualizarUI();
+                }
+
+                Debug.Log($"Item existente atualizado: {novoItem.nomeItem} x{slot.quantidade}");
                 return;
             }
         }

@@ -3,7 +3,8 @@ using UnityEngine;
 [CreateAssetMenu(menuName = "New Item/PocaoSO")]
 public class PocaoSO : PrefabsItens
 {
-    public enum TipoPocao { Vida, Estamina, Dano, Velocidade, Defesa, Outro }
+    public enum TipoPocao { Vida, Estamina, Dano, Velocidade }
+
     public TipoPocao tipoPocao;
     public GameObject efeitoVisual;
     public float duracaoEfeito;
