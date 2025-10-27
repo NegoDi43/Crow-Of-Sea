@@ -5,6 +5,8 @@ using System;
 public class EconomiaSO : ScriptableObject
 {
     [SerializeField] private int moedas;
+    [SerializeField] private PrefabsItens item;
+
 
     public event Action<int> OnMoedasMudou;
 
@@ -26,4 +28,8 @@ public class EconomiaSO : ScriptableObject
         OnMoedasMudou?.Invoke(moedas);
         return true;
     }
+
+
+
+
 }
