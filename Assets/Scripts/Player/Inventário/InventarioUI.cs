@@ -10,7 +10,7 @@ public class InventarioUI : MonoBehaviour
     public Transform containerSlots; // container onde os slots serão instanciados
     private bool inventarioAtivo = false; // estado do inventário
 
-    private List<SlotUI> slotsUI = new List<SlotUI>();
+    private List<SlotUI> slotsUI = new List<SlotUI>(); // lista para armazenar os slots UI
 
     void Start()
     {
@@ -27,7 +27,7 @@ public class InventarioUI : MonoBehaviour
             botao.SetActive(false);
         }
     }
-    public void AtualizarUI()
+    public void AtualizarUI() // método para atualizar a UI do inventário
     {
         // Limpa slots antigos
         foreach (Transform filho in containerSlots)
@@ -46,7 +46,7 @@ public class InventarioUI : MonoBehaviour
     }
 
     // Método para chamar no botão
-    public void AlternarInventario()
+    public void AlternarInventario() // ativa/desativa o inventário
     {
         inventarioAtivo = !inventarioAtivo;               // inverte o estado
         painelInventario.SetActive(inventarioAtivo);     // ativa/desativa painel

@@ -92,10 +92,8 @@ MonoBehaviour:
   icone: {fileID: 2977334344985298407}
   quantidadeTexto: {fileID: 2034477491266424159}
   descricao: {fileID: 0}
-  butoes:
-  - {fileID: 0}
-  - {fileID: 0}
   coldownTime: 4
+  item: {fileID: 0}
 --- !u!1 &1390818987282583686
 GameObject:
   m_ObjectHideFlags: 0

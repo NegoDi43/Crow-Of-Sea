@@ -9,6 +9,7 @@ public class SlotUI : MonoBehaviour, IPointerClickHandler
     public TextMeshProUGUI quantidadeTexto;
     public TextMeshProUGUI descricao;
     public float coldownTime = 4f; // Tempo de cooldown em segundos
+    public float tempo = 0;
     public PrefabsItens item;
     public static PrefabsItens referenciaItem;
 
@@ -42,8 +43,7 @@ public class SlotUI : MonoBehaviour, IPointerClickHandler
     // Detecta o clique/tap
     public void OnPointerClick(PointerEventData eventData)
     {
-        float tempo = 0;
-
+        tempo = 0;
         if (item != null)
         {
             referenciaItem = item;

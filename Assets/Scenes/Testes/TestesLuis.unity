@@ -263,7 +263,7 @@ GameObject:
   - component: {fileID: 181474776}
   - component: {fileID: 181474775}
   m_Layer: 0
-  m_Name: GerenciaTexto
+  m_Name: GerenciaLoja
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -285,7 +285,7 @@ MonoBehaviour:
   painelCompra: {fileID: 1354226947}
   textoMoedas: {fileID: 1155931910}
   textoMoedasPlayer: {fileID: 1161279746}
-  moedasPlayer: 5
+  moedasPlayer: 30
 --- !u!4 &181474776
 Transform:
   m_ObjectHideFlags: 0
@@ -777,7 +777,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1225852391242178927, guid: fec4eb814d4c04d409d7050e912b672b, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1067,7 +1067,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1155931910
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1183,7 +1183,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -81.418785, y: 0}
+  m_AnchoredPosition: {x: -33, y: -111}
   m_SizeDelta: {x: 37.1623, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1161279745
@@ -1637,13 +1637,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 181474775}
+        m_TargetAssemblyTypeName: UIEconomia, Assembly-CSharp
+        m_MethodName: ComprarItemUI
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 

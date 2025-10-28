@@ -26,6 +26,7 @@ public class Inventario : MonoBehaviour
     public void AdicionarItem(PrefabsItens novoItem, int quantidade = 1)
     {
         itemAtual = SlotUI.referenciaItem; // Atualiza o item atual com a referência do SlotUI
+
         if (novoItem == null) // Verificação de item nulo
         {
             Debug.LogWarning("Tentando adicionar um item nulo ao inventário.");
@@ -71,7 +72,7 @@ public class Inventario : MonoBehaviour
                         slot.item.comprado = true; // Marca como comprado
                         Debug.Log($"Quantidade máxima de poções atingida para: {novoItem.nomeItem}");
                         inventarioUI.AtualizarUI();
-                        break;
+                        return;
                     }
                 }
                 else
@@ -103,6 +104,9 @@ public class Inventario : MonoBehaviour
     // 🧠 Remover item
     public void RemoverItem(PrefabsItens itemRemover, int quantidade = 1)
     {
+        itemAtual = SlotUI.referenciaItem;
+        itemRemover = itemAtual;
+
         if (itemRemover == null) // Verificação de item nulo
         {
             Debug.LogWarning("Tentando remover um item nulo ao inventário.");
@@ -119,6 +123,7 @@ public class Inventario : MonoBehaviour
         }
 
         slot.quantidade -= quantidade;
+        slot.item.comprado = false; // Marca como não comprado
 
         if (slot.quantidade <= 0)
         {

@@ -7,7 +7,7 @@ public class UIEconomia : MonoBehaviour
     [SerializeField] private GameObject painelCompra;
     [SerializeField] private TextMeshProUGUI textoMoedas;
     [SerializeField] private TextMeshProUGUI textoMoedasPlayer;
-    [SerializeField] private int moedasPlayer = 5;
+    [SerializeField] private int moedasPlayer = 30;
 
     void Start() // Inicializa a UI com os valores iniciais
     {
@@ -15,6 +15,7 @@ public class UIEconomia : MonoBehaviour
         textoMoedas.text = economia.Moedas.ToString();
         economia.DefinirUI(painelCompra);
     }
+    public void ComprarItemUI() => ComprarItem(economia.Moedas, GameObject.FindAnyObjectByType<Inventario>()); // Chama a função de compra do item
 
     private void OnEnable() // Assina o evento quando o objeto é ativado
     {
@@ -42,7 +43,15 @@ public class UIEconomia : MonoBehaviour
                 textoMoedasPlayer.text = moedasPlayer.ToString();
                 inventario.AdicionarItem(economia.item, 1);
                 Debug.Log($"Compra realizada!\nX{moedasPlayer}");
-                economia.item.comprado = true;
+                if (economia.item.tipo == PrefabsItens.TipoItem.Pocao)
+                {
+                    return;
+                }
+                else
+                {
+                    economia.item.comprado = true;
+                }
+
                 return;
             }
             else
