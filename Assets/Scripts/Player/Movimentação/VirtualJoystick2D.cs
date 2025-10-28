@@ -14,13 +14,13 @@ public class VirtualJoystick2D : MonoBehaviour, IPointerDownHandler, IDragHandle
 
     void Start()
     {
-        backgroundSize = background.sizeDelta;
+        backgroundSize = background.sizeDelta; // pega o tamanho do fundo
         ResetHandle();
     }
 
-    public void OnPointerDown(PointerEventData eventData) => OnDrag(eventData);
+    public void OnPointerDown(PointerEventData eventData) => OnDrag(eventData); // chama OnDrag ao pressionar
 
-    public void OnDrag(PointerEventData eventData)
+    public void OnDrag(PointerEventData eventData) // enquanto arrasta
     {
         Vector2 localPoint;
         if (RectTransformUtility.ScreenPointToLocalPointInRectangle(background, eventData.position, eventData.pressEventCamera, out localPoint))
@@ -37,13 +37,13 @@ public class VirtualJoystick2D : MonoBehaviour, IPointerDownHandler, IDragHandle
         }
     }
 
-    public void OnPointerUp(PointerEventData eventData)
+    public void OnPointerUp(PointerEventData eventData) // ao soltar
     {
         input = Vector2.zero;
         ResetHandle();
     }
 
-    void ResetHandle()
+    void ResetHandle() // reseta a posição da bolinha
     {
         handle.anchoredPosition = Vector2.zero;
     }
