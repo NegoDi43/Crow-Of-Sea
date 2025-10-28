@@ -1,0 +1,766 @@
+fileFormatVersion: 2
+guid: 18a47eb52ad169b48ae74d2bdf1f5390
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4226432719403498703
+    second: sprite_hit_reaction_0
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sprite_hit_reaction_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2697
+        width: 744
+        height: 439
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcc322b6a2e47aa30800000000000000
+      internalID: 4226432719403498703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_hit_reaction_1
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 2697
+        width: 744
+        height: 439
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c896bc751eacb843b1c9ad560668b48
+      internalID: 1790680188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_hit_reaction_2
+      rect:
+        serializedVersion: 2
+        x: 1488
+        y: 2697
+        width: 744
+        height: 439
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcc08d50ffe22ff45977edfc205e5209
+      internalID: 344101155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_hit_reaction_3
+      rect:
+        serializedVersion: 2
+        x: 2232
+        y: 2697
+        width: 744
+        height: 439
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f2d721c8eb3e9d499c732d18af469df
+      internalID: -69373379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_hit_reaction_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2258
+        width: 744
+        height: 439
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 387e683898561c14595e4c7a37a2cc5c
+      internalID: 929926804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_hit_reaction_5
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 2258
+        width: 744
+        height: 439
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a5b6f9d70f961040a52ce32b00c9c5f
+      internalID: -847383829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_hit_reaction_6
+      rect:
+        serializedVersion: 2
+        x: 1488
+        y: 2258
+        width: 744
+        height: 439
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a7019c9156d223478958763242ccdb2
+      internalID: -1385529821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_hit_reaction_7
+      rect:
+        serializedVersion: 2
+        x: 2232
+        y: 2258
+        width: 744
+        height: 439
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff5c5b7aed899c849834950ba86b20c5
+      internalID: -2067474870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_hit_reaction_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1819
+        width: 744
+        height: 439
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6de5af757a3fbd8438a56d8385dafa80
+      internalID: 1139601590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_hit_reaction_9
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 1819
+        width: 744
+        height: 439
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4f01e4e0c5a4be4e9c14317b8eae905
+      internalID: -539795137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_hit_reaction_10
+      rect:
+        serializedVersion: 2
+        x: 1488
+        y: 1819
+        width: 744
+        height: 439
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25f904b54f72aa24e85c2144d3fa22ee
+      internalID: 1654635797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_hit_reaction_11
+      rect:
+        serializedVersion: 2
+        x: 2232
+        y: 1819
+        width: 744
+        height: 439
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5695868c952a95d4ba1074799144552f
+      internalID: 1135638798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_hit_reaction_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1380
+        width: 744
+        height: 439
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53097d87bd27c704983f77acbffa158f
+      internalID: -732089068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_hit_reaction_13
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 1380
+        width: 744
+        height: 439
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15db2f92ac4dd414487b6fbc1cac8e53
+      internalID: 1804426722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_hit_reaction_14
+      rect:
+        serializedVersion: 2
+        x: 1488
+        y: 1380
+        width: 744
+        height: 439
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 284bbd2bae4b3f34ea2eeec92cfbf091
+      internalID: 739410244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_hit_reaction_15
+      rect:
+        serializedVersion: 2
+        x: 2232
+        y: 1380
+        width: 744
+        height: 439
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84136a3aae454624ebd9fe62d5f38703
+      internalID: -844097591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_hit_reaction_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 941
+        width: 744
+        height: 439
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7da938c49abae554d939711dad57f6a7
+      internalID: -726687551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_hit_reaction_17
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 941
+        width: 744
+        height: 439
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e29334562aa6e20449b60b6fdbc93490
+      internalID: -1412569203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_hit_reaction_18
+      rect:
+        serializedVersion: 2
+        x: 1488
+        y: 941
+        width: 744
+        height: 439
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6675e586faf5b248a7689ca8eb65669
+      internalID: -75271987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_hit_reaction_19
+      rect:
+        serializedVersion: 2
+        x: 2232
+        y: 941
+        width: 744
+        height: 439
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ce3de0fb01e5654683b69b1d5ed214d
+      internalID: 847722924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_hit_reaction_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 502
+        width: 744
+        height: 439
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe2aab23a8c6e7a4386650cdd4cc1da0
+      internalID: -1821856941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_hit_reaction_21
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 502
+        width: 744
+        height: 439
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ef763df83f848142b4ad3c6ba27c75d
+      internalID: 1531955863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_hit_reaction_22
+      rect:
+        serializedVersion: 2
+        x: 1488
+        y: 502
+        width: 744
+        height: 439
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a26e74adb75e8f948ad13d90043bb234
+      internalID: 240704009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_hit_reaction_23
+      rect:
+        serializedVersion: 2
+        x: 2232
+        y: 502
+        width: 744
+        height: 439
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e0f65dee3794644dbcaa34284e296a4
+      internalID: 968668676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_hit_reaction_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 63
+        width: 744
+        height: 439
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 603d5103b0dd0144494082fd3ea0e0d0
+      internalID: 914181618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_hit_reaction_25
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 63
+        width: 744
+        height: 439
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 836a211e917433143a41e1bd9d46072e
+      internalID: 1812962255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_hit_reaction_26
+      rect:
+        serializedVersion: 2
+        x: 1488
+        y: 63
+        width: 744
+        height: 439
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b12dd6a41969a44997179caf17d98b2
+      internalID: 1261128990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_hit_reaction_27
+      rect:
+        serializedVersion: 2
+        x: 2232
+        y: 63
+        width: 744
+        height: 439
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a5324edef4354d48872f7c2d560a286
+      internalID: -2063123669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 41f0d0f8e048f224ebc4e41808777eaf
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":744.0,"y":439.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      sprite_hit_reaction_0: 4226432719403498703
+      sprite_hit_reaction_1: 1790680188
+      sprite_hit_reaction_10: 1654635797
+      sprite_hit_reaction_11: 1135638798
+      sprite_hit_reaction_12: -732089068
+      sprite_hit_reaction_13: 1804426722
+      sprite_hit_reaction_14: 739410244
+      sprite_hit_reaction_15: -844097591
+      sprite_hit_reaction_16: -726687551
+      sprite_hit_reaction_17: -1412569203
+      sprite_hit_reaction_18: -75271987
+      sprite_hit_reaction_19: 847722924
+      sprite_hit_reaction_2: 344101155
+      sprite_hit_reaction_20: -1821856941
+      sprite_hit_reaction_21: 1531955863
+      sprite_hit_reaction_22: 240704009
+      sprite_hit_reaction_23: 968668676
+      sprite_hit_reaction_24: 914181618
+      sprite_hit_reaction_25: 1812962255
+      sprite_hit_reaction_26: 1261128990
+      sprite_hit_reaction_27: -2063123669
+      sprite_hit_reaction_3: -69373379
+      sprite_hit_reaction_4: 929926804
+      sprite_hit_reaction_5: -847383829
+      sprite_hit_reaction_6: -1385529821
+      sprite_hit_reaction_7: -2067474870
+      sprite_hit_reaction_8: 1139601590
+      sprite_hit_reaction_9: -539795137
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
