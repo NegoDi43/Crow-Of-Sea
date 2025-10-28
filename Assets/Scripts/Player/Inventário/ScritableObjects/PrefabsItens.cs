@@ -10,5 +10,6 @@ public abstract class PrefabsItens : ScriptableObject
     public float alcance;
     public TipoItem tipo;
     public Sprite icone = null;
+    public bool comprado; // <-- controla se já foi comprado
     [TextArea] public string descricao;
 }

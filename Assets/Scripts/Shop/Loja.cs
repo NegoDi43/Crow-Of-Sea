@@ -2,13 +2,15 @@ using UnityEngine;
 
 public class Loja : MonoBehaviour
 {
-    [SerializeField] private EconomiaSO economia;
-
-    public void ComprarItem(int preco)
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    void Start()
     {
-        if (economia.GastarMoedas(preco))
-            Debug.Log("Compra realizada!");
-        else
-            Debug.Log("Moedas insuficientes!");
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
     }
 }

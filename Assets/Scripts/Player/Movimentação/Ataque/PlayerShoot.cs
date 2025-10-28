@@ -2,48 +2,53 @@ using UnityEngine;
 
 public class PlayerShoot : MonoBehaviour
 {
-    [Header("Referências")]
-    public VirtualJoystick2D aimJoystick;   // Joystick usado para mirar
-    public GameObject projectilePrefab;     // Prefab do projétil
-    public Transform firePoint;             // Ponto de origem do tiro (ex: cano da arma)
+    [SerializeField] private VirtualJoystick2D aimJoystick;  // Joystick de mira
+    [SerializeField] private GameObject projectilePrefab;     // Prefab do projétil
+    [SerializeField] private Transform firePoint;             // Ponto de spawn
+    [SerializeField] private float cooldown = 0.5f;           // Tempo entre tiros
 
-    [Header("Atributos do Tiro")]
-    public float projectileSpeed = 10f;     // Velocidade do projétil
-    public float cooldown = 0.4f;           // Tempo entre disparos
-
-    private float lastShootTime;
+    [SerializeField] private float quantidadeMunicao = 10f;
+    private float lastAttackTime;
     private Vector2 aimDirection = Vector2.right;
+    private Status status;
+
+    void Start()
+    {
+        status = FindAnyObjectByType<Status>();
+        aimJoystick = FindAnyObjectByType<VirtualJoystick2D>();
+
+    }
 
     void Update()
     {
-        // Atualiza direção de mira conforme o joystick
         Vector2 input = aimJoystick != null ? aimJoystick.InputDirection : Vector2.zero;
 
         if (input.sqrMagnitude > 0.01f)
-            aimDirection = input.normalized; // Normaliza direção para manter consistência
+            aimDirection = input.normalized;
     }
 
-    /// <summary>
-    /// Chamada pelo botão de tiro (UI Button -> OnClick)
-    /// </summary>
-    public void Shoot()
+    public void Attack()
     {
-        // Verifica cooldown
-        if (Time.time < lastShootTime + cooldown)
-            return;
+        if (quantidadeMunicao > 0)
+        {
+            if (Time.time < lastAttackTime + cooldown)
+                return;
 
-        lastShootTime = Time.time;
+            lastAttackTime = Time.time;
 
-        // Instancia o projétil no ponto de disparo
-        GameObject projectile = Instantiate(projectilePrefab, firePoint.position, Quaternion.identity);
-
-        // Define a direção e rotação do projétil
-        float angle = Mathf.Atan2(aimDirection.y, aimDirection.x) * Mathf.Rad2Deg;
-        projectile.transform.rotation = Quaternion.Euler(0, 0, angle);
-
-        // Adiciona movimento ao projétil
-        Rigidbody2D rb = projectile.GetComponent<Rigidbody2D>();
-        if (rb != null)
-            rb.linearVelocity = aimDirection * projectileSpeed;
+            // Instancia o projétil e o configura
+            GameObject projectile = Instantiate(projectilePrefab, firePoint.position, Quaternion.identity);
+            Projetil proj = projectile.GetComponent<Projetil>();
+            if (proj != null)
+            {
+                proj.status = status;
+                proj.SetDirection(aimDirection);
+            }
+            else
+            {
+                Debug.LogWarning("O prefab do projétil não possui o script PlayerProjectile!");
+            }
+            quantidadeMunicao--;
+        }
     }
 }

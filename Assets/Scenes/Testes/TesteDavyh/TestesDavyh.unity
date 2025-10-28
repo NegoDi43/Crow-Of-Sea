@@ -357,6 +357,8 @@ SpriteRenderer:
   m_RayTracingAccelStructBuildFlagsOverride: 0
   m_RayTracingAccelStructBuildFlags: 1
   m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -378,6 +380,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
@@ -3767,6 +3770,8 @@ SpriteRenderer:
   m_RayTracingAccelStructBuildFlagsOverride: 0
   m_RayTracingAccelStructBuildFlags: 1
   m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -3788,6 +3793,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 100
@@ -3925,10 +3931,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   aimJoystick: {fileID: 1482355324}
-  projectilePrefab: {fileID: 0}
+  projectilePrefab: {fileID: 575410457256604051, guid: 623ba26439c0cb04bad412e91121d566, type: 3}
   firePoint: {fileID: 2132514359}
-  projectileSpeed: 10
   cooldown: 0.4
+  quantidadeMunicao: 10
 --- !u!1 &1419629377
 GameObject:
   m_ObjectHideFlags: 0
@@ -5777,8 +5783,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1363977828}
-        m_TargetAssemblyTypeName: PlayerAttack, Assembly-CSharp
+      - m_Target: {fileID: 1363977829}
+        m_TargetAssemblyTypeName: PlayerShoot, Assembly-CSharp
         m_MethodName: Attack
         m_Mode: 1
         m_Arguments:
