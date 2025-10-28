@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: PocaoCorrida
   m_EditorClassIdentifier: 
   moedas: 5
-  item: {fileID: 11400000, guid: a71f9889a00de38499a10f0af1cffbdf, type: 2}
+  item: {fileID: 11400000, guid: 8badfa628a42d16488dfca448738801d, type: 2}

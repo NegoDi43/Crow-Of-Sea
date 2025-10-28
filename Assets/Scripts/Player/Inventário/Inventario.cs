@@ -68,13 +68,17 @@ public class Inventario : MonoBehaviour
                     if (slot.quantidade >= 5)
                     {
                         slot.quantidade = 5; // Limite máximo de poções por slot
+                        slot.item.comprado = true; // Marca como comprado
+                        Debug.Log($"Quantidade máxima de poções atingida para: {novoItem.nomeItem}");
                         inventarioUI.AtualizarUI();
+                        break;
                     }
                 }
                 else
                 {
                     slots.Add(new SlotInventario(novoItem, quantidade));
                     inventarioUI.AtualizarUI();
+                    slot.item.comprado = true; // Marca como comprado
                 }
 
                 Debug.Log($"Item existente atualizado: {novoItem.nomeItem} x{slot.quantidade}");

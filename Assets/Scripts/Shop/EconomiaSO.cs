@@ -1,16 +1,16 @@
 using UnityEngine;
 using System;
+using UnityEngine.UI;
 
 [CreateAssetMenu(fileName = "Economia", menuName = "Sistema/Economia")]
 public class EconomiaSO : ScriptableObject
 {
     [SerializeField] private int moedas;
-    [SerializeField] private PrefabsItens item;
+    public PrefabsItens item; // Referência ao item associado à economia
 
+    public event Action<int> OnMoedasMudou; // Evento para notificar mudanças nas moedas
 
-    public event Action<int> OnMoedasMudou;
-
-    public int Moedas => moedas;
+    public int Moedas => moedas; // Propriedade somente leitura para acessar as moedas
 
     public void AdicionarMoedas(int quantidade)
     {
@@ -27,6 +27,11 @@ public class EconomiaSO : ScriptableObject
         moedas -= quantidade;
         OnMoedasMudou?.Invoke(moedas);
         return true;
+    }
+
+    public void DefinirUI(GameObject ui) // Recebe o slot de compra
+    {
+        ui.GetComponent<Image>().sprite = item.icone;
     }
 
 
