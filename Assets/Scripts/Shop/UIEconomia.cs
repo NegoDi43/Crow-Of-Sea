@@ -8,7 +8,6 @@ public class UIEconomia : MonoBehaviour
     [SerializeField] private TextMeshProUGUI textoMoedas;
     [SerializeField] private TextMeshProUGUI textoMoedasPlayer;
     [SerializeField] private int moedasPlayer = 5;
-    public Inventario inventario;
 
     void Start() // Inicializa a UI com os valores iniciais
     {
@@ -33,7 +32,7 @@ public class UIEconomia : MonoBehaviour
         textoMoedas.text = valor.ToString();
     }
 
-    public void ComprarItem(int preco) // Lógica de compra do item
+    public void ComprarItem(int preco, Inventario inventario) // Lógica de compra do item
     {
         if (economia.item.comprado == false)
         {
@@ -44,15 +43,18 @@ public class UIEconomia : MonoBehaviour
                 inventario.AdicionarItem(economia.item, 1);
                 Debug.Log($"Compra realizada!\nX{moedasPlayer}");
                 economia.item.comprado = true;
+                return;
             }
             else
             {
                 Debug.Log("Moedas insuficientes!");
+                return;
             }
         }
         else
         {
             Debug.Log("Item já comprado!");
+            return;
         }
     }
 }
