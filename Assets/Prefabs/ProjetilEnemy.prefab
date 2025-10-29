@@ -105,7 +105,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3eae26938868df47a9e9acbd4b655fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Tiro_Bee
-  speed: 8
+  speed: 15
   lifeTime: 1
 --- !u!50 &6851302192280711236
 Rigidbody2D:

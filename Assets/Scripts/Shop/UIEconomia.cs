@@ -3,7 +3,7 @@ using TMPro;
 
 public class UIEconomia : MonoBehaviour
 {
-    [SerializeField] private EconomiaSO economia;
+    [SerializeField] private PrefabsItens economia;
     [SerializeField] private GameObject painelCompra;
     [SerializeField] private TextMeshProUGUI textoMoedas;
     [SerializeField] private TextMeshProUGUI textoMoedasPlayer;
@@ -35,21 +35,22 @@ public class UIEconomia : MonoBehaviour
 
     public void ComprarItem(int preco, Inventario inventario) // Lógica de compra do item
     {
-        if (economia.item.comprado == false)
+        economia = SlotUI.referenciaItem; // Atualiza o item atual com a referência do SlotUI
+        if (economia.comprado == false)
         {
             if (moedasPlayer >= economia.Moedas)
             {
                 moedasPlayer -= economia.Moedas;
                 textoMoedasPlayer.text = moedasPlayer.ToString();
-                inventario.AdicionarItem(economia.item, 1);
+                inventario.AdicionarItem(economia, 1);
                 Debug.Log($"Compra realizada!\nX{moedasPlayer}");
-                if (economia.item.tipo == PrefabsItens.TipoItem.Pocao)
+                if (economia.tipo == PrefabsItens.TipoItem.Pocao)
                 {
                     return;
                 }
                 else
                 {
-                    economia.item.comprado = true;
+                    economia.comprado = true;
                 }
 
                 return;

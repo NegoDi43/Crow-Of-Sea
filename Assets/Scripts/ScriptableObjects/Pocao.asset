@@ -16,7 +16,8 @@ MonoBehaviour:
   alcance: 0
   tipo: 2
   icone: {fileID: -4981801788083468715, guid: fbdbe50203fc76741813e80ed448774d, type: 3}
-  comprado: 0
+  moedas: 5
+  comprado: 1
   descricao: Uma pocao de cura!
   tipoPocao: 0
   efeitoVisual: {fileID: 0}

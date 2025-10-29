@@ -1,0 +1,455 @@
+fileFormatVersion: 2
+guid: 4977016af34b15040a732b8f50c6b9da
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 657811103186721459
+    second: almirante idle 111_0
+  - first:
+      213: 2659151848791172065
+    second: almirante idle 111_1
+  - first:
+      213: -5279521330982741196
+    second: almirante idle 111_2
+  - first:
+      213: 6141334923196921337
+    second: almirante idle 111_3
+  - first:
+      213: -7892668115394589982
+    second: almirante idle 111_4
+  - first:
+      213: -818358179833762017
+    second: almirante idle 111_5
+  - first:
+      213: 6066415138851320830
+    second: almirante idle 111_6
+  - first:
+      213: -5906971866577867161
+    second: almirante idle 111_7
+  - first:
+      213: -1652486997905368055
+    second: almirante idle 111_8
+  - first:
+      213: -7360267543274878406
+    second: almirante idle 111_9
+  - first:
+      213: -61408725689620874
+    second: almirante idle 111_10
+  - first:
+      213: -6883125608287219911
+    second: almirante idle 111_11
+  - first:
+      213: 9102108316257701224
+    second: almirante idle 111_12
+  - first:
+      213: 3295294189571828996
+    second: almirante idle 111_13
+  - first:
+      213: 1621145418601020740
+    second: almirante idle 111_14
+  - first:
+      213: 8142095194674170928
+    second: almirante idle 111_15
+  - first:
+      213: -2638325187882509824
+    second: almirante idle 111_16
+  - first:
+      213: -602191431381984460
+    second: almirante idle 111_17
+  - first:
+      213: -4577892970441021541
+    second: almirante idle 111_18
+  - first:
+      213: -4920519421656949450
+    second: almirante idle 111_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: almirante idle 111_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1043
+        width: 315
+        height: 283
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ba90ce86b3012900800000000000000
+      internalID: 657811103186721459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: almirante idle 111_1
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 1043
+        width: 315
+        height: 283
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e36507848437e420800000000000000
+      internalID: 2659151848791172065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: almirante idle 111_2
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 1041
+        width: 315
+        height: 283
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43b1da2525f5bb6b0800000000000000
+      internalID: -5279521330982741196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: almirante idle 111_3
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 763
+        width: 315
+        height: 283
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f57adf03976a3550800000000000000
+      internalID: 6141334923196921337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: almirante idle 111_4
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 763
+        width: 315
+        height: 283
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ea8adb8a2c977290800000000000000
+      internalID: -7892668115394589982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: almirante idle 111_5
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 763
+        width: 315
+        height: 283
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1f29ff329b94a4f0800000000000000
+      internalID: -818358179833762017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: almirante idle 111_6
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 478
+        width: 315
+        height: 283
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef3f8437d6c303450800000000000000
+      internalID: 6066415138851320830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: almirante idle 111_7
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 476
+        width: 315
+        height: 283
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76e66624268360ea0800000000000000
+      internalID: -5906971866577867161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: almirante idle 111_8
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 478
+        width: 315
+        height: 283
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90c16e5a4df2119e0800000000000000
+      internalID: -1652486997905368055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: almirante idle 111_9
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 192
+        width: 315
+        height: 283
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3a834f6aa31bd990800000000000000
+      internalID: -7360267543274878406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: almirante idle 111_10
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 192
+        width: 315
+        height: 283
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 676292fd615d52ff0800000000000000
+      internalID: -61408725689620874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: almirante idle 111_11
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 192
+        width: 315
+        height: 283
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93f45a54ab93a70a0800000000000000
+      internalID: -6883125608287219911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 57614c8d001679f46b95ae0ff0c5bb07
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":315.0,"y":283.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      almirante idle 111_0: 657811103186721459
+      almirante idle 111_1: 2659151848791172065
+      almirante idle 111_10: -61408725689620874
+      almirante idle 111_11: -6883125608287219911
+      almirante idle 111_2: -5279521330982741196
+      almirante idle 111_3: 6141334923196921337
+      almirante idle 111_4: -7892668115394589982
+      almirante idle 111_5: -818358179833762017
+      almirante idle 111_6: 6066415138851320830
+      almirante idle 111_7: -5906971866577867161
+      almirante idle 111_8: -1652486997905368055
+      almirante idle 111_9: -7360267543274878406
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

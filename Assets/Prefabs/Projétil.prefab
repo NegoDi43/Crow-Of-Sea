@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3353444151610512356}
   - component: {fileID: 2550336602111111158}
   - component: {fileID: 5902753716221587226}
-  - component: {fileID: 1570781492044331306}
+  - component: {fileID: -4658688323808626903}
   m_Layer: 0
   m_Name: "Proj\xE9til"
   m_TagString: Tiro
@@ -105,9 +105,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Projetil
   status: {fileID: 0}
-  lifeTime: 2
+  lifeTime: 3
   speed: 20
---- !u!58 &1570781492044331306
+--- !u!58 &-4658688323808626903
 CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
