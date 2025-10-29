@@ -3,22 +3,22 @@ using UnityEngine;
 public class inimigoAtirador : MonoBehaviour
 {
     [Header("Componentes")]
-    public EnemyStatus status;       // Status do inimigo
-    public Rigidbody2D rb;           // Rigidbody2D do inimigo
-    public Transform player;         // Player
+    [SerializeField] private EnemyStatus statusEnemy;       // Status do inimigo
+    private Rigidbody2D rb;           // Rigidbody2D do inimigo
+    private Transform player;         // Player
 
     [Header("Tiro")]
-    public GameObject projectilePrefab; // Prefab do projétil
-    public Transform firePoint;         // Ponto de spawn do projétil
-    public float attackRange = 5f;      // Distância mínima para atirar
-    public float attackCooldown = 1.5f; // Cooldown entre tiros
+    [SerializeField] private GameObject projectilePrefab; // Prefab do projétil
+    [SerializeField] private Transform firePoint;         // Ponto de spawn do projétil
+    [SerializeField] private float attackRange = 10f;      // Distância mínima para atirar
+    [SerializeField] private float attackCooldown = 1.5f; // Cooldown entre tiros
 
     private float lastAttackTime;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        status = GetComponent<EnemyStatus>();
+        statusEnemy = GetComponent<EnemyStatus>();
         player = GameObject.FindGameObjectWithTag("Player")?.transform;
     }
 
@@ -36,12 +36,14 @@ public class inimigoAtirador : MonoBehaviour
             PararMovimento();
             Atirar();
         }
+
+
     }
 
     void MoverAtePlayer()
     {
         Vector2 direction = (player.position - transform.position).normalized;
-        rb.linearVelocity = direction * status.GetVelocidade();
+        rb.linearVelocity = direction * statusEnemy.GetVelocidade();
 
         // Opcional: vira o inimigo na direção do movimento
         if (direction.x != 0)
@@ -67,7 +69,8 @@ public class inimigoAtirador : MonoBehaviour
 
             TiroInimigo projScript = proj.GetComponent<TiroInimigo>();
             if (projScript != null)
-                projScript.SetDirection(direction, status.GetDanoMaximo());
+                projScript.SetDirection(direction, statusEnemy.GetDanoMaximo());
         }
     }
+
 }
