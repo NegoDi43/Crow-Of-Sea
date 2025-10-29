@@ -148,18 +148,18 @@ public class Status : MonoBehaviour
     }
 
     // Correr
-    public void Correndo()
-    {
-        if (playerController.Correndo(true))
-        {
-            staminaAtual -= 0.5f;
-            velocidade += 2;
-        }
-        else
-        {
-            velocidade -= 2;
-        }
-    }
+    //public void Correndo()
+    //{
+    //    if (playerController.Correndo(true))
+    //    {
+    //        staminaAtual -= 0.5f;
+    //        velocidade += 2;
+    //    }
+    //    else
+    //    {
+    //        velocidade -= 2;
+    //    }
+    //}
     // Getters
     public float GetVidaMaxima()
     {

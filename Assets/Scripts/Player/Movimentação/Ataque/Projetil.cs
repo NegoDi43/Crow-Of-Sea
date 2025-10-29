@@ -33,8 +33,9 @@ public class Projetil : MonoBehaviour
         if (enemy != null)
         {
             enemy.ReceberDano(status.GetDanoMaximo());
+            Destroy(gameObject);
         }
-        Destroy(gameObject);
+       
     }
 
 }

@@ -4,7 +4,6 @@ public class EnemyAI : MonoBehaviour
 {
     [Header("Componentes")]
     [SerializeField] private EnemyStatus statusEnemy;
-    [SerializeField] private GanhodeXp xp;
     [SerializeField] private Rigidbody2D rb;
     private Transform player;
 
@@ -20,7 +19,6 @@ public class EnemyAI : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         statusEnemy = GetComponent<EnemyStatus>();
-        xp = FindAnyObjectByType<GanhodeXp>();
         player = GameObject.FindGameObjectWithTag("Player").transform;
     }
 
@@ -40,10 +38,6 @@ public class EnemyAI : MonoBehaviour
             Atacar();
         }
 
-        if (statusEnemy.GetVidaMaxima() <= 0)
-        {
-            Morrer();
-        }
     }
 
     void MoverAtePlayer()
@@ -80,13 +74,4 @@ public class EnemyAI : MonoBehaviour
         }
     }
 
-    private void Morrer()
-    {
-        if (statusEnemy.GetVidaMaxima() >= 0)
-        {
-            xp.AdicionarXp(xp.GetXpPorInimigo());
-            Destroy(gameObject);
-        }
-        
-    }
 }
