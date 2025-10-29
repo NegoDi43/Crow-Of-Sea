@@ -7,6 +7,11 @@ TagManager:
   - SliderVida
   - SlliderStamina
   - SliderXP
+  - Direita
+  - Esquerda
+  - Corte
+  - Tiro
+  - InimigoTerrestre
   layers:
   - Default
   - TransparentFX

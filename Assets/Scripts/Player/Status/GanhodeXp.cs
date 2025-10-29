@@ -7,7 +7,7 @@ public class GanhodeXp : MonoBehaviour
     [SerializeField] private int xpPorInimigo = 5;
     [SerializeField] private int xpPorMissao = 50;
     [SerializeField] private int xpNecessarioParaNivelUp = 10;
-    [SerializeField] private int xpAtual = 0;
+    [SerializeField] private int xpAtual;
 
     [SerializeField] private int levellMaximo = 50;
     [SerializeField] private int levelAtual = 0;
@@ -60,4 +60,12 @@ public class GanhodeXp : MonoBehaviour
         return xpAtual;
     }
 
+    public void AdicionarXp(int quantidade)
+    {
+        xpAtual += quantidade;
+        if (xpAtual > xpNecessarioParaNivelUp)
+        {
+            xpAtual = xpNecessarioParaNivelUp;
+        }
+    }
 }

@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using UnityEngine;
 
 public class Status : MonoBehaviour
@@ -211,4 +211,17 @@ public class Status : MonoBehaviour
     {
         pontos += 3;
     }
+
+    // Receber Dano
+    public void ReceberDano(float dano)
+    {
+        vidaAtual -= dano;
+
+        if (vidaAtual <= 0)
+        {
+            vidaAtual = 0;
+            Destroy(gameObject); // ou animação de morte
+        }
+    }
+
 }

@@ -2,25 +2,23 @@ using UnityEngine;
 
 public class Slash : MonoBehaviour
 {
-    public Status status;
+    public Status status;       // Status do player para calcular dano
     public float lifeTime = 0.25f;
-    public LayerMask enemyLayer;
 
     private void Start()
     {
+        // Tenta pegar o Status do player
         status = FindAnyObjectByType<Status>();
-        status = gameObject.GetComponent<Status>();
         Destroy(gameObject, lifeTime);
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (((1 << other.gameObject.layer) & enemyLayer) == 0) return;
-
-        var enemy = other.GetComponent<IDamageable>();
+        EnemyStatus enemy = other.GetComponent<EnemyStatus>();
         if (enemy != null)
         {
-            enemy.TakeDamage(status.GetDanoMaximo());
+            enemy.ReceberDano(status.GetDanoMaximo());
         }
     }
+
 }
