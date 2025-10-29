@@ -11,9 +11,13 @@ public class EnemyStatus : MonoBehaviour
     [SerializeField] private float danoMaximo = 2f;
     [SerializeField] private float velocidade = 3f;
 
+    [Header("Xp")]
+    [SerializeField] private GanhodeXp ganhodeXp;
+
     void Start()
     {
         vidaAtual = vidaMaxima;
+        ganhodeXp = GameObject.FindGameObjectWithTag("Player").GetComponent<GanhodeXp>();
     }
 
     // Receber dano
@@ -66,5 +70,15 @@ public class EnemyStatus : MonoBehaviour
     public void SetVelocidade(float value) 
         {
         velocidade = value;
+    }
+
+    // Ganhar XP ao morrer
+    private void OnDestroy()
+    {
+        if (ganhodeXp != null)
+        {
+            ganhodeXp.AdicionarXp(ganhodeXp.GetXpPorInimigo());
+            Debug.Log($"Jogador ganhou {ganhodeXp.GetXpPorInimigo()} XP por matar {gameObject.name}.");
+        }
     }
 }

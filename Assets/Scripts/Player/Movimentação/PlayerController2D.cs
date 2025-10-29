@@ -8,12 +8,15 @@ public class PlayerController2D : MonoBehaviour
 
     [SerializeField] private bool correndo = false;
 
+    private Animator animator;
+
     private Rigidbody2D rb;
 
     void Start()
     {
         statusPlayer = GameObject.FindAnyObjectByType<Status>().gameObject.GetComponent<Status>();
         rb = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
     }
 
     void FixedUpdate()
@@ -22,19 +25,14 @@ public class PlayerController2D : MonoBehaviour
         rb.linearVelocity = input * statusPlayer.GetVelocidade();
     }
 
-    public void Correr()
-    {         
-        if (statusPlayer.GetStaminaAtual() > 0)
-        {
-            correndo = true;
-            statusPlayer.Correndo();
-        }
-    }
-
-    public bool Correndo(bool v)
+    public void AnimaAndar()
     {
-        v = correndo;
-        return correndo;
+        animator.SetTrigger("Andar");
+        animator.SetBool("Andando", false);
     }
-        
+    public void AnimaParar()
+    {
+        animator.SetTrigger("Parar");
+        animator.SetBool("Andando", true);
+    }
 }

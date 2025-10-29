@@ -60,6 +60,7 @@ public class GanhodeXp : MonoBehaviour
         return xpAtual;
     }
 
+    //Adicionar XP
     public void AdicionarXp(int quantidade)
     {
         xpAtual += quantidade;
