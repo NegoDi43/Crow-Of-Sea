@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f266106496b34445ba45bc4c2935f87, type: 3}
+  m_Name: Espada
+  m_EditorClassIdentifier: 
+  nomeItem: Espada
+  alcance: 0
+  tipo: 0
+  icone: {fileID: 5268610580173528197, guid: 00745405a7dbf044491bce9b1dda229d, type: 3}
+  comprado: 0
+  descricao: Uma espada
+  dano: 0
+  velocidadeAtaque: 0
