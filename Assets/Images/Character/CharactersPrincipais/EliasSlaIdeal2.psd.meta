@@ -1,0 +1,663 @@
+fileFormatVersion: 2
+guid: b92f18726f97a3d4c97cfbd34ed2c8fe
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5698620080567375833
+    second: EliasSlaIdeal2_0
+  - first:
+      213: 5152800938650322682
+    second: EliasSlaIdeal2_1
+  - first:
+      213: 8436111293052623531
+    second: EliasSlaIdeal2_2
+  - first:
+      213: -7800936904877028231
+    second: EliasSlaIdeal2_3
+  - first:
+      213: 825396728902720206
+    second: EliasSlaIdeal2_4
+  - first:
+      213: -7274360288492240549
+    second: EliasSlaIdeal2_5
+  - first:
+      213: -7658009474740243977
+    second: EliasSlaIdeal2_6
+  - first:
+      213: 8038485994471580238
+    second: EliasSlaIdeal2_7
+  - first:
+      213: -9185954272696261431
+    second: EliasSlaIdeal2_8
+  - first:
+      213: -3351459267012618345
+    second: EliasSlaIdeal2_9
+  - first:
+      213: 9006158326007325636
+    second: EliasSlaIdeal2_10
+  - first:
+      213: -4658075245733330867
+    second: EliasSlaIdeal2_11
+  - first:
+      213: 6971135235460895831
+    second: EliasSlaIdeal2_12
+  - first:
+      213: 7842273633563692229
+    second: EliasSlaIdeal2_13
+  - first:
+      213: 6679655452579489936
+    second: EliasSlaIdeal2_14
+  - first:
+      213: -6086360695923746355
+    second: EliasSlaIdeal2_15
+  - first:
+      213: 1125557104162480161
+    second: EliasSlaIdeal2_16
+  - first:
+      213: -2656978164591139919
+    second: EliasSlaIdeal2_17
+  - first:
+      213: 6825856868041866396
+    second: EliasSlaIdeal2_18
+  - first:
+      213: 2950293952260555550
+    second: EliasSlaIdeal2_19
+  - first:
+      213: 8076168459878127293
+    second: EliasSlaIdeal2_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: EliasSlaIdeal2_0
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 2269
+        width: 162
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d7502c45c0951f40800000000000000
+      internalID: 5698620080567375833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EliasSlaIdeal2_1
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 2268
+        width: 161
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af64d8a272d628740800000000000000
+      internalID: 5152800938650322682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EliasSlaIdeal2_2
+      rect:
+        serializedVersion: 2
+        x: 1286
+        y: 2270
+        width: 165
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baa101c4686131570800000000000000
+      internalID: 8436111293052623531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EliasSlaIdeal2_3
+      rect:
+        serializedVersion: 2
+        x: 1813
+        y: 2262
+        width: 166
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97cc19557318db390800000000000000
+      internalID: -7800936904877028231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EliasSlaIdeal2_4
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 1859
+        width: 166
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eca1409a3f5647b00800000000000000
+      internalID: 825396728902720206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EliasSlaIdeal2_5
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 1859
+        width: 166
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b51463cdbd74c0b90800000000000000
+      internalID: -7274360288492240549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EliasSlaIdeal2_6
+      rect:
+        serializedVersion: 2
+        x: 1285
+        y: 1859
+        width: 165
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f13883e4f849b590800000000000000
+      internalID: -7658009474740243977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EliasSlaIdeal2_7
+      rect:
+        serializedVersion: 2
+        x: 1820
+        y: 1857
+        width: 165
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e426e681c607e8f60800000000000000
+      internalID: 8038485994471580238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EliasSlaIdeal2_8
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 1434
+        width: 164
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c425fc124fe48080800000000000000
+      internalID: -9185954272696261431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EliasSlaIdeal2_9
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 1433
+        width: 163
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 797958ead893d71d0800000000000000
+      internalID: -3351459267012618345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EliasSlaIdeal2_10
+      rect:
+        serializedVersion: 2
+        x: 1286
+        y: 1432
+        width: 162
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c3e794e74d4cfc70800000000000000
+      internalID: 9006158326007325636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EliasSlaIdeal2_11
+      rect:
+        serializedVersion: 2
+        x: 1816
+        y: 1430
+        width: 162
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4046095e313b5fb0800000000000000
+      internalID: -4658075245733330867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EliasSlaIdeal2_12
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1019
+        width: 162
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7541bdedf827eb060800000000000000
+      internalID: 6971135235460895831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EliasSlaIdeal2_13
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 1015
+        width: 162
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ccc9ffc15a55dc60800000000000000
+      internalID: 7842273633563692229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EliasSlaIdeal2_14
+      rect:
+        serializedVersion: 2
+        x: 1286
+        y: 1015
+        width: 162
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09860096e37e2bc50800000000000000
+      internalID: 6679655452579489936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EliasSlaIdeal2_15
+      rect:
+        serializedVersion: 2
+        x: 1819
+        y: 1015
+        width: 163
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc9d098a137e88ba0800000000000000
+      internalID: -6086360695923746355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EliasSlaIdeal2_16
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 601
+        width: 163
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 120a5080938ce9f00800000000000000
+      internalID: 1125557104162480161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EliasSlaIdeal2_17
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 606
+        width: 163
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b36393cf64802bd0800000000000000
+      internalID: -2656978164591139919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EliasSlaIdeal2_18
+      rect:
+        serializedVersion: 2
+        x: 1285
+        y: 601
+        width: 163
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9cbb4318a05abe50800000000000000
+      internalID: 6825856868041866396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EliasSlaIdeal2_19
+      rect:
+        serializedVersion: 2
+        x: 1815
+        y: 599
+        width: 163
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e13497fd7bc81f820800000000000000
+      internalID: 2950293952260555550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EliasSlaIdeal2_20
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 183
+        width: 163
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db6df35cc60541070800000000000000
+      internalID: 8076168459878127293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      EliasSlaIdeal2_0: 5698620080567375833
+      EliasSlaIdeal2_1: 5152800938650322682
+      EliasSlaIdeal2_10: 9006158326007325636
+      EliasSlaIdeal2_11: -4658075245733330867
+      EliasSlaIdeal2_12: 6971135235460895831
+      EliasSlaIdeal2_13: 7842273633563692229
+      EliasSlaIdeal2_14: 6679655452579489936
+      EliasSlaIdeal2_15: -6086360695923746355
+      EliasSlaIdeal2_16: 1125557104162480161
+      EliasSlaIdeal2_17: -2656978164591139919
+      EliasSlaIdeal2_18: 6825856868041866396
+      EliasSlaIdeal2_19: 2950293952260555550
+      EliasSlaIdeal2_2: 8436111293052623531
+      EliasSlaIdeal2_20: 8076168459878127293
+      EliasSlaIdeal2_3: -7800936904877028231
+      EliasSlaIdeal2_4: 825396728902720206
+      EliasSlaIdeal2_5: -7274360288492240549
+      EliasSlaIdeal2_6: -7658009474740243977
+      EliasSlaIdeal2_7: 8038485994471580238
+      EliasSlaIdeal2_8: -9185954272696261431
+      EliasSlaIdeal2_9: -3351459267012618345
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
