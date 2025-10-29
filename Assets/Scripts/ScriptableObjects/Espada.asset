@@ -16,6 +16,7 @@ MonoBehaviour:
   alcance: 0
   tipo: 0
   icone: {fileID: 5268610580173528197, guid: 00745405a7dbf044491bce9b1dda229d, type: 3}
+  moedas: 5
   comprado: 0
   descricao: Uma espada
   dano: 0

@@ -1,6 +1,7 @@
 using UnityEngine;
+using UnityEngine.EventSystems;
 
-public class ItemShop : MonoBehaviour
+public class BarcoUI : MonoBehaviour, IDragHandler
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -10,6 +11,11 @@ public class ItemShop : MonoBehaviour
 
     // Update is called once per frame
     void Update()
+    {
+        
+    }
+
+    public void OnDrag(PointerEventData eventData) // enquanto arrasta
     {
         
     }
