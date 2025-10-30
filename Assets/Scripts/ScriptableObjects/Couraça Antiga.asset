@@ -10,15 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cdb38fe745b049b4b9430a115127e414, type: 3}
-  m_Name: Espada
+  m_Name: "Coura\xE7a Antiga"
   m_EditorClassIdentifier: Assembly-CSharp::ArmaduraSO
-  nomeItem: Espada
+  nomeItem: "Coura\xE7a Antiga"
   alcance: 0
-  tipo: 0
-  icone: {fileID: 3577950915121939803, guid: 0b3120da5a9a0454bb52080de6b50eeb, type: 3}
-  moedas: 5
-  comprado: 1
-  descricao: 'Uma espada simples
+  tipo: 1
+  icone: {fileID: 612340798446938382, guid: c980ba11e07614844af477536b69d301, type: 3}
+  moedas: 8
+  comprado: 0
+  descricao: 'Uma armadura poderosa
 
 '
   defesa: 0

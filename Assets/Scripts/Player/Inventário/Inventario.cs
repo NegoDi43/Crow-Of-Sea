@@ -11,16 +11,6 @@ public class Inventario : MonoBehaviour
 
     public void AdicionarUI() => AdicionarItem(itemAtual, 1);
     public void RemoverUI() => RemoverItem(itemAtual, 1);
-
-    void Start()
-    {
-        AdicionarItem(itemTeste, 1);
-    }
-
-    void Update()
-    {
-
-    }
     
     // 🧠 Adicionar item
     public void AdicionarItem(PrefabsItens novoItem, int quantidade = 1)

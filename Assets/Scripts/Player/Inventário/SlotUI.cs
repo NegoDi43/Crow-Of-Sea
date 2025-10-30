@@ -13,7 +13,7 @@ public class SlotUI : MonoBehaviour, IPointerClickHandler
     public PrefabsItens item;
     public static PrefabsItens referenciaItem;
 
-    void Start()
+    void Awake()
     {
         if (descricao == null)
         {

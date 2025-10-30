@@ -15,10 +15,10 @@ MonoBehaviour:
   nomeItem: Pocao Estamina
   alcance: 0
   tipo: 2
-  icone: {fileID: 5088316998373936774, guid: 843b0c3b67b3efd4db4cd541ecfe19a1, type: 3}
+  icone: {fileID: 8279475467224525709, guid: 5a6ec6e1749f65c4c844c4f554079beb, type: 3}
   moedas: 2
   comprado: 0
-  descricao: 
+  descricao: "Uma po\xE7\xE3o de estamina"
   tipoPocao: 1
   efeitoVisual: {fileID: 0}
   duracaoEfeito: 0
