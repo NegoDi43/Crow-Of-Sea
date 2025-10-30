@@ -1,4 +1,6 @@
 using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
 
 public class LojaUI : MonoBehaviour
 {
@@ -23,7 +25,9 @@ public class LojaUI : MonoBehaviour
             foreach (var slot in loja.slotsLoja)
             {
                 GameObject novoSlot = Instantiate(slotPrefab, conteudo);
-                SlotUI slotUI = novoSlot.GetComponent<SlotUI>();
+                novoSlot.GetComponentInChildren<TextMeshProUGUI>().text = slot.item.Moedas.ToString();
+                novoSlot.GetComponent<Image>().sprite = slot.item.icone;
+
             }
             butaoNpc.SetActive(true);
         }
