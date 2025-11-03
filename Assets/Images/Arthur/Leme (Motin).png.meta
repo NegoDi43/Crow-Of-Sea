@@ -1,14 +1,10 @@
 fileFormatVersion: 2
-guid: e38259821c75cee488a64f34313a3c6c
-AssetOrigin:
-  serializedVersion: 1
-  productId: 208907
-  packageName: MINIFANTASY - Forgotten Plains
-  packageVersion: 1.0.2
-  assetPath: Assets/KrishnaPalacio/MINIFANTASY - Forgotten Plains/Sprites/Tileset/River/GIFs/River1.gif
-  uploadId: 556305
+guid: e0a59897cda67394d894eab5e0b19e71
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -5928681811527194701
+    second: Captura_de_tela_2025-11-03_153821-removebg-preview_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -50,7 +46,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -72,7 +68,7 @@ TextureImporter:
   ignorePngGamma: 0
   applyGammaDecoding: 0
   swizzle: 50462976
-  cookieLightType: 1
+  cookieLightType: 0
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
@@ -102,12 +98,34 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Captura_de_tela_2025-11-03_153821-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 93
+        width: 254
+        height: 362
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b72a9dcd4719bda0800000000000000
+      internalID: -5928681811527194701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -116,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Captura_de_tela_2025-11-03_153821-removebg-preview_0: -5928681811527194701
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
