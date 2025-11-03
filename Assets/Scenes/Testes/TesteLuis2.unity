@@ -936,9 +936,12 @@ GameObject:
   m_Component:
   - component: {fileID: 1646207104}
   - component: {fileID: 1646207103}
+  - component: {fileID: 1646207109}
   - component: {fileID: 1646207102}
   - component: {fileID: 1646207101}
   - component: {fileID: 1646207105}
+  - component: {fileID: 1646207108}
+  - component: {fileID: 1646207107}
   - component: {fileID: 1646207106}
   m_Layer: 0
   m_Name: Player
@@ -1109,6 +1112,86 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1646207107
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1646207100}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16505e1ae8ec62d47b3e42554203c5eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerShoot
+  aimJoystick: {fileID: 1115952312}
+  projectilePrefab: {fileID: 575410457256604051, guid: 623ba26439c0cb04bad412e91121d566, type: 3}
+  firePoint: {fileID: 1646207104}
+  cooldown: 0.5
+  quantidadeMunicao: 10
+--- !u!114 &1646207108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1646207100}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 597d78047af1d7d49b5e3af567e6e3b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerAttack
+  aimJoystick: {fileID: 1115952312}
+  slashPrefab: {fileID: 4874084690997008500, guid: 35c88636fb1f14d4a87ab5aebe82d721, type: 3}
+  attackPoint: {fileID: 1646207104}
+  slashDistance: 1
+  cooldown: 0.5
+--- !u!61 &1646207109
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1646207100}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &1728876893
 GameObject:
   m_ObjectHideFlags: 0
