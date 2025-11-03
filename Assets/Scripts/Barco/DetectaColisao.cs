@@ -44,7 +44,7 @@ public class DetectaColisao : MonoBehaviour
         Debug.Log("Saiu do barco!");
     }
 
-    private void OnTriggerStay2D(Collider2D collision)
+    void OnCollisionStay2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Player") && !estahDentro) // Toca no Player e ativa o botão
         {
@@ -52,7 +52,7 @@ public class DetectaColisao : MonoBehaviour
         }
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("PontoDeSaida") && estahDentro)
         {
