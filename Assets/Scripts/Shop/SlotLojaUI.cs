@@ -51,6 +51,7 @@ public class SlotLojaUI : MonoBehaviour, IPointerClickHandler // Classe para ger
         tempo = 0;
         if (item != null)
         {
+            item.comprado = false; // Reseta o estado de compra do item
             referenciaItem = item;
 
             // Aqui você pode abrir descrição, usar item, etc.

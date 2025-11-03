@@ -17,7 +17,7 @@ MonoBehaviour:
   tipo: 0
   icone: {fileID: 3577950915121939803, guid: 0b3120da5a9a0454bb52080de6b50eeb, type: 3}
   moedas: 5
-  comprado: 1
+  comprado: 0
   descricao: 'Uma espada simples
 
 '

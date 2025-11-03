@@ -23,4 +23,9 @@ public abstract class PrefabsItens : ScriptableObject
     {
         ui.GetComponent<Image>().sprite = icone;
     }
+
+    void Awake()
+    {
+        comprado = false; // Inicializa como não comprado
+    }   
 }

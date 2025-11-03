@@ -10,7 +10,8 @@ public class EnemyAI : MonoBehaviour
     [Header("Ataque")]
     [SerializeField] private GameObject attackPrefab;
     [SerializeField] private Transform attackPoint;
-    [SerializeField] private float attackRange = 2f;
+    [SerializeField] private float attackRange = 1f;
+    [SerializeField] private float yerDetectionRange = 10f;
     [SerializeField] private float attackCooldown = 1.5f;
 
     private float lastAttackTime;
@@ -42,6 +43,13 @@ public class EnemyAI : MonoBehaviour
 
     void MoverAtePlayer()
     {
+        if (player == null) return;
+
+        if (Vector2.Distance(transform.position, player.position) > yerDetectionRange)
+        {
+            PararMovimento();
+            return;
+        }
         Vector2 direction = (player.position - transform.position).normalized;
         rb.linearVelocity = direction * statusEnemy.GetVelocidade();
     }

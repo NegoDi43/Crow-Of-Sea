@@ -9,7 +9,6 @@ public class Inventario : MonoBehaviour
     public InventarioUI inventarioUI;
     public int tamanhoMaximo = 5;
 
-    public void AdicionarUI() => AdicionarItem(itemAtual, 1);
     public void RemoverUI() => RemoverItem(itemAtual, 1);
     
     // 🧠 Adicionar item
