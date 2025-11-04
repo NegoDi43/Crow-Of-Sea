@@ -2,61 +2,75 @@ using UnityEngine;
 
 public class DetectaColisao : MonoBehaviour
 {
-    [SerializeField] private GameObject butaoEntrar; // Botão para entrar no barco
-    [SerializeField] private GameObject butaoSair; // Botão para sair no barco
-    public GameObject jogador; // Referência ao jogador
-    public GameObject barco; // Referência ao barco
-    public GameObject pontoDeSaida; // Ponto onde o jogador sairá do barco
-    private bool estahDentro = false; // Flag para verificar se o jogador esta no barco
+    [Header("Referências")]
+    [SerializeField] private GameObject botaoEntrar;
+    [SerializeField] private GameObject botaoSair;
+    [SerializeField] private GameObject jogador;
+    [SerializeField] private GameObject barco;
+    [SerializeField] private Transform pontoDeSaida;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    private bool estaDentro = false;
+
+    private PlayerController2D controleJogador;
+    private BarcoController controleBarco;
+
     void Start()
     {
-        butaoEntrar.SetActive(false);
-        butaoSair.SetActive(false);
+        botaoEntrar.SetActive(false);
+        botaoSair.SetActive(false);
+
+        controleJogador = jogador.GetComponent<PlayerController2D>();
+        controleBarco = barco.GetComponent<BarcoController>();
+
+        if (controleBarco != null)
+            controleBarco.enabled = false; // barco começa desativado
     }
 
-    void Update()
+    public void EntrarNoBarco()
     {
-        if (estahDentro)
-        {
-            barco.transform.localRotation = Quaternion.identity; // Coloca a rotação do barco igual a do jogador
-        }
-    }
+        estaDentro = true;
 
-    public void EntrarNoBarco() // Lógica para entrar no barco
-    {
-        jogador.transform.SetParent(barco.transform); // Torna o jogador filho do barco
-        jogador.transform.localPosition = Vector2.zero; // Posiciona o jogador no centro do barco
-        jogador.transform.localRotation = Quaternion.identity; // Coloca a rotação do jogador igual a do barco
-        jogador.transform.SetParent(null); // Remove a hierarquia de filho
-        barco.transform.SetParent(jogador.transform); // Torna o barco filho do jogador
-        barco.transform.localRotation = Quaternion.identity; // Coloca a rotação do barco igual a do jogador
-        estahDentro = true;
+        // Desativa controle do jogador e ativa o do barco
+        controleJogador.enabled = false;
+        controleBarco.enabled = true;
+
+        // Teleporta o jogador para dentro do barco (invisível ou fixo)
+        jogador.SetActive(false);
+
+        botaoEntrar.SetActive(false);
         Debug.Log("Entrou no barco!");
     }
 
-    public void SairDoBarco() // Lógica para sair do barco
+    public void SairDoBarco()
     {
-        barco.transform.SetParent(null); // Remove a hierarquia de filho
-        jogador.transform.position = pontoDeSaida.transform.position; // Posiciona o jogador no ponto de saída
-        estahDentro = false;
+        estaDentro = false;
+
+        controleBarco.enabled = false;
+        controleJogador.enabled = true;
+
+        // Tira o jogador do barco
+        jogador.transform.position = pontoDeSaida.position;
+        jogador.SetActive(true);
+
+        botaoSair.SetActive(false);
         Debug.Log("Saiu do barco!");
     }
 
-    void OnCollisionStay2D(Collision2D collision)
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        if (collision.gameObject.CompareTag("Player") && !estahDentro) // Toca no Player e ativa o botão
-        {
-            butaoEntrar.SetActive(true);
-        }
+        if (other.CompareTag("Player") && !estaDentro)
+            botaoEntrar.SetActive(true);
     }
 
-    void OnCollisionEnter2D(Collision2D collision)
+    private void OnTriggerExit2D(Collider2D other)
     {
-        if (collision.gameObject.CompareTag("PontoDeSaida") && estahDentro)
-        {
-            butaoSair.SetActive(true);
-        }
+        if (other.CompareTag("Player"))
+            botaoEntrar.SetActive(false);
+    }
+
+    private void OnTriggerStay2D(Collider2D other)
+    {
+        if (other.CompareTag("PontoDeSaida") && estaDentro)
+            botaoSair.SetActive(true);
     }
 }
