@@ -4,34 +4,36 @@ using UnityEngine;
 [Serializable]
 public class PlayerSaveData
 {
-    // Posição do jogador
+    // Posição
     public float posX, posY, posZ;
 
-    // Status básicos
-    [SerializeField] public float vidaMaxima;
-    [SerializeField] public float vidaAtual;
-    [SerializeField] public float danoMaximo;
-    [SerializeField] public float velocidade;
-    [SerializeField] public float staminaMax;
-    [SerializeField] public float staminaAtual;
-    [SerializeField] public float pontos;
+    // Nome da cena (fase atual)
+    public string sceneName;
 
-    // Pontos de atributo
-    [SerializeField] public float pontosVida;
-    [SerializeField] public float pontosDano;
-    [SerializeField] public float pontosVelocidade;
-    [SerializeField] public float pontosStamina;
+    // Status
+    public float vidaMaxima;
+    public float vidaAtual;
+    public float danoMaximo;
+    public float velocidade;
+    public float staminaMax;
+    public float staminaAtual;
+    public float pontos;
+    public float pontosVida;
+    public float pontosDano;
+    public float pontosVelocidade;
+    public float pontosStamina;
 
-    // XP e nível
-    [SerializeField] public int xpAtual;
-    [SerializeField] public int xpNecessario;
-    [SerializeField] public int levelAtual;
+    // XP
+    public int xpAtual;
+    public int xpNecessario;
+    public int levelAtual;
 
-    public PlayerSaveData(Vector3 pos, Status status, GanhodeXp xp)
+    public PlayerSaveData(Vector3 pos, string currentScene, Status status, GanhodeXp xp)
     {
         posX = pos.x;
         posY = pos.y;
         posZ = pos.z;
+        sceneName = currentScene;
 
         vidaMaxima = status.GetVidaMaxima();
         vidaAtual = status.GetVidaAtual();
@@ -40,7 +42,6 @@ public class PlayerSaveData
         staminaMax = status.GetStaminaMax();
         staminaAtual = status.GetStaminaAtual();
         pontos = status.GetPontos();
-
         pontosVida = status.GetPontosVida();
         pontosDano = status.GetPontosDano();
         pontosVelocidade = status.GetPontosVelocidade();
@@ -49,11 +50,9 @@ public class PlayerSaveData
         xpAtual = xp.GetXpAtual();
         xpNecessario = xp.GetXpNecessarioParaNivelUp();
 
-        // Aqui você pode acessar levelAtual direto do script
         var levelField = typeof(GanhodeXp).GetField("levelAtual", System.Reflection.BindingFlags.NonPublic | System.Reflection.BindingFlags.Instance);
         levelAtual = (int)levelField.GetValue(xp);
     }
 
     public Vector3 GetPosition() => new Vector3(posX, posY, posZ);
-
 }
