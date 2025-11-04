@@ -5,11 +5,14 @@ using TMPro;
 
 public class SlotUI : MonoBehaviour, IPointerClickHandler
 {
+    [Header("Não precisa colocar essa referência!")]
     public Image icone;
+    [Header("Componentes do Slot")]
     public TextMeshProUGUI quantidadeTexto;
     public TextMeshProUGUI descricao;
     public float coldownTime = 4f; // Tempo de cooldown em segundos
-    public float tempo = 0;
+    private float tempo = 0;
+    [Header("Não precisa colocar essa referência!")]
     public PrefabsItens item;
     public static PrefabsItens referenciaItem;
 
