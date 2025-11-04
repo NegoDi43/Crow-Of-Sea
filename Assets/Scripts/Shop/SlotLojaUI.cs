@@ -23,6 +23,7 @@ public class SlotLojaUI : MonoBehaviour, IPointerClickHandler // Classe para ger
             descricao = GameObject.Find("TextoDescricao").GetComponent<TextMeshProUGUI>();
         }
         descricao.text = "";
+        referenciaItem = null;
     }
 
     public void AtualizarSlot(PrefabsItens novoItem, int preco)
@@ -57,16 +58,6 @@ public class SlotLojaUI : MonoBehaviour, IPointerClickHandler // Classe para ger
             // Aqui você pode abrir descrição, usar item, etc.
             Debug.Log($"?? Clicou no item: {item.nomeItem} (x{TextoPreco.text})");
             descricao.text = item.descricao;
-
-            while (tempo < coldownTime)
-            {
-                tempo += Time.deltaTime;
-
-                if (tempo >= coldownTime)
-                {
-                    StartCoroutine(TempoDescricao());
-                }
-            }
         }
         else
         {

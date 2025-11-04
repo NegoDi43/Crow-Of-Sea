@@ -9,6 +9,12 @@ public class BarcoController : MonoBehaviour
 
     [Header("Referências")]
     public VirtualJoystick2D joystick;        // o mesmo joystick do jogador
+    //private Rigidbody2D rb;
+
+    //void Awake()
+    //{
+    //    rb = GetComponent<Rigidbody2D>();
+    //}
 
     void FixedUpdate()
     {
@@ -17,7 +23,7 @@ public class BarcoController : MonoBehaviour
         float horizontal = joystick.Horizontal;
 
         //// Rotação (vira o leme)
-        //rb.MoveRotation(rb.rotation  * horizontal * rotacaoVelocidade * Time.fixedDeltaTime);
+        //rb.MoveRotation(rb.rotation * horizontal * rotacaoVelocidade * Time.fixedDeltaTime);
 
         //// Movimento para frente (na direção que o barco está apontando)
         //Vector2 direcao = transform.up * vertical * velocidade * Time.fixedDeltaTime;
