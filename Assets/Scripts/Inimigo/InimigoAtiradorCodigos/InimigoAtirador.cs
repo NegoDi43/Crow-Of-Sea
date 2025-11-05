@@ -13,6 +13,10 @@ public class inimigoAtirador : MonoBehaviour
     [SerializeField] private float attackRange = 10f;      // Distância mínima para atirar
     [SerializeField] private float attackCooldown = 1.5f; // Cooldown entre tiros
 
+    [Header("Audio")]
+    [SerializeField] private Audio audioPlayer;
+    [SerializeField] private AudioClip attackSound;
+
     private float lastAttackTime;
 
     void Start()
@@ -20,6 +24,7 @@ public class inimigoAtirador : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         statusEnemy = GetComponent<EnemyStatus>();
         player = GameObject.FindGameObjectWithTag("Player")?.transform;
+        audioPlayer = GameObject.FindGameObjectWithTag("Audio").GetComponent<Audio>();
     }
 
     void Update()
@@ -66,6 +71,9 @@ public class inimigoAtirador : MonoBehaviour
             float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
 
             GameObject proj = Instantiate(projectilePrefab, firePoint.position, Quaternion.Euler(0, 0, angle));
+
+            // Toca o som de ataque
+            audioPlayer.TocarSom(attackSound);
 
             TiroInimigo projScript = proj.GetComponent<TiroInimigo>();
             if (projScript != null)

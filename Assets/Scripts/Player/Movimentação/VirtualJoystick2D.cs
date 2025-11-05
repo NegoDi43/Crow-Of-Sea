@@ -14,11 +14,15 @@ public class VirtualJoystick2D : MonoBehaviour, IPointerDownHandler, IDragHandle
     private Vector2 input = Vector2.zero;
     private Vector2 backgroundSize;
 
+    [Header("Configurações de Audio")]
+    [SerializeField] private Audio audioPlayer;
+    [SerializeField] private AudioClip andarSound;
 
     void Start()
     {
         backgroundSize = background.sizeDelta; // pega o tamanho do fundo
         playerController = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController2D>();
+        audioPlayer = GameObject.FindGameObjectWithTag("AudioAndar").GetComponent<Audio>();
         ResetHandle();
     }
 
@@ -44,6 +48,7 @@ public class VirtualJoystick2D : MonoBehaviour, IPointerDownHandler, IDragHandle
             // move a bolinha
             handle.anchoredPosition = input * (backgroundSize * 0.5f * handleLimit);
             playerController.AnimaAndar();
+            audioPlayer.TocarSom(andarSound);
         }
     }
 

@@ -12,11 +12,15 @@ public class PlayerShoot : MonoBehaviour
     private Vector2 aimDirection = Vector2.right;
     private Status status;
 
+    [Header("Audio")]
+    [SerializeField] private AudioClip tiroSound;
+    [SerializeField] private Audio audioPlayer;
+
     void Start()
     {
         status = FindAnyObjectByType<Status>();
         aimJoystick = FindAnyObjectByType<VirtualJoystick2D>();
-
+        audioPlayer = GameObject.FindGameObjectWithTag("Audio").GetComponent<Audio>();
     }
 
     void Update()
@@ -39,6 +43,7 @@ public class PlayerShoot : MonoBehaviour
             // Instancia o projétil e o configura
             GameObject projectile = Instantiate(projectilePrefab, firePoint.position, Quaternion.identity);
             Projetil proj = projectile.GetComponent<Projetil>();
+            audioPlayer.TocarSom(tiroSound);
             if (proj != null)
             {
                 proj.status = status;
