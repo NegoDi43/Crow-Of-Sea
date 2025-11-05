@@ -30,14 +30,14 @@ public class CloudSaveManager : MonoBehaviour
         if (!AuthenticationService.Instance.IsSignedIn)
             await AuthenticationService.Instance.SignInAnonymouslyAsync();
 
-        Debug.Log("✅ Unity Cloud Save conectado e autenticado.");
+        Debug.Log("☁️ Unity Cloud Save inicializado com sucesso!");
     }
 
     public async Task SaveAsync(PlayerSaveData data)
     {
         var dict = new Dictionary<string, object> { { "PlayerSave", data } };
         await CloudSaveService.Instance.Data.ForceSaveAsync(dict);
-        Debug.Log("💾 Jogo salvo no Unity Cloud!");
+        Debug.Log("💾 Progresso salvo no Cloud!");
     }
 
     public async Task<PlayerSaveData> LoadAsync()
@@ -52,10 +52,11 @@ public class CloudSaveManager : MonoBehaviour
                 return data;
             }
         }
-        catch (System.Exception ex)
+        catch
         {
-            Debug.Log("⚠️ Nenhum save encontrado: " + ex.Message);
+            Debug.Log("⚠️ Nenhum save encontrado.");
         }
+
         return null;
     }
 
