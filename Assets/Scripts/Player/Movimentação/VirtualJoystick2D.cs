@@ -9,6 +9,7 @@ public class VirtualJoystick2D : MonoBehaviour, IPointerDownHandler, IDragHandle
     [SerializeField] private float x;
     [SerializeField] private float y;
     [SerializeField] private PlayerController2D playerController;
+    [SerializeField] private BarcoController barcoController;
     private GameObject player;
 
     private Vector2 input = Vector2.zero;
@@ -19,6 +20,7 @@ public class VirtualJoystick2D : MonoBehaviour, IPointerDownHandler, IDragHandle
     {
         backgroundSize = background.sizeDelta; // pega o tamanho do fundo
         playerController = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController2D>();
+        barcoController = GameObject.FindGameObjectWithTag("Barco").GetComponent<BarcoController>();
         ResetHandle();
     }
 
@@ -43,7 +45,9 @@ public class VirtualJoystick2D : MonoBehaviour, IPointerDownHandler, IDragHandle
 
             // move a bolinha
             handle.anchoredPosition = input * (backgroundSize * 0.5f * handleLimit);
-            playerController.AnimaAndar();
+
+            if (!DetectaColisao.estaDentro)
+                playerController.AnimaAndar();
         }
     }
 
@@ -57,15 +61,28 @@ public class VirtualJoystick2D : MonoBehaviour, IPointerDownHandler, IDragHandle
     void ResetHandle() // reseta a posição da bolinha
     {
         handle.anchoredPosition = Vector2.zero;
-        playerController.AnimaParar();
+
+        if (!DetectaColisao.estaDentro)
+            playerController.AnimaParar();
     }
 
     private void Rotacionar()
     {
+        var spriteRenderer = GetComponent<SpriteRenderer>();
+
+        // Corrigido: acessar o SpriteRenderer do player para definir flipX
+        if (!DetectaColisao.estaDentro)
+        {
+            spriteRenderer = playerController.GetComponent<SpriteRenderer>();
+        }
+        else
+        {
+            spriteRenderer = barcoController.GetComponent<SpriteRenderer>();
+        }
+
         if (x > 0)
         {
-            // Corrigido: acessar o SpriteRenderer do player para definir flipX
-            var spriteRenderer = playerController.GetComponent<SpriteRenderer>();
+
             if (spriteRenderer != null)
             {
                 spriteRenderer.flipX = false;
@@ -73,7 +90,6 @@ public class VirtualJoystick2D : MonoBehaviour, IPointerDownHandler, IDragHandle
         }
         else if (x < 0)
         {
-            var spriteRenderer = playerController.GetComponent<SpriteRenderer>();
             if (spriteRenderer != null)
             {
                 spriteRenderer.flipX = true;

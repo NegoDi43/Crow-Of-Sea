@@ -13,6 +13,8 @@ TagManager:
   - Tiro
   - InimigoTerrestre
   - PontoDeSaida
+  - Barco
+  - TrocaFase
   layers:
   - Default
   - TransparentFX

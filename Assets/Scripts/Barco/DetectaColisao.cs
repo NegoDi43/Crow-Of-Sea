@@ -1,4 +1,6 @@
 using UnityEngine;
+using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class DetectaColisao : MonoBehaviour
 {
@@ -11,7 +13,7 @@ public class DetectaColisao : MonoBehaviour
     [Header("Referências do ponto de saída do jogador")]
     [SerializeField] private Transform pontoDeSaida;
 
-    private bool estaDentro = false;
+    public static bool estaDentro = false;
 
     private PlayerController2D controleJogador;
     private BarcoController controleBarco;
