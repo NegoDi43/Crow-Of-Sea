@@ -3,7 +3,7 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody2D))]
 public class PlayerController2D : MonoBehaviour
 {
-    public VirtualJoystick2D joystick;
+    [SerializeField] private VirtualJoystick2D joystick;
     [SerializeField] private Status statusPlayer;
 
     [SerializeField] private bool correndo = false;
@@ -23,6 +23,7 @@ public class PlayerController2D : MonoBehaviour
     {
         Vector2 input = joystick != null ? joystick.InputDirection : new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
         rb.linearVelocity = input * statusPlayer.GetVelocidade();
+        
     }
 
     public void AnimaAndar()
