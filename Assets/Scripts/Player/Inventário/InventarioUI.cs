@@ -3,11 +3,16 @@ using UnityEngine;
 
 public class InventarioUI : MonoBehaviour
 {
+    [Header("Painel do Inventário UI")]
     public GameObject painelInventario; // arraste o painel no Inspector
+    [Header("Botões de adicionar")]
     public GameObject[] butoes; // botões de adicionar e remover
+    [Header("Referência ao Inventário")]
     public Inventario inventario; // referência ao inventário
+    [Header("Prefab do Slot e Container")]
     public GameObject slotPrefab; // prefab do slot de inventário
     public Transform containerSlots; // container onde os slots serão instanciados
+
     private bool inventarioAtivo = false; // estado do inventário
 
     private List<SlotUI> slotsUI = new List<SlotUI>(); // lista para armazenar os slots UI
@@ -20,6 +25,7 @@ public class InventarioUI : MonoBehaviour
         {
             butoes[0] = GameObject.Find("Adicionar").GetComponent<GameObject>();
             butoes[1] = GameObject.Find("Remover").GetComponent<GameObject>();
+            return;
         }
 
         foreach (GameObject botao in butoes)
