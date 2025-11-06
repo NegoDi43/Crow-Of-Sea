@@ -10,6 +10,7 @@ public class Inventario : MonoBehaviour
     public InventarioUI inventarioUI;
     [Header("Total de slots")]
     public int tamanhoMaximo = 5;
+    public static Inventario instancia; // Instância singleton do inventário
 
     public void AdicionarUI() => AdicionarItem(itemAtual, 1);
     public void RemoverUI() => RemoverItem(itemAtual, 1);

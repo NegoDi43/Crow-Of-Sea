@@ -20,7 +20,7 @@ public class VirtualJoystick2D : MonoBehaviour, IPointerDownHandler, IDragHandle
     {
         backgroundSize = background.sizeDelta; // pega o tamanho do fundo
         playerController = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController2D>();
-        barcoController = GameObject.FindGameObjectWithTag("Barco").GetComponent<BarcoController>();
+        //barcoController = GameObject.FindGameObjectWithTag("Barco").GetComponent<BarcoController>();
         ResetHandle();
     }
 
@@ -46,8 +46,8 @@ public class VirtualJoystick2D : MonoBehaviour, IPointerDownHandler, IDragHandle
             // move a bolinha
             handle.anchoredPosition = input * (backgroundSize * 0.5f * handleLimit);
 
-            if (!DetectaColisao.estaDentro)
-                playerController.AnimaAndar();
+            //if (!DetectaColisao.estaDentro)
+            //    //playerController.AnimaAndar();
         }
     }
 
@@ -62,23 +62,23 @@ public class VirtualJoystick2D : MonoBehaviour, IPointerDownHandler, IDragHandle
     {
         handle.anchoredPosition = Vector2.zero;
 
-        if (!DetectaColisao.estaDentro)
-            playerController.AnimaParar();
+        //if (!DetectaColisao.estaDentro)
+        //    //playerController.AnimaParar();
     }
 
     private void Rotacionar()
     {
         var spriteRenderer = GetComponent<SpriteRenderer>();
 
-        // Corrigido: acessar o SpriteRenderer do player para definir flipX
-        if (!DetectaColisao.estaDentro)
-        {
-            spriteRenderer = playerController.GetComponent<SpriteRenderer>();
-        }
-        else
-        {
-            spriteRenderer = barcoController.GetComponent<SpriteRenderer>();
-        }
+        //// Corrigido: acessar o SpriteRenderer do player para definir flipX
+        //if (!DetectaColisao.estaDentro)
+        //{
+        //    spriteRenderer = playerController.GetComponent<SpriteRenderer>();
+        //}
+        //else
+        //{
+        //    spriteRenderer = barcoController.GetComponent<SpriteRenderer>();
+        //}
 
         if (x > 0)
         {
