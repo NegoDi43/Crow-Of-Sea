@@ -7,6 +7,7 @@ public class DetectaColisao : MonoBehaviour
     [Header("Referências UI")]
     [SerializeField] private GameObject botaoEntrar;
     [SerializeField] private GameObject botaoSair;
+    [SerializeField] private GameObject botaoAtirar;
     [Header("Referências do Jogodor e do barco")]
     [SerializeField] private GameObject jogador;
     [SerializeField] private GameObject barco;
@@ -24,6 +25,7 @@ public class DetectaColisao : MonoBehaviour
     {
         botaoEntrar.SetActive(false);
         botaoSair.SetActive(false);
+        botaoAtirar.SetActive(false);
 
         controleJogador = jogador.GetComponent<PlayerController2D>();
         controleBarco = barco.GetComponent<BarcoController>();
@@ -49,6 +51,7 @@ public class DetectaColisao : MonoBehaviour
         jogador.SetActive(false);
 
         botaoEntrar.SetActive(false);
+        botaoAtirar.SetActive(true);
         Debug.Log("Entrou no barco!");
     }
 
@@ -67,6 +70,7 @@ public class DetectaColisao : MonoBehaviour
         jogador.SetActive(true);
 
         botaoSair.SetActive(false);
+        botaoAtirar.SetActive(false);
         Debug.Log("Saiu do barco!");
     }
 
