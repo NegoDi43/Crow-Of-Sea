@@ -10,8 +10,13 @@ public class EnemyAI : MonoBehaviour
     [Header("Ataque")]
     [SerializeField] private GameObject attackPrefab;
     [SerializeField] private Transform attackPoint;
-    [SerializeField] private float attackRange = 2f;
+    [SerializeField] private float attackRange = 1f;
+    [SerializeField] private float yerDetectionRange = 10f;
     [SerializeField] private float attackCooldown = 1.5f;
+    
+    [Header("Audio")]
+    [SerializeField] private Audio audioPlayer;
+    [SerializeField] private AudioClip attackSound;
 
     private float lastAttackTime;
 
@@ -20,6 +25,7 @@ public class EnemyAI : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         statusEnemy = GetComponent<EnemyStatus>();
         player = GameObject.FindGameObjectWithTag("Player").transform;
+        audioPlayer = GameObject.FindGameObjectWithTag("Audio").GetComponent<Audio>();
     }
 
     void Update()
@@ -42,6 +48,13 @@ public class EnemyAI : MonoBehaviour
 
     void MoverAtePlayer()
     {
+        if (player == null) return;
+
+        if (Vector2.Distance(transform.position, player.position) > yerDetectionRange)
+        {
+            PararMovimento();
+            return;
+        }
         Vector2 direction = (player.position - transform.position).normalized;
         rb.linearVelocity = direction * statusEnemy.GetVelocidade();
     }
@@ -64,6 +77,9 @@ public class EnemyAI : MonoBehaviour
 
             // Instancia o corte e rotaciona
             GameObject attackObj = Instantiate(attackPrefab, attackPoint.position, Quaternion.Euler(0, 0, angle));
+
+            // Toca o som de ataque
+            audioPlayer.TocarSom(attackSound);
 
             // Define a direção do ataque (para o script do corte)
             EnemyAttack attack = attackObj.GetComponent<EnemyAttack>();

@@ -12,6 +12,9 @@ TagManager:
   - Corte
   - Tiro
   - InimigoTerrestre
+  - PontoDeSaida
+  - Barco
+  - TrocaFase
   layers:
   - Default
   - TransparentFX

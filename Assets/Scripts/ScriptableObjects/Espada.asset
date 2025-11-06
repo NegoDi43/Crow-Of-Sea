@@ -9,15 +9,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2f266106496b34445ba45bc4c2935f87, type: 3}
+  m_Script: {fileID: 11500000, guid: cdb38fe745b049b4b9430a115127e414, type: 3}
   m_Name: Espada
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: Assembly-CSharp::ArmaduraSO
   nomeItem: Espada
   alcance: 0
   tipo: 0
-  icone: {fileID: 5268610580173528197, guid: 00745405a7dbf044491bce9b1dda229d, type: 3}
+  icone: {fileID: 3577950915121939803, guid: 0b3120da5a9a0454bb52080de6b50eeb, type: 3}
   moedas: 5
-  comprado: 0
-  descricao: Uma espada
-  dano: 0
-  velocidadeAtaque: 0
+  comprado: 1
+  descricao: 'Uma espada simples
+
+'
+  defesa: 0

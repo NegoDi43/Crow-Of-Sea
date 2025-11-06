@@ -1,0 +1,1049 @@
+fileFormatVersion: 2
+guid: d3dbbd1a553aa874689a4ba18462e1a5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1035720518873536298
+    second: Medica_0
+  - first:
+      213: -7384843982114346
+    second: Medica_1
+  - first:
+      213: 1987387179802253607
+    second: Medica_2
+  - first:
+      213: -1110532970538861390
+    second: Medica_3
+  - first:
+      213: -9061659819014899942
+    second: Medica_4
+  - first:
+      213: 4698417048137340540
+    second: Medica_5
+  - first:
+      213: -8969658469989259924
+    second: Medica_6
+  - first:
+      213: -1703047526436349109
+    second: Medica_7
+  - first:
+      213: 7163954449008470316
+    second: Medica_8
+  - first:
+      213: -8909947505589786721
+    second: Medica_9
+  - first:
+      213: -1441320439155666587
+    second: Medica_10
+  - first:
+      213: 6214704641116853864
+    second: Medica_11
+  - first:
+      213: 7252978699535042714
+    second: Medica_12
+  - first:
+      213: 4986496140419126056
+    second: Medica_13
+  - first:
+      213: 5433667898838154398
+    second: Medica_14
+  - first:
+      213: -641901993781330900
+    second: Medica_15
+  - first:
+      213: 8714603202932449076
+    second: Medica_16
+  - first:
+      213: -5707535074102088422
+    second: Medica_17
+  - first:
+      213: -3400386089053637683
+    second: Medica_18
+  - first:
+      213: -7325418972899352053
+    second: Medica_19
+  - first:
+      213: -5653376170391120740
+    second: Medica_20
+  - first:
+      213: 4558420115916749507
+    second: Medica_21
+  - first:
+      213: 87542441697391088
+    second: Medica_22
+  - first:
+      213: 8564511783618992819
+    second: Medica_23
+  - first:
+      213: -721320273409090343
+    second: Medica_24
+  - first:
+      213: -3502210624933020220
+    second: Medica_25
+  - first:
+      213: -2062671271108207969
+    second: Medica_26
+  - first:
+      213: 478640096911431374
+    second: Medica_27
+  - first:
+      213: 4712881203948920281
+    second: Medica_28
+  - first:
+      213: -1354870183264164542
+    second: Medica_29
+  - first:
+      213: 3061958893906287013
+    second: Medica_30
+  - first:
+      213: -604004734243917593
+    second: Medica_31
+  - first:
+      213: 6533641891107979608
+    second: Medica_32
+  - first:
+      213: 3941733833379990940
+    second: Medica_33
+  - first:
+      213: -105389549173982862
+    second: Medica_34
+  - first:
+      213: 6913703783946993492
+    second: Medica_35
+  - first:
+      213: -933405864181897188
+    second: Medica_36
+  - first:
+      213: 195785757674924635
+    second: Medica_37
+  - first:
+      213: -420931130503300487
+    second: Medica_38
+  - first:
+      213: -491406635952942467
+    second: Medica_39
+  - first:
+      213: 8086114070630282113
+    second: Medica_40
+  - first:
+      213: -3175325624032929461
+    second: Medica_41
+  - first:
+      213: -502925926112080268
+    second: Medica_42
+  - first:
+      213: 7194766136756058277
+    second: Medica_43
+  - first:
+      213: -7027663955770971621
+    second: Medica_44
+  - first:
+      213: 8572640230954753792
+    second: Medica_45
+  - first:
+      213: -7974222137632120114
+    second: Medica_46
+  - first:
+      213: 8889044341234136817
+    second: Medica_47
+  - first:
+      213: 400910531660421742
+    second: Medica_48
+  - first:
+      213: 3340778899980712835
+    second: Medica_49
+  - first:
+      213: 1305471124312231307
+    second: Medica_50
+  - first:
+      213: -6438404725844319368
+    second: Medica_51
+  - first:
+      213: -1096502019236838166
+    second: Medica_52
+  - first:
+      213: -1357741518818462074
+    second: Medica_53
+  - first:
+      213: 5738740326250825378
+    second: Medica_54
+  - first:
+      213: -4728103013672718009
+    second: Medica_55
+  - first:
+      213: -3846685423981510349
+    second: Medica_56
+  - first:
+      213: -2143196864464149685
+    second: Medica_57
+  - first:
+      213: 2824644236611544302
+    second: Medica_58
+  - first:
+      213: -1132195146485316954
+    second: Medica_59
+  - first:
+      213: -91157246428388661
+    second: Medica_60
+  - first:
+      213: 3428690881170214546
+    second: Medica_61
+  - first:
+      213: -8969633330841889260
+    second: Medica_62
+  - first:
+      213: 7483454283405617148
+    second: Medica_63
+  - first:
+      213: 6895661110998973218
+    second: Medica_64
+  - first:
+      213: 6616714091758799167
+    second: Medica_65
+  - first:
+      213: -1407738227125702567
+    second: Medica_66
+  - first:
+      213: 3977768666916582817
+    second: Medica_67
+  - first:
+      213: -4816206216784886945
+    second: Medica_68
+  - first:
+      213: -6647503895728854939
+    second: Medica_69
+  - first:
+      213: -7307789356970481456
+    second: Medica_70
+  - first:
+      213: 4429728119180888164
+    second: Medica_71
+  - first:
+      213: -3822488442267121175
+    second: Medica_72
+  - first:
+      213: -1649612718523437240
+    second: Medica_73
+  - first:
+      213: 3777673906792319965
+    second: Medica_74
+  - first:
+      213: -7999944081231292327
+    second: Medica_75
+  - first:
+      213: 1459748794430171973
+    second: Medica_76
+  - first:
+      213: 8205770249016045520
+    second: Medica_77
+  - first:
+      213: -5308284547738626303
+    second: Medica_78
+  - first:
+      213: -4025896444663833558
+    second: Medica_79
+  - first:
+      213: -5172158823942486670
+    second: Medica_80
+  - first:
+      213: 1763855800344742461
+    second: Medica_81
+  - first:
+      213: 4548025541111343538
+    second: Medica_82
+  - first:
+      213: -812953721822545483
+    second: Medica_83
+  - first:
+      213: 3469024652552878294
+    second: Medica_84
+  - first:
+      213: 6689775797428482760
+    second: Medica_85
+  - first:
+      213: -7416275076609342503
+    second: Medica_86
+  - first:
+      213: 4320444519706655440
+    second: Medica_87
+  - first:
+      213: -455059858381725577
+    second: Medica_88
+  - first:
+      213: 1273998208026347630
+    second: Medica_89
+  - first:
+      213: 948396623753955146
+    second: Medica_90
+  - first:
+      213: 1104173235825946545
+    second: Medica_91
+  - first:
+      213: -5606391440237544781
+    second: Medica_92
+  - first:
+      213: 1600590742831554877
+    second: Medica_93
+  - first:
+      213: -4128835122035468111
+    second: Medica_94
+  - first:
+      213: 7202564614030432456
+    second: Medica_95
+  - first:
+      213: -3432809879210492766
+    second: Medica_96
+  - first:
+      213: -7840644898593002460
+    second: Medica_97
+  - first:
+      213: 3713907827086262453
+    second: Medica_98
+  - first:
+      213: 5849453755021914618
+    second: Medica_99
+  - first:
+      213: -1802429668447417195
+    second: Medica_100
+  - first:
+      213: 4804611517874928515
+    second: Medica_101
+  - first:
+      213: 4037953016173313071
+    second: Medica_102
+  - first:
+      213: -5977459858247420480
+    second: Medica_103
+  - first:
+      213: -8615914799919345276
+    second: Medica_104
+  - first:
+      213: -9103396863128700569
+    second: Medica_105
+  - first:
+      213: -1219517135917062186
+    second: Medica_106
+  - first:
+      213: 2431354451951437111
+    second: Medica_107
+  - first:
+      213: 8770255390175484039
+    second: Medica_108
+  - first:
+      213: 6574563404840714561
+    second: Medica_109
+  - first:
+      213: -8549519962829155204
+    second: Medica_110
+  - first:
+      213: -7372303612812558398
+    second: Medica_111
+  - first:
+      213: 8697218016387684735
+    second: Medica_112
+  - first:
+      213: 2018675071915772556
+    second: Medica_113
+  - first:
+      213: -4763175174381893290
+    second: Medica_114
+  - first:
+      213: 4691114845651556353
+    second: Medica_115
+  - first:
+      213: 5834299700405333183
+    second: Medica_116
+  - first:
+      213: -3653007247201837608
+    second: Medica_117
+  - first:
+      213: 356249908723696375
+    second: Medica_118
+  - first:
+      213: 3659251392276460292
+    second: Medica_119
+  - first:
+      213: 4010128067169566233
+    second: Medica_120
+  - first:
+      213: 1204855537529382386
+    second: Medica_121
+  - first:
+      213: 742533424543510803
+    second: Medica_122
+  - first:
+      213: -9005869329814411029
+    second: Medica_123
+  - first:
+      213: 4709256778305457440
+    second: Medica_124
+  - first:
+      213: 2738882832296699088
+    second: Medica_125
+  - first:
+      213: 774295884455113207
+    second: Medica_126
+  - first:
+      213: -4068040310529056933
+    second: Medica_127
+  - first:
+      213: 1303726447827949182
+    second: Medica_128
+  - first:
+      213: 2939516673367671145
+    second: Medica_129
+  - first:
+      213: 7345575573090316680
+    second: Medica_130
+  - first:
+      213: 1756284247629595594
+    second: Medica_131
+  - first:
+      213: -9085264849636497653
+    second: Medica_132
+  - first:
+      213: -5295580841497570203
+    second: Medica_133
+  - first:
+      213: -2133118846656047229
+    second: Medica_134
+  - first:
+      213: -841156980718472920
+    second: Medica_135
+  - first:
+      213: -5359907189428651566
+    second: Medica_136
+  - first:
+      213: -4096553623762305677
+    second: Medica_137
+  - first:
+      213: 6218537800356960596
+    second: Medica_138
+  - first:
+      213: -7816479550242271091
+    second: Medica_139
+  - first:
+      213: -4377831678170717972
+    second: Medica_140
+  - first:
+      213: 7823271094256051934
+    second: Medica_141
+  - first:
+      213: -7803350980143495530
+    second: Medica_142
+  - first:
+      213: 2441394954437309081
+    second: Medica_143
+  - first:
+      213: -1420384290600109105
+    second: Medica_144
+  - first:
+      213: 8904762787616966056
+    second: Medica_145
+  - first:
+      213: 8401332614869910543
+    second: Medica_146
+  - first:
+      213: 3617711190239414230
+    second: Medica_147
+  - first:
+      213: 7817015090833217408
+    second: Medica_148
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Medica_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2240
+        width: 767
+        height: 448
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d8a5f1fca160a1f0800000000000000
+      internalID: -1035720518873536298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medica_1
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 2240
+        width: 767
+        height: 448
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d179b50683c5eff0800000000000000
+      internalID: -7384843982114346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medica_2
+      rect:
+        serializedVersion: 2
+        x: 1534
+        y: 2240
+        width: 767
+        height: 448
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72957434c1e949b10800000000000000
+      internalID: 1987387179802253607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medica_3
+      rect:
+        serializedVersion: 2
+        x: 2301
+        y: 2240
+        width: 767
+        height: 448
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bcfbaba5289690f0800000000000000
+      internalID: -1110532970538861390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medica_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1792
+        width: 767
+        height: 448
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a17bf24c7648e3280800000000000000
+      internalID: -9061659819014899942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medica_5
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 1792
+        width: 767
+        height: 448
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c769dd87961243140800000000000000
+      internalID: 4698417048137340540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medica_6
+      rect:
+        serializedVersion: 2
+        x: 1534
+        y: 1792
+        width: 767
+        height: 448
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6567b3152f558380800000000000000
+      internalID: -8969658469989259924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medica_7
+      rect:
+        serializedVersion: 2
+        x: 2301
+        y: 1792
+        width: 767
+        height: 448
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4b572f3c4f8d58e0800000000000000
+      internalID: -1703047526436349109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medica_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1344
+        width: 767
+        height: 448
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c29aa387d9a7b6360800000000000000
+      internalID: 7163954449008470316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medica_9
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 1344
+        width: 767
+        height: 448
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9761f953f1895480800000000000000
+      internalID: -8909947505589786721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medica_10
+      rect:
+        serializedVersion: 2
+        x: 1534
+        y: 1344
+        width: 767
+        height: 448
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 561dd9072b66ffbe0800000000000000
+      internalID: -1441320439155666587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medica_11
+      rect:
+        serializedVersion: 2
+        x: 2301
+        y: 1344
+        width: 767
+        height: 448
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 866ddb5b1f01f3650800000000000000
+      internalID: 6214704641116853864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medica_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 896
+        width: 767
+        height: 448
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a98c24503b1c7a460800000000000000
+      internalID: 7252978699535042714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medica_13
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 896
+        width: 767
+        height: 448
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 823d983f1d7933540800000000000000
+      internalID: 4986496140419126056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medica_14
+      rect:
+        serializedVersion: 2
+        x: 1534
+        y: 896
+        width: 767
+        height: 448
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9cf0b94a24486b40800000000000000
+      internalID: 5433667898838154398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medica_15
+      rect:
+        serializedVersion: 2
+        x: 2301
+        y: 896
+        width: 767
+        height: 448
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2c7c00a9818717f0800000000000000
+      internalID: -641901993781330900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medica_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 448
+        width: 767
+        height: 448
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43f154de07d70f870800000000000000
+      internalID: 8714603202932449076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medica_17
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 448
+        width: 767
+        height: 448
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1def050713cac0b0800000000000000
+      internalID: -5707535074102088422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medica_18
+      rect:
+        serializedVersion: 2
+        x: 1534
+        y: 448
+        width: 767
+        height: 448
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc337c63ed66fc0d0800000000000000
+      internalID: -3400386089053637683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medica_19
+      rect:
+        serializedVersion: 2
+        x: 2301
+        y: 448
+        width: 767
+        height: 448
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b026d618142e65a90800000000000000
+      internalID: -7325418972899352053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medica_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 767
+        height: 448
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c94dd2e635c2b81b0800000000000000
+      internalID: -5653376170391120740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 05438c31c47c85045bcf0e1a56bf4b3c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":767.0,"y":448.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Medica_0: -1035720518873536298
+      Medica_1: -7384843982114346
+      Medica_10: -1441320439155666587
+      Medica_11: 6214704641116853864
+      Medica_12: 7252978699535042714
+      Medica_13: 4986496140419126056
+      Medica_14: 5433667898838154398
+      Medica_15: -641901993781330900
+      Medica_16: 8714603202932449076
+      Medica_17: -5707535074102088422
+      Medica_18: -3400386089053637683
+      Medica_19: -7325418972899352053
+      Medica_2: 1987387179802253607
+      Medica_20: -5653376170391120740
+      Medica_3: -1110532970538861390
+      Medica_4: -9061659819014899942
+      Medica_5: 4698417048137340540
+      Medica_6: -8969658469989259924
+      Medica_7: -1703047526436349109
+      Medica_8: 7163954449008470316
+      Medica_9: -8909947505589786721
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
