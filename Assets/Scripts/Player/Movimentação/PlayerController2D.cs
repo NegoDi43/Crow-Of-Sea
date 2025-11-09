@@ -26,14 +26,14 @@ public class PlayerController2D : MonoBehaviour
         
     }
 
-    //public void AnimaAndar()
-    //{
-    //    animator.SetTrigger("Andar");
-    //    animator.SetBool("Andando", false);
-    //}
-    //public void AnimaParar()
-    //{
-    //    animator.SetTrigger("Parar");
-    //    animator.SetBool("Andando", true);
-    //}
+    public void AnimaAndar()
+    {
+        animator.SetTrigger("Andar");
+        animator.SetBool("Andando", false);
+    }
+    public void AnimaParar()
+    {
+        animator.SetTrigger("Parar");
+        animator.SetBool("Andando", true);
+    }
 }
