@@ -1,58 +1,35 @@
-using System;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-[Serializable]
-public class PlayerSaveData
+[System.Serializable]
+public class PlayerData
 {
-    // Posição
-    public float posX, posY, posZ;
-
-    // Nome da cena (fase atual)
     public string sceneName;
+    public Vector3 position;
+    public float health;
+    public int xp;
+}
 
-    // Status
-    public float vidaMaxima;
-    public float vidaAtual;
-    public float danoMaximo;
-    public float velocidade;
-    public float staminaMax;
-    public float staminaAtual;
-    public float pontos;
-    public float pontosVida;
-    public float pontosDano;
-    public float pontosVelocidade;
-    public float pontosStamina;
+public class PlayerStatus : MonoBehaviour
+{
+    public float health = 100;
+    public int xp = 0;
 
-    // XP
-    public int xpAtual;
-    public int xpNecessario;
-    public int levelAtual;
-
-    public PlayerSaveData(Vector3 pos, string currentScene, Status status, GanhodeXp xp)
+    public PlayerData GetSaveData()
     {
-        posX = pos.x;
-        posY = pos.y;
-        posZ = pos.z;
-        sceneName = currentScene;
-
-        vidaMaxima = status.GetVidaMaxima();
-        vidaAtual = status.GetVidaAtual();
-        danoMaximo = status.GetDanoMaximo();
-        velocidade = status.GetVelocidade();
-        staminaMax = status.GetStaminaMax();
-        staminaAtual = status.GetStaminaAtual();
-        pontos = status.GetPontos();
-        pontosVida = status.GetPontosVida();
-        pontosDano = status.GetPontosDano();
-        pontosVelocidade = status.GetPontosVelocidade();
-        pontosStamina = status.GetPontosStamina();
-
-        xpAtual = xp.GetXpAtual();
-        xpNecessario = xp.GetXpNecessarioParaNivelUp();
-
-        var levelField = typeof(GanhodeXp).GetField("levelAtual", System.Reflection.BindingFlags.NonPublic | System.Reflection.BindingFlags.Instance);
-        levelAtual = (int)levelField.GetValue(xp);
+        return new PlayerData
+        {
+            sceneName = SceneManager.GetActiveScene().name,
+            position = transform.position,
+            health = health,
+            xp = xp
+        };
     }
 
-    public Vector3 GetPosition() => new Vector3(posX, posY, posZ);
+    public void LoadFromData(PlayerData data)
+    {
+        transform.position = data.position;
+        health = data.health;
+        xp = data.xp;
+    }
 }

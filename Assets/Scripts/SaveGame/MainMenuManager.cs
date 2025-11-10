@@ -6,8 +6,6 @@ using System.Collections;
 public class MainMenuManager : MonoBehaviour
 {
     public string firstSceneName = "Fase1"; // nome da cena inicial do jogo
-    [SerializeField]private AnimaçãoButton animaçãoButtonNewGame;
-    [SerializeField]private AnimaçãoButton animaçãoButtonLoadGame;
     [SerializeField] private AnimaçãoButton animaçãoButtonLeaderBoard;
     [SerializeField]private AnimaçãoButton animaçãoButtonQuitGame;
     [SerializeField]private AnimaçãoButton animaçãoButtonCredits;
@@ -21,60 +19,12 @@ public class MainMenuManager : MonoBehaviour
     {
         if (counter >= 1)
         {
-            animaçãoButtonNewGame.Fechar();
-            animaçãoButtonLoadGame.Fechar();
             animaçãoButtonQuitGame.Fechar();
             animaçãoButtonCredits.Fechar();
             animaçãoButtonLeaderBoard.Fechar();
-            counter = 0;
         }
     }
 
-    public void NewGameButton()
-    {
-        StartCoroutine(TempoNewGame());
-    }
-
-    IEnumerator TempoNewGame()
-    {
-        counter++;
-        yield return new WaitForSeconds(0.5f);
-        NewGame();
-    }
-
-    private async void NewGame()
-    {
-        await CloudSaveManager.Instance.DeleteAsync(); // limpa save antigo
-        SceneManager.LoadScene(firstSceneName);
-    }
-
-
-    public void LoadGameButton()
-    {
-        StartCoroutine(TempoLoadGame());
-    }
-    IEnumerator TempoLoadGame()
-    {
-        counter++;
-        yield return new WaitForSeconds(0.5f);
-        LoadGame();
-    }
-
-
-
-    private async void LoadGame()
-    {
-        var data = await CloudSaveManager.Instance.LoadAsync();
-
-        if (data == null)
-        {
-            Debug.Log("⚠️ Nenhum save encontrado no Cloud!");
-            return;
-        }
-
-        // Carrega a cena salva
-        SceneManager.LoadScene(data.sceneName);
-    }
 
     public void QuitGameButton()
     {
