@@ -36,4 +36,19 @@ public class PlayerController2D : MonoBehaviour
         animator.SetTrigger("Parar");
         animator.SetBool("Andando", true);
     }
+
+    public void AnimaAtacarCorte()
+    {
+        animator.SetTrigger("Atacar");
+    }
+
+    public void AnimaMorrer()
+    {
+        animator.SetTrigger("Morrer");
+    }
+
+    public void AnimaDano()
+    {
+        animator.SetTrigger("Dano");
+    }
 }

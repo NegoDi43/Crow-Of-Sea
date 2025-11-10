@@ -13708,6 +13708,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 303826661}
   m_CullTransparentMesh: 1
+--- !u!1 &320536475
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 320536476}
+  m_Layer: 0
+  m_Name: SpawnInimigo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &320536476
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 320536475}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 36.42121, y: 10.03166, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &349194572
 GameObject:
   m_ObjectHideFlags: 0
@@ -14038,7 +14069,7 @@ Transform:
   m_GameObject: {fileID: 385743691}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 26.054405, y: 2.8696966, z: -41.557693}
+  m_LocalPosition: {x: 32.062866, y: 2.5671022, z: -14.782071}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -22951,6 +22982,7 @@ MonoBehaviour:
   cooldown: 0.5
   attackSound: {fileID: 8300000, guid: 04418656b05003b43b3e9ac6b1f13f20, type: 3}
   audioPlayer: {fileID: 0}
+  player: {fileID: 0}
 --- !u!4 &1562393231
 Transform:
   m_ObjectHideFlags: 0
@@ -22960,8 +22992,8 @@ Transform:
   m_GameObject: {fileID: 1562393227}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 36.19, y: 3.57, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 35.6681, y: 2.8162, z: 0}
+  m_LocalScale: {x: 0.3557, y: 0.3557, z: 0.3557}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1507083382}
@@ -23144,7 +23176,7 @@ SpriteRenderer:
   m_Size: {x: 1.6199999, y: 2.34}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!95 &1562393238
@@ -85845,3 +85877,4 @@ SceneRoots:
   - {fileID: 1252606444}
   - {fileID: 276975572}
   - {fileID: 156403651}
+  - {fileID: 320536476}
