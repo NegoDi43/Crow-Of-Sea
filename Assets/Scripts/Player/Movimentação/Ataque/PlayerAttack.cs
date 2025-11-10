@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class PlayerAttack : MonoBehaviour
@@ -7,7 +8,7 @@ public class PlayerAttack : MonoBehaviour
     [SerializeField] private GameObject slashPrefab;
     [SerializeField] private Transform attackPoint;           // ponto de spawn do corte na mão
     [SerializeField] private float slashDistance = 1f;
-    [SerializeField] private float cooldown = 0.5f;
+    [SerializeField] private float cooldown = 1f;
 
     private float lastAttackTime;
     private Vector2 aimDirection = Vector2.right;
@@ -16,9 +17,13 @@ public class PlayerAttack : MonoBehaviour
     [SerializeField] private AudioClip attackSound;
     [SerializeField] private Audio audioPlayer;
 
+    [Header("Animação")]
+    [SerializeField] private PlayerController2D player;
+
     void Start()
     {
         audioPlayer = GameObject.FindGameObjectWithTag("Audio").GetComponent<Audio>();
+        player = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController2D>();
     }
     void Update()
     {
@@ -34,6 +39,15 @@ public class PlayerAttack : MonoBehaviour
     {
         if (Time.time < lastAttackTime + cooldown)
             return;
+
+        StartCoroutine(AtacarTempo());
+        
+    }
+
+    IEnumerator AtacarTempo()
+    {
+        player.AnimaAtacarCorte();
+        yield return new WaitForSeconds(0.7f);
 
         lastAttackTime = Time.time;
 

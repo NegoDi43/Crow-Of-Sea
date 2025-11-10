@@ -3818,12 +3818,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 698518712}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1117.0038, y: 499.23566, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1113.7338, y: 501.80566, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1016575131}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &705955232
 GameObject:
@@ -5095,6 +5095,7 @@ GameObject:
   - component: {fileID: 1016575135}
   - component: {fileID: 1016575134}
   - component: {fileID: 1016575133}
+  - component: {fileID: 1016575138}
   m_Layer: 0
   m_Name: EliasSlaIdeal2_0
   m_TagString: Player
@@ -5161,6 +5162,7 @@ MonoBehaviour:
   cooldown: 0.5
   attackSound: {fileID: 8300000, guid: 04418656b05003b43b3e9ac6b1f13f20, type: 3}
   audioPlayer: {fileID: 0}
+  player: {fileID: 0}
 --- !u!4 &1016575131
 Transform:
   m_ObjectHideFlags: 0
@@ -5170,12 +5172,13 @@ Transform:
   m_GameObject: {fileID: 1016575127}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.27, y: -2.57, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 2.9361, y: -3.0523, z: 0}
+  m_LocalScale: {x: 0.5878, y: 0.5878, z: 0.5878}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 95378197}
   - {fileID: 274890926}
+  - {fileID: 698518715}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1016575132
@@ -5356,6 +5359,28 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &1016575138
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1016575127}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: e1bb233752e1d934b9aea9dde83318ea, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1021257616
 GameObject:
   m_ObjectHideFlags: 0
@@ -17343,7 +17368,6 @@ SceneRoots:
   - {fileID: 1926866951}
   - {fileID: 2085050910}
   - {fileID: 1016575131}
-  - {fileID: 698518715}
   - {fileID: 273276899}
   - {fileID: 1951153561}
   - {fileID: 1915653057}
