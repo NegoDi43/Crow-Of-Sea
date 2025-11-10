@@ -879,7 +879,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eebce9250ed46b74a8796bb0e81ca116, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Painel: {fileID: 789561895}
+  Painel: {fileID: 883420635}
   textVida: {fileID: 264499710}
   textDano: {fileID: 693151423}
   textVelocidade: {fileID: 398999703}
@@ -1814,8 +1814,8 @@ RectTransform:
   - {fileID: 571752143}
   - {fileID: 795120339}
   - {fileID: 1240929377}
-  - {fileID: 1838968932}
   - {fileID: 484812866}
+  - {fileID: 1838968932}
   m_Father: {fileID: 615776404}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
@@ -6282,7 +6282,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 91.00001, y: -82.38319}
+  m_AnchoredPosition: {x: 90.999954, y: -82.38327}
   m_SizeDelta: {x: 118.9732, y: 110.6395}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1838968933
