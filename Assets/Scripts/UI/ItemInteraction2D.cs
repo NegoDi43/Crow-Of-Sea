@@ -7,10 +7,15 @@ public class ItemInteraction2D : MonoBehaviour
     private bool jogadorPerto = false;
     public static ItemInteraction2D instancia;
     public Inventario inventario;
+    private SpriteRenderer sprite;
 
     void Awake()
     {
         inventario = FindObjectOfType<Inventario>();    
+        sprite = GetComponent<SpriteRenderer>();
+        sprite.sprite = item.icone;
+        sprite.drawMode = SpriteDrawMode.Sliced;
+        sprite.size = new Vector2(1.5f, 2f);
     }
 
     void OnTriggerEnter2D(Collider2D outro)
