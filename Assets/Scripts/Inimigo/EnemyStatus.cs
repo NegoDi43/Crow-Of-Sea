@@ -1,5 +1,6 @@
-using UnityEngine;
+using System;
 using System.Collections;
+using UnityEngine;
 
 public class EnemyStatus : MonoBehaviour
 {
@@ -14,6 +15,7 @@ public class EnemyStatus : MonoBehaviour
     [Header("Xp")]
     [SerializeField] private GanhodeXp ganhodeXp;
 
+    public event Action<EnemyStatus> OnEnemyDeath;
     void Start()
     {
         vidaAtual = vidaMaxima;
@@ -34,8 +36,14 @@ public class EnemyStatus : MonoBehaviour
 
     private void Morrer()
     {
-        Debug.Log($"{gameObject.name} morreu!");
-        Destroy(gameObject);
+        OnEnemyDeath?.Invoke(this);
+        gameObject.SetActive(false);
+    }
+
+    public void Reviver()
+    {
+        vidaAtual = vidaMaxima;
+        gameObject.SetActive(true);
     }
 
     // Getters
