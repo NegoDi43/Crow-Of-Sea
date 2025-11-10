@@ -1,13 +1,13 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 using UnityEngine;
+using Unity.Services.CloudSave;
 using Unity.Services.Core;
 using Unity.Services.Authentication;
-using Unity.Services.CloudSave;
 
 public class CloudSaveManager : MonoBehaviour
 {
-    public static CloudSaveManager Instance { get; private set; }
+    public static CloudSaveManager Instance;
 
     private async void Awake()
     {
@@ -15,7 +15,7 @@ public class CloudSaveManager : MonoBehaviour
         {
             Instance = this;
             DontDestroyOnLoad(gameObject);
-            await InitializeServices();
+            await InitializeUnityServices();
         }
         else
         {
@@ -23,46 +23,58 @@ public class CloudSaveManager : MonoBehaviour
         }
     }
 
-    private async Task InitializeServices()
+    private async Task InitializeUnityServices()
     {
         await UnityServices.InitializeAsync();
 
         if (!AuthenticationService.Instance.IsSignedIn)
+        {
             await AuthenticationService.Instance.SignInAnonymouslyAsync();
-
-        Debug.Log("☁️ Unity Cloud Save inicializado com sucesso!");
+            Debug.Log($"[CloudSaveManager] Logado anonimamente: {AuthenticationService.Instance.PlayerId}");
+        }
     }
 
-    public async Task SaveAsync(PlayerSaveData data)
-    {
-        var dict = new Dictionary<string, object> { { "PlayerSave", data } };
-        await CloudSaveService.Instance.Data.ForceSaveAsync(dict);
-        Debug.Log("💾 Progresso salvo no Cloud!");
-    }
-
-    public async Task<PlayerSaveData> LoadAsync()
+    public async Task SaveAsync(string slot, string json)
     {
         try
         {
-            var result = await CloudSaveService.Instance.Data.LoadAsync(new HashSet<string> { "PlayerSave" });
-            if (result.TryGetValue("PlayerSave", out var json))
-            {
-                PlayerSaveData data = JsonUtility.FromJson<PlayerSaveData>(json.ToString());
-                Debug.Log("☁️ Save carregado do Cloud!");
-                return data;
-            }
+            var data = new Dictionary<string, object> { { slot, json } };
+            await CloudSaveService.Instance.Data.ForceSaveAsync(data);
+            Debug.Log("[CloudSaveManager] Dados salvos com sucesso!");
         }
-        catch
+        catch (CloudSaveException e)
         {
-            Debug.Log("⚠️ Nenhum save encontrado.");
+            Debug.LogError($"[CloudSaveManager] Erro ao salvar: {e.Message}");
         }
-
-        return null;
     }
 
-    public async Task DeleteAsync()
+    public async Task<string> LoadAsync(string slot)
     {
-        await CloudSaveService.Instance.Data.ForceDeleteAsync("PlayerSave");
-        Debug.Log("🗑️ Save deletado do Cloud.");
+        try
+        {
+            var result = await CloudSaveService.Instance.Data.LoadAsync(new HashSet<string> { slot });
+            if (result.TryGetValue(slot, out string json))
+                return json;
+            else
+                return null;
+        }
+        catch (CloudSaveException e)
+        {
+            Debug.LogWarning($"[CloudSaveManager] Nenhum save encontrado: {e.Message}");
+            return null;
+        }
+    }
+
+    public async Task DeleteAsync(string slot)
+    {
+        try
+        {
+            await CloudSaveService.Instance.Data.DeleteAsync(slot);
+            Debug.Log("[CloudSaveManager] Save deletado com sucesso!");
+        }
+        catch (CloudSaveException e)
+        {
+            Debug.LogError($"[CloudSaveManager] Erro ao deletar: {e.Message}");
+        }
     }
 }
