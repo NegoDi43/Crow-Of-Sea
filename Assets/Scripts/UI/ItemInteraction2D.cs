@@ -15,7 +15,7 @@ public class ItemInteraction2D : MonoBehaviour
         sprite = GetComponent<SpriteRenderer>();
         sprite.sprite = item.icone;
         sprite.drawMode = SpriteDrawMode.Sliced;
-        sprite.size = new Vector2(1.5f, 2f);
+        sprite.size = new Vector2(0.5f, 0.6f);
     }
 
     void OnTriggerEnter2D(Collider2D outro)
