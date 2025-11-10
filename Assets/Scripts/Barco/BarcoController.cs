@@ -1,11 +1,10 @@
 using UnityEngine;
 
-[RequireComponent(typeof(Rigidbody2D))]
 public class BarcoController : MonoBehaviour
 {
     [Header("Configurações do Barco")]
     public float velocidade = 5f;           // velocidade de movimento
-    //public float rotacaoVelocidade = 100f;  // velocidade da rotação (timão)
+    public float rotacaoVelocidade = 100f;  // velocidade da rotação (timão)
 
     [Header("Referências")]
     public VirtualJoystick2D joystick;        // o mesmo joystick do jogador
@@ -16,13 +15,16 @@ public class BarcoController : MonoBehaviour
         float vertical = joystick.Vertical;
         float horizontal = joystick.Horizontal;
 
-        //// Rotação (vira o leme)
-        //rb.MoveRotation(rb.rotation  * horizontal * rotacaoVelocidade * Time.fixedDeltaTime);
+        Vector2 direcao = joystick.InputDirection.normalized;
 
-        //// Movimento para frente (na direção que o barco está apontando)
-        //Vector2 direcao = transform.up * vertical * velocidade * Time.fixedDeltaTime;
-        //rb.MovePosition(rb.position + direcao);
+        if (direcao.magnitude > 0.75f)
+        {
+            float angulo = Mathf.Atan2(direcao.y, direcao.x) * Mathf.Rad2Deg - 90f;
+            Quaternion rotacaoDesejada = Quaternion.Euler(0, 0, angulo);
 
-        transform.Translate(new Vector2(horizontal, vertical) * velocidade);
+            transform.rotation = Quaternion.Lerp(transform.rotation, rotacaoDesejada, rotacaoVelocidade * Time.fixedDeltaTime);
+        }
+        // Movimento do barco
+        transform.Translate(Vector3.up * velocidade * Time.deltaTime);
     }
 }

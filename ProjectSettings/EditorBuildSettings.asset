@@ -5,9 +5,27 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 0
+    path: Assets/Scenes/CenasDoJogo/TelaInicial.unity
+    guid: 3e007cacc4371c14888a944dc255d2f7
+  - enabled: 0
+    path: Assets/Scenes/CenasDoJogo/Creditos.unity
+    guid: 1b677f6b8fc300d43bd1acae4fb9014c
+  - enabled: 0
+    path: Assets/Scenes/CenasDoJogo/leaderboard.unity
+    guid: 13c9d193f2b295f44a330c5c16156c2f
+  - enabled: 0
+    path: Assets/Scenes/Testes/TesteLuis2.unity
+    guid: 48b1e379362cab249ac453ebae1e0b17
+  - enabled: 0
+    path: Assets/Scenes/Testes/TestesLuis.unity
+    guid: 19d75147c27261c43bd39e3d8ead9a90
+  - enabled: 1
+    path: Assets/Scenes/Testes/TesteDavyh/TestesDavyh.unity
+    guid: 6e0259b1211461c4ca80b5c426599206
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

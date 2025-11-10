@@ -1,0 +1,242 @@
+fileFormatVersion: 2
+guid: 8f4711e2c80f9754197575527aa70156
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2334420144108576885
+    second: Ghost Harbor Studios_0
+  - first:
+      213: -6646730941455072065
+    second: Ghost Harbor Studios_1
+  - first:
+      213: 627460876217166693
+    second: Ghost Harbor Studios_2
+  - first:
+      213: -7721003752051921182
+    second: Ghost Harbor Studios_3
+  - first:
+      213: -3613656456836392454
+    second: Ghost Harbor Studios_4
+  - first:
+      213: -9090892866636627699
+    second: Ghost Harbor Studios_5
+  - first:
+      213: -4817326600578104565
+    second: Ghost Harbor Studios_6
+  - first:
+      213: -475291764703670710
+    second: Ghost Harbor Studios_7
+  - first:
+      213: -5758474099573394477
+    second: Ghost Harbor Studios_8
+  - first:
+      213: 4889729869403393611
+    second: Ghost Harbor Studios_9
+  - first:
+      213: 4112918740641919573
+    second: Ghost Harbor Studios_10
+  - first:
+      213: 8988652838409195696
+    second: Ghost Harbor Studios_11
+  - first:
+      213: -8335025955033743438
+    second: Ghost Harbor Studios_12
+  - first:
+      213: 476454572460560845
+    second: Ghost Harbor Studios_13
+  - first:
+      213: -162740753426436950
+    second: Ghost Harbor Studios_14
+  - first:
+      213: 9148235480441642567
+    second: Ghost Harbor Studios_15
+  - first:
+      213: 5228566589354018827
+    second: Ghost Harbor Studios_16
+  - first:
+      213: -878877516100318785
+    second: Ghost Harbor Studios_17
+  - first:
+      213: 3191830355506670625
+    second: Ghost Harbor Studios_18
+  - first:
+      213: -1684862219604373862
+    second: Ghost Harbor Studios_19
+  - first:
+      213: -6924671149129301595
+    second: Ghost Harbor Studios_20
+  - first:
+      213: -7564229148091461463
+    second: Ghost Harbor Studios_21
+  - first:
+      213: 5023812412835818531
+    second: Ghost Harbor Studios_22
+  - first:
+      213: -2991440269111781832
+    second: Ghost Harbor Studios_23
+  - first:
+      213: 2042613321848556240
+    second: Ghost Harbor Studios_24
+  - first:
+      213: -888920629262114423
+    second: Ghost Harbor Studios_25
+  - first:
+      213: -5012972627194019332
+    second: Ghost Harbor Studios_26
+  - first:
+      213: -8606803457242931971
+    second: Ghost Harbor Studios_27
+  - first:
+      213: -8084989754065590882
+    second: Ghost Harbor Studios_28
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 596, y: 165, z: 579, w: 207}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ghost Harbor Studios_0
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 66
+        width: 840
+        height: 938
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8f54e94f397a9fd0800000000000000
+      internalID: -2334420144108576885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 1537655665
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":624.0,"y":1048.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Ghost Harbor Studios_0: -2334420144108576885
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

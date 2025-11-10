@@ -2,10 +2,11 @@ using UnityEngine;
 
 public class EnemyAttack : MonoBehaviour
 {
-    public EnemyStatus status;  // Status do inimigo que gerou o ataque
-    public float speed = 8f;
-    public float lifeTime = 0.4f;
+    [SerializeField] private EnemyStatus status;  // Status do inimigo que gerou o ataque
+    [SerializeField] private float speed = 8f;
+    [SerializeField] private float lifeTime = 0.4f;
     private Vector2 direction;
+
 
     void Start()
     {

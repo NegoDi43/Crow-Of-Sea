@@ -1,0 +1,2847 @@
+fileFormatVersion: 2
+guid: 4e221a495f4ac7c4aadc30e43a1bb983
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5208080660417462095
+    second: Mercante_0
+  - first:
+      213: -7737672292499365707
+    second: Mercante_1
+  - first:
+      213: 8259219663470683976
+    second: Mercante_2
+  - first:
+      213: -791326606755224638
+    second: Mercante_3
+  - first:
+      213: -2687418558282782476
+    second: Mercante_4
+  - first:
+      213: -6813206484084560319
+    second: Mercante_5
+  - first:
+      213: -4130487348711125214
+    second: Mercante_6
+  - first:
+      213: -4029090527463898677
+    second: Mercante_7
+  - first:
+      213: -5398572979782775818
+    second: Mercante_8
+  - first:
+      213: 1332857509845670970
+    second: Mercante_9
+  - first:
+      213: -5189764923259200025
+    second: Mercante_10
+  - first:
+      213: 8526243066770722822
+    second: Mercante_11
+  - first:
+      213: 4293671930943460392
+    second: Mercante_12
+  - first:
+      213: -4978076564640470898
+    second: Mercante_13
+  - first:
+      213: -7448566563752806683
+    second: Mercante_14
+  - first:
+      213: -7712131329972180171
+    second: Mercante_15
+  - first:
+      213: 7734790785822785433
+    second: Mercante_16
+  - first:
+      213: -766340848483141263
+    second: Mercante_17
+  - first:
+      213: -4894748176717874736
+    second: Mercante_18
+  - first:
+      213: -1975925687150175024
+    second: Mercante_19
+  - first:
+      213: 9205484273991770792
+    second: Mercante_20
+  - first:
+      213: -2551332374049977636
+    second: Mercante_21
+  - first:
+      213: -7364343120271918493
+    second: Mercante_22
+  - first:
+      213: -3962155296344648052
+    second: Mercante_23
+  - first:
+      213: -3439568101278541899
+    second: Mercante_24
+  - first:
+      213: -814795563290756735
+    second: Mercante_25
+  - first:
+      213: 9084428322367802507
+    second: Mercante_26
+  - first:
+      213: 4671593532851176610
+    second: Mercante_27
+  - first:
+      213: 2141327897427568534
+    second: Mercante_28
+  - first:
+      213: 3089603212439070542
+    second: Mercante_29
+  - first:
+      213: 5097686110846275797
+    second: Mercante_30
+  - first:
+      213: -8752803967791898783
+    second: Mercante_31
+  - first:
+      213: -130629096399711590
+    second: Mercante_32
+  - first:
+      213: 6321180577975757261
+    second: Mercante_33
+  - first:
+      213: -642090102495168708
+    second: Mercante_34
+  - first:
+      213: -6392594922310905343
+    second: Mercante_35
+  - first:
+      213: 1831590504981014380
+    second: Mercante_36
+  - first:
+      213: 1391572260135783768
+    second: Mercante_37
+  - first:
+      213: -4003935646464254259
+    second: Mercante_38
+  - first:
+      213: 1227301256388856639
+    second: Mercante_39
+  - first:
+      213: -8506821388341481472
+    second: Mercante_40
+  - first:
+      213: 2311397399233523844
+    second: Mercante_41
+  - first:
+      213: -3873767885778804506
+    second: Mercante_42
+  - first:
+      213: 3830168341768705811
+    second: Mercante_43
+  - first:
+      213: 8425551142743065511
+    second: Mercante_44
+  - first:
+      213: -1787491459887969605
+    second: Mercante_45
+  - first:
+      213: -6366085068135982243
+    second: Mercante_46
+  - first:
+      213: -7815440082764391244
+    second: Mercante_47
+  - first:
+      213: -915738203982808875
+    second: Mercante_48
+  - first:
+      213: 2372418812604524308
+    second: Mercante_49
+  - first:
+      213: 5069633301764054835
+    second: Mercante_50
+  - first:
+      213: 5612114758706613880
+    second: Mercante_51
+  - first:
+      213: -3424820298310874822
+    second: Mercante_52
+  - first:
+      213: 1614421363701996490
+    second: Mercante_53
+  - first:
+      213: 6865805657338054261
+    second: Mercante_54
+  - first:
+      213: -2389225723532453656
+    second: Mercante_55
+  - first:
+      213: -3489733124582004496
+    second: Mercante_56
+  - first:
+      213: -3474981106027256222
+    second: Mercante_57
+  - first:
+      213: 7162510763183612156
+    second: Mercante_58
+  - first:
+      213: 5362231755001313582
+    second: Mercante_59
+  - first:
+      213: 6435807409701320160
+    second: Mercante_60
+  - first:
+      213: 7922727893719030877
+    second: Mercante_61
+  - first:
+      213: 864504545552190343
+    second: Mercante_62
+  - first:
+      213: -4718205093105134501
+    second: Mercante_63
+  - first:
+      213: -2032014160413088906
+    second: Mercante_64
+  - first:
+      213: -5696348513067025697
+    second: Mercante_65
+  - first:
+      213: -8923209320867101887
+    second: Mercante_66
+  - first:
+      213: 205651501287421756
+    second: Mercante_67
+  - first:
+      213: -6184040746657394507
+    second: Mercante_68
+  - first:
+      213: -5980550734887772040
+    second: Mercante_69
+  - first:
+      213: 9008190785396856823
+    second: Mercante_70
+  - first:
+      213: -2929657455044428031
+    second: Mercante_71
+  - first:
+      213: -6828724500944250653
+    second: Mercante_72
+  - first:
+      213: -5921918207564386248
+    second: Mercante_73
+  - first:
+      213: 1675943932840935841
+    second: Mercante_74
+  - first:
+      213: 1595727062656123850
+    second: Mercante_75
+  - first:
+      213: -8214223232077103924
+    second: Mercante_76
+  - first:
+      213: 7025532111026660383
+    second: Mercante_77
+  - first:
+      213: -6401912630456348945
+    second: Mercante_78
+  - first:
+      213: -7709648117394004230
+    second: Mercante_79
+  - first:
+      213: -7499692274749235171
+    second: Mercante_80
+  - first:
+      213: -4639351090609131297
+    second: Mercante_81
+  - first:
+      213: 3101491776782946057
+    second: Mercante_82
+  - first:
+      213: 6220736308514185997
+    second: Mercante_83
+  - first:
+      213: 5216359328755632578
+    second: Mercante_84
+  - first:
+      213: 7382200547266828713
+    second: Mercante_85
+  - first:
+      213: 8122589114550028116
+    second: Mercante_86
+  - first:
+      213: -3693264637938502182
+    second: Mercante_87
+  - first:
+      213: -6277887451603556979
+    second: Mercante_88
+  - first:
+      213: 2443447477569470622
+    second: Mercante_89
+  - first:
+      213: 2663379672005944723
+    second: Mercante_90
+  - first:
+      213: 3929886311028433686
+    second: Mercante_91
+  - first:
+      213: -3826945802321618549
+    second: Mercante_92
+  - first:
+      213: 5367417040263384059
+    second: Mercante_93
+  - first:
+      213: 1866324271964607477
+    second: Mercante_94
+  - first:
+      213: -679604640504444802
+    second: Mercante_95
+  - first:
+      213: -2617079900777447802
+    second: Mercante_96
+  - first:
+      213: 759916929415293506
+    second: Mercante_97
+  - first:
+      213: -1512064913109690364
+    second: Mercante_98
+  - first:
+      213: 7081793814854711782
+    second: Mercante_99
+  - first:
+      213: -2742942459857326286
+    second: Mercante_100
+  - first:
+      213: -5736629756850519736
+    second: Mercante_101
+  - first:
+      213: -7429171918956399363
+    second: Mercante_102
+  - first:
+      213: 5910149079554314521
+    second: Mercante_103
+  - first:
+      213: -4981379064138148536
+    second: Mercante_104
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mercante_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2089
+        width: 890
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b04c32ab3e29b7b0800000000000000
+      internalID: -5208080660417462095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mercante_1
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 2527
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b06131cb044e9490800000000000000
+      internalID: -7737672292499365707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mercante_2
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 2527
+        width: 47
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84767135684ae9270800000000000000
+      internalID: 8259219663470683976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mercante_3
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 2520
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c32a0fc4a4a405f0800000000000000
+      internalID: -791326606755224638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mercante_4
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 2523
+        width: 34
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f823ce4f0f54bad0800000000000000
+      internalID: -2687418558282782476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mercante_5
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 2207
+        width: 85
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14e60c6fcc0a271a0800000000000000
+      internalID: -6813206484084560319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mercante_6
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 2521
+        width: 47
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22f04def3af8da6c0800000000000000
+      internalID: -4130487348711125214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mercante_7
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 2525
+        width: 76
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc18f96238bc518c0800000000000000
+      internalID: -4029090527463898677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mercante_8
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 2125
+        width: 376
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fb860e4a7a6415b0800000000000000
+      internalID: -5398572979782775818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mercante_9
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 2398
+        width: 21
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3c109ae7d24f7210800000000000000
+      internalID: 1332857509845670970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mercante_10
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 2482
+        width: 79
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ed5a518c404af7b0800000000000000
+      internalID: -5189764923259200025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mercante_11
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 2462
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 600918f25ec435670800000000000000
+      internalID: 8526243066770722822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mercante_12
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 2460
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82453f15fdf269b30800000000000000
+      internalID: 4293671930943460392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mercante_13
+      rect:
+        serializedVersion: 2
+        x: 1136
+        y: 2463
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8868eb4db15aeab0800000000000000
+      internalID: -4978076564640470898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mercante_14
+      rect:
+        serializedVersion: 2
+        x: 1157
+        y: 2526
+        width: 47
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e679a9ac2061a890800000000000000
+      internalID: -7448566563752806683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mercante_15
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 2461
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53be8df7a6109f490800000000000000
+      internalID: -7712131329972180171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mercante_16
+      rect:
+        serializedVersion: 2
+        x: 1206
+        y: 2527
+        width: 20
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99f7ee03d3f775b60800000000000000
+      internalID: 7734790785822785433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mercante_17
+      rect:
+        serializedVersion: 2
+        x: 1209
+        y: 2475
+        width: 21
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1797a4dfe096d55f0800000000000000
+      internalID: -766340848483141263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mercante_18
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 2466
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d97dbd777c521cb0800000000000000
+      internalID: -4894748176717874736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mercante_19
+      rect:
+        serializedVersion: 2
+        x: 1226
+        y: 2527
+        width: 35
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dc18d27e0a1494e0800000000000000
+      internalID: -1975925687150175024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mercante_20
+      rect:
+        serializedVersion: 2
+        x: 1258
+        y: 2512
+        width: 48
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a269b8ac2370cf70800000000000000
+      internalID: 9205484273991770792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mercante_21
+      rect:
+        serializedVersion: 2
+        x: 1308
+        y: 2526
+        width: 64
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cda0ccc29b8d79cd0800000000000000
+      internalID: -2551332374049977636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mercante_22
+      rect:
+        serializedVersion: 2
+        x: 1314
+        y: 2397
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36ab91833f89cc990800000000000000
+      internalID: -7364343120271918493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mercante_23
+      rect:
+        serializedVersion: 2
+        x: 1327
+        y: 2366
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c86d17810c89309c0800000000000000
+      internalID: -3962155296344648052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mercante_24
+      rect:
+        serializedVersion: 2
+        x: 1333
+        y: 2364
+        width: 20
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b7178619033440d0800000000000000
+      internalID: -3439568101278541899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mercante_25
+      rect:
+        serializedVersion: 2
+        x: 1341
+        y: 2421
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1897d7d80c341b4f0800000000000000
+      internalID: -814795563290756735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mercante_26
+      rect:
+        serializedVersion: 2
+        x: 1349
+        y: 2413
+        width: 52
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8c0b368d6f521e70800000000000000
+      internalID: 9084428322367802507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mercante_27
+      rect:
+        serializedVersion: 2
+        x: 1371
+        y: 2516
+        width: 31
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a44b942195d4d040800000000000000
+      internalID: 4671593532851176610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mercante_28
+      rect:
+        serializedVersion: 2
+        x: 1403
+        y: 2496
+        width: 31
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 697edc1a06687bd10800000000000000
+      internalID: 2141327897427568534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mercante_29
+      rect:
+        serializedVersion: 2
+        x: 1433
+        y: 2528
+        width: 45
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e47265690c970ea20800000000000000
+      internalID: 3089603212439070542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mercante_30
+      rect:
+        serializedVersion: 2
+        x: 1441
+        y: 2367
+        width: 95
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d05f65528e9eb640800000000000000
+      internalID: 5097686110846275797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mercante_31
+      rect:
+        serializedVersion: 2
+        x: 1782
+        y: 2183
+        width: 274
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16f52276a2bc78680800000000000000
+      internalID: -8752803967791898783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mercante_32
+      rect:
+        serializedVersion: 2
+        x: 2301
+        y: 2089
+        width: 771
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a92d3c76789ef2ef0800000000000000
+      internalID: -130629096399711590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mercante_33
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 2354
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc9e75f9e3859b750800000000000000
+      internalID: 6321180577975757261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mercante_34
+      rect:
+        serializedVersion: 2
+        x: 1358
+        y: 2159
+        width: 139
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c373bf62476d617f0800000000000000
+      internalID: -642090102495168708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mercante_35
+      rect:
+        serializedVersion: 2
+        x: 1471
+        y: 2334
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10251be99c0f847a0800000000000000
+      internalID: -6392594922310905343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mercante_36
+      rect:
+        serializedVersion: 2
+        x: 1327
+        y: 2305
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c672f5f2cdd1b6910800000000000000
+      internalID: 1831590504981014380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mercante_37
+      rect:
+        serializedVersion: 2
+        x: 1445
+        y: 2302
+        width: 53
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85d4ea4099bdf4310800000000000000
+      internalID: 1391572260135783768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mercante_38
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 2287
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dce59f84eb92f68c0800000000000000
+      internalID: -4003935646464254259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mercante_39
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 2272
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3bc27b7dff380110800000000000000
+      internalID: 1227301256388856639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mercante_40
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 2251
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 000f534b403b1f980800000000000000
+      internalID: -8506821388341481472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mercante_41
+      rect:
+        serializedVersion: 2
+        x: 1311
+        y: 2255
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 480731430bbb31020800000000000000
+      internalID: 2311397399233523844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mercante_42
+      rect:
+        serializedVersion: 2
+        x: 1424
+        y: 2252
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e0a6d9c1ac9d3ac0800000000000000
+      internalID: -3873767885778804506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mercante_43
+      rect:
+        serializedVersion: 2
+        x: 1391
+        y: 2221
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 317121150dd772530800000000000000
+      internalID: 3830168341768705811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mercante_44
+      rect:
+        serializedVersion: 2
+        x: 2296
+        y: 2216
+        width: 13
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a34614bf129de470800000000000000
+      internalID: 8425551142743065511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mercante_45
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 2206
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bba455edcfd8137e0800000000000000
+      internalID: -1787491459887969605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mercante_46
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 2204
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5b16d70c5f17a7a0800000000000000
+      internalID: -6366085068135982243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mercante_47
+      rect:
+        serializedVersion: 2
+        x: 1424
+        y: 2206
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bc9a7717aaf98390800000000000000
+      internalID: -7815440082764391244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mercante_48
+      rect:
+        serializedVersion: 2
+        x: 1439
+        y: 2210
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d8b95c84f4aa43f0800000000000000
+      internalID: -915738203982808875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mercante_49
+      rect:
+        serializedVersion: 2
+        x: 1392
+        y: 2190
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4172fb727568ce020800000000000000
+      internalID: 2372418812604524308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mercante_50
+      rect:
+        serializedVersion: 2
+        x: 1423
+        y: 2191
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33f132db0a4fa5640800000000000000
+      internalID: 5069633301764054835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mercante_51
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 2159
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87e4f6783ac32ed40800000000000000
+      internalID: 5612114758706613880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mercante_52
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 2156
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3902ab85189870d0800000000000000
+      internalID: -3424820298310874822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mercante_53
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 2160
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acb524d3da3976610800000000000000
+      internalID: 1614421363701996490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mercante_54
+      rect:
+        serializedVersion: 2
+        x: 2296
+        y: 2148
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57680866edd384f50800000000000000
+      internalID: 6865805657338054261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mercante_55
+      rect:
+        serializedVersion: 2
+        x: 1392
+        y: 2126
+        width: 10
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e85f94fcd3c7ded0800000000000000
+      internalID: -2389225723532453656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mercante_56
+      rect:
+        serializedVersion: 2
+        x: 1439
+        y: 2091
+        width: 11
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f8206c663af19fc0800000000000000
+      internalID: -3489733124582004496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mercante_57
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 2091
+        width: 75
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2662d06681366cfc0800000000000000
+      internalID: -3474981106027256222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mercante_58
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 2091
+        width: 47
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf0a87b2799566360800000000000000
+      internalID: 7162510763183612156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mercante_59
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 2095
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e293c20fe597a6a40800000000000000
+      internalID: 5362231755001313582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mercante_60
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 2095
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e5f212adb4905950800000000000000
+      internalID: 6435807409701320160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mercante_61
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 2091
+        width: 69
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5c933dfa0f23fd60800000000000000
+      internalID: 7922727893719030877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mercante_62
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 2096
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78b4958cd465ffb00800000000000000
+      internalID: 864504545552190343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mercante_63
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 2091
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5497084771958eb0800000000000000
+      internalID: -4718205093105134501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mercante_64
+      rect:
+        serializedVersion: 2
+        x: 1073
+        y: 2089
+        width: 58
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 673a30e13e5dcc3e0800000000000000
+      internalID: -2032014160413088906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mercante_65
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 2096
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdab0d9353182f0b0800000000000000
+      internalID: -5696348513067025697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mercante_66
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 2091
+        width: 55
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 143034d56646a2480800000000000000
+      internalID: -8923209320867101887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mercante_67
+      rect:
+        serializedVersion: 2
+        x: 1179
+        y: 2091
+        width: 20
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3733c963fe9ad200800000000000000
+      internalID: 205651501287421756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mercante_68
+      rect:
+        serializedVersion: 2
+        x: 1196
+        y: 2096
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b0d1f294bfdd2aa0800000000000000
+      internalID: -6184040746657394507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mercante_69
+      rect:
+        serializedVersion: 2
+        x: 1217
+        y: 2091
+        width: 59
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87020ddfac0d00da0800000000000000
+      internalID: -5980550734887772040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mercante_70
+      rect:
+        serializedVersion: 2
+        x: 1275
+        y: 2089
+        width: 60
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f7d688bac5830d70800000000000000
+      internalID: 9008190785396856823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mercante_71
+      rect:
+        serializedVersion: 2
+        x: 1327
+        y: 2091
+        width: 21
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10f708e0114c757d0800000000000000
+      internalID: -2929657455044428031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mercante_72
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 2091
+        width: 44
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e8163c1f3f7b31a0800000000000000
+      internalID: -6828724500944250653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mercante_73
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 2089
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 830f43114ce11dda0800000000000000
+      internalID: -5921918207564386248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mercante_74
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 2096
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a1847c9026224710800000000000000
+      internalID: 1675943932840935841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mercante_75
+      rect:
+        serializedVersion: 2
+        x: 1450
+        y: 2092
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac388181f49252610800000000000000
+      internalID: 1595727062656123850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mercante_76
+      rect:
+        serializedVersion: 2
+        x: 1466
+        y: 2095
+        width: 19
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccc7842cd77310e80800000000000000
+      internalID: -8214223232077103924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mercante_77
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 2089
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1428db6b34bf7160800000000000000
+      internalID: 7025532111026660383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mercante_78
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 2089
+        width: 56
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fee0092a166d727a0800000000000000
+      internalID: -6401912630456348945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mercante_79
+      rect:
+        serializedVersion: 2
+        x: 1543
+        y: 1973
+        width: 734
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af6a87b72e3d10590800000000000000
+      internalID: -7709648117394004230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mercante_80
+      rect:
+        serializedVersion: 2
+        x: 2293
+        y: 2079
+        width: 9
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d10a4d67c9dbbe790800000000000000
+      internalID: -7499692274749235171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mercante_81
+      rect:
+        serializedVersion: 2
+        x: 2374
+        y: 1999
+        width: 10
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd0fbef63c6bd9fb0800000000000000
+      internalID: -4639351090609131297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mercante_82
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1641
+        width: 515
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90f41fca656ba0b20800000000000000
+      internalID: 3101491776782946057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mercante_83
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 1641
+        width: 1197
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d03ec56b6be745650800000000000000
+      internalID: 6220736308514185997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mercante_84
+      rect:
+        serializedVersion: 2
+        x: 1787
+        y: 1736
+        width: 263
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c9464b0c2b346840800000000000000
+      internalID: 5216359328755632578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mercante_85
+      rect:
+        serializedVersion: 2
+        x: 2291
+        y: 1923
+        width: 44
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a998800948d27660800000000000000
+      internalID: 7382200547266828713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mercante_86
+      rect:
+        serializedVersion: 2
+        x: 2552
+        y: 1641
+        width: 520
+        height: 357
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 457853da3cb39b070800000000000000
+      internalID: 8122589114550028116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mercante_87
+      rect:
+        serializedVersion: 2
+        x: 2291
+        y: 1641
+        width: 15
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad5f92a2163eebcc0800000000000000
+      internalID: -3693264637938502182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mercante_88
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 1193
+        width: 517
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d85a94bdf9670e8a0800000000000000
+      internalID: -6277887451603556979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mercante_89
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 744
+        width: 772
+        height: 451
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e904adfe88ed8e120800000000000000
+      internalID: 2443447477569470622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mercante_90
+      rect:
+        serializedVersion: 2
+        x: 1019
+        y: 1289
+        width: 263
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39529e353b936f420800000000000000
+      internalID: 2663379672005944723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mercante_91
+      rect:
+        serializedVersion: 2
+        x: 1789
+        y: 1288
+        width: 262
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 613258847c2c98630800000000000000
+      internalID: 3929886311028433686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mercante_92
+      rect:
+        serializedVersion: 2
+        x: 2301
+        y: 1192
+        width: 771
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8992fd9115f3eac0800000000000000
+      internalID: -3826945802321618549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mercante_93
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 841
+        width: 261
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfb074e3c55ec7a40800000000000000
+      internalID: 5367417040263384059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mercante_94
+      rect:
+        serializedVersion: 2
+        x: 1789
+        y: 841
+        width: 262
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f3d322890486e910800000000000000
+      internalID: 1866324271964607477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mercante_95
+      rect:
+        serializedVersion: 2
+        x: 2301
+        y: 744
+        width: 771
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e78860f1e2f8196f0800000000000000
+      internalID: -679604640504444802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mercante_96
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 296
+        width: 515
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68e785532b34eabd0800000000000000
+      internalID: -2617079900777447802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mercante_97
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 393
+        width: 260
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24aaa9ccb64cb8a00800000000000000
+      internalID: 759916929415293506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mercante_98
+      rect:
+        serializedVersion: 2
+        x: 1790
+        y: 394
+        width: 259
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 408d3c809f0140be0800000000000000
+      internalID: -1512064913109690364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mercante_99
+      rect:
+        serializedVersion: 2
+        x: 2041
+        y: 537
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e939f224f5974260800000000000000
+      internalID: 7081793814854711782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mercante_100
+      rect:
+        serializedVersion: 2
+        x: 2557
+        y: 393
+        width: 261
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23f2ed09d5c1fe9d0800000000000000
+      internalID: -2742942459857326286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mercante_101
+      rect:
+        serializedVersion: 2
+        x: 2041
+        y: 466
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8414dfe41a56360b0800000000000000
+      internalID: -5736629756850519736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mercante_102
+      rect:
+        serializedVersion: 2
+        x: 2041
+        y: 449
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df4fb4b408746e890800000000000000
+      internalID: -7429171918956399363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mercante_103
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 439
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 911df684641150250800000000000000
+      internalID: 5910149079554314521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mercante_104
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 0
+        width: 258
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8455a7632269edab0800000000000000
+      internalID: -4981379064138148536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Mercante_0: -5208080660417462095
+      Mercante_1: -7737672292499365707
+      Mercante_10: -5189764923259200025
+      Mercante_100: -2742942459857326286
+      Mercante_101: -5736629756850519736
+      Mercante_102: -7429171918956399363
+      Mercante_103: 5910149079554314521
+      Mercante_104: -4981379064138148536
+      Mercante_11: 8526243066770722822
+      Mercante_12: 4293671930943460392
+      Mercante_13: -4978076564640470898
+      Mercante_14: -7448566563752806683
+      Mercante_15: -7712131329972180171
+      Mercante_16: 7734790785822785433
+      Mercante_17: -766340848483141263
+      Mercante_18: -4894748176717874736
+      Mercante_19: -1975925687150175024
+      Mercante_2: 8259219663470683976
+      Mercante_20: 9205484273991770792
+      Mercante_21: -2551332374049977636
+      Mercante_22: -7364343120271918493
+      Mercante_23: -3962155296344648052
+      Mercante_24: -3439568101278541899
+      Mercante_25: -814795563290756735
+      Mercante_26: 9084428322367802507
+      Mercante_27: 4671593532851176610
+      Mercante_28: 2141327897427568534
+      Mercante_29: 3089603212439070542
+      Mercante_3: -791326606755224638
+      Mercante_30: 5097686110846275797
+      Mercante_31: -8752803967791898783
+      Mercante_32: -130629096399711590
+      Mercante_33: 6321180577975757261
+      Mercante_34: -642090102495168708
+      Mercante_35: -6392594922310905343
+      Mercante_36: 1831590504981014380
+      Mercante_37: 1391572260135783768
+      Mercante_38: -4003935646464254259
+      Mercante_39: 1227301256388856639
+      Mercante_4: -2687418558282782476
+      Mercante_40: -8506821388341481472
+      Mercante_41: 2311397399233523844
+      Mercante_42: -3873767885778804506
+      Mercante_43: 3830168341768705811
+      Mercante_44: 8425551142743065511
+      Mercante_45: -1787491459887969605
+      Mercante_46: -6366085068135982243
+      Mercante_47: -7815440082764391244
+      Mercante_48: -915738203982808875
+      Mercante_49: 2372418812604524308
+      Mercante_5: -6813206484084560319
+      Mercante_50: 5069633301764054835
+      Mercante_51: 5612114758706613880
+      Mercante_52: -3424820298310874822
+      Mercante_53: 1614421363701996490
+      Mercante_54: 6865805657338054261
+      Mercante_55: -2389225723532453656
+      Mercante_56: -3489733124582004496
+      Mercante_57: -3474981106027256222
+      Mercante_58: 7162510763183612156
+      Mercante_59: 5362231755001313582
+      Mercante_6: -4130487348711125214
+      Mercante_60: 6435807409701320160
+      Mercante_61: 7922727893719030877
+      Mercante_62: 864504545552190343
+      Mercante_63: -4718205093105134501
+      Mercante_64: -2032014160413088906
+      Mercante_65: -5696348513067025697
+      Mercante_66: -8923209320867101887
+      Mercante_67: 205651501287421756
+      Mercante_68: -6184040746657394507
+      Mercante_69: -5980550734887772040
+      Mercante_7: -4029090527463898677
+      Mercante_70: 9008190785396856823
+      Mercante_71: -2929657455044428031
+      Mercante_72: -6828724500944250653
+      Mercante_73: -5921918207564386248
+      Mercante_74: 1675943932840935841
+      Mercante_75: 1595727062656123850
+      Mercante_76: -8214223232077103924
+      Mercante_77: 7025532111026660383
+      Mercante_78: -6401912630456348945
+      Mercante_79: -7709648117394004230
+      Mercante_8: -5398572979782775818
+      Mercante_80: -7499692274749235171
+      Mercante_81: -4639351090609131297
+      Mercante_82: 3101491776782946057
+      Mercante_83: 6220736308514185997
+      Mercante_84: 5216359328755632578
+      Mercante_85: 7382200547266828713
+      Mercante_86: 8122589114550028116
+      Mercante_87: -3693264637938502182
+      Mercante_88: -6277887451603556979
+      Mercante_89: 2443447477569470622
+      Mercante_9: 1332857509845670970
+      Mercante_90: 2663379672005944723
+      Mercante_91: 3929886311028433686
+      Mercante_92: -3826945802321618549
+      Mercante_93: 5367417040263384059
+      Mercante_94: 1866324271964607477
+      Mercante_95: -679604640504444802
+      Mercante_96: -2617079900777447802
+      Mercante_97: 759916929415293506
+      Mercante_98: -1512064913109690364
+      Mercante_99: 7081793814854711782
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

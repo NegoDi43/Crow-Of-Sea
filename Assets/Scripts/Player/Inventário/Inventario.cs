@@ -3,12 +3,16 @@ using UnityEngine;
 
 public class Inventario : MonoBehaviour
 {
+    [Header("Não coloque nada aqui!")]
     public List<SlotInventario> slots = new List<SlotInventario>();
-    private PrefabsItens itemAtual; // Item de teste para adicionar ao inventário
-    public PrefabsItens itemTeste; // Item de teste para adicionar ao inventário
+    private PrefabsItens itemAtual; // Item atualmente selecionado
+    [Header("Painel do Inventário UI")]
     public InventarioUI inventarioUI;
+    [Header("Total de slots")]
     public int tamanhoMaximo = 5;
+    public static Inventario instancia; // Instância singleton do inventário
 
+    public void AdicionarUI() => AdicionarItem(itemAtual, 1);
     public void RemoverUI() => RemoverItem(itemAtual, 1);
     
     // 🧠 Adicionar item
