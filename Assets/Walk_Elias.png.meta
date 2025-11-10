@@ -1,0 +1,925 @@
+fileFormatVersion: 2
+guid: 38ea350cede74a14cbe1b66059be36fa
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3963828153014975168
+    second: Walk_Elias_0
+  - first:
+      213: -8319957032123033384
+    second: Walk_Elias_1
+  - first:
+      213: 8800056636539802571
+    second: Walk_Elias_2
+  - first:
+      213: 4073958446161056359
+    second: Walk_Elias_3
+  - first:
+      213: -2813855133831407725
+    second: Walk_Elias_4
+  - first:
+      213: 5390915513442977587
+    second: Walk_Elias_5
+  - first:
+      213: -5348976149791971332
+    second: Walk_Elias_6
+  - first:
+      213: -4205624311705226180
+    second: Walk_Elias_7
+  - first:
+      213: -5114955419077543298
+    second: Walk_Elias_8
+  - first:
+      213: -5222466073822786776
+    second: Walk_Elias_9
+  - first:
+      213: 3214676325993349163
+    second: Walk_Elias_10
+  - first:
+      213: 8277272002862424120
+    second: Walk_Elias_11
+  - first:
+      213: -4704805123228700942
+    second: Walk_Elias_12
+  - first:
+      213: 6210159338775800317
+    second: Walk_Elias_13
+  - first:
+      213: 4632561806970532138
+    second: Walk_Elias_14
+  - first:
+      213: -1929420140106395016
+    second: Walk_Elias_15
+  - first:
+      213: 2253192660760048730
+    second: Walk_Elias_16
+  - first:
+      213: -6922858244621701420
+    second: Walk_Elias_17
+  - first:
+      213: 5641524804739437527
+    second: Walk_Elias_18
+  - first:
+      213: -7719501592954345815
+    second: Walk_Elias_19
+  - first:
+      213: -6781556353892206524
+    second: Walk_Elias_20
+  - first:
+      213: 6752453852020759481
+    second: Walk_Elias_21
+  - first:
+      213: -1799652085990372049
+    second: Walk_Elias_22
+  - first:
+      213: -1983935218868790866
+    second: Walk_Elias_23
+  - first:
+      213: -26667773153843113
+    second: Walk_Elias_24
+  - first:
+      213: 3994773496576440921
+    second: Walk_Elias_25
+  - first:
+      213: 7321474493283561968
+    second: Walk_Elias_26
+  - first:
+      213: 3876413260121876002
+    second: Walk_Elias_27
+  - first:
+      213: -39897616619370971
+    second: Walk_Elias_28
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 60
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Walk_Elias_0
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 1427
+        width: 87
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ca762334b8520730800000000000000
+      internalID: 3963828153014975168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_Elias_1
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 1426
+        width: 78
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d81bc90923998c80800000000000000
+      internalID: -8319957032123033384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_Elias_2
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 1425
+        width: 77
+        height: 147
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc31640e2e4102a70800000000000000
+      internalID: 8800056636539802571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_Elias_3
+      rect:
+        serializedVersion: 2
+        x: 1165
+        y: 1425
+        width: 78
+        height: 147
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 762d12d3f9b998830800000000000000
+      internalID: 4073958446161056359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_Elias_4
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 1225
+        width: 78
+        height: 147
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 397d19a0aad23f8d0800000000000000
+      internalID: -2813855133831407725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_Elias_5
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 1224
+        width: 79
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33749e0e81160da40800000000000000
+      internalID: 5390915513442977587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_Elias_6
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 1224
+        width: 82
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf7ec97288e94c5b0800000000000000
+      internalID: -5348976149791971332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_Elias_7
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 1226
+        width: 85
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c34301a88fe92a5c0800000000000000
+      internalID: -4205624311705226180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_Elias_8
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 1024
+        width: 86
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7a7ce385270409b0800000000000000
+      internalID: -5114955419077543298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_Elias_9
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 1023
+        width: 89
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82b834296c21687b0800000000000000
+      internalID: -5222466073822786776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_Elias_10
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 1023
+        width: 91
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2001be1613dc9c20800000000000000
+      internalID: 3214676325993349163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_Elias_11
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 1023
+        width: 91
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 830a6ef1807ced270800000000000000
+      internalID: 8277272002862424120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_Elias_12
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 822
+        width: 92
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fee384eaac25beb0800000000000000
+      internalID: -4704805123228700942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_Elias_13
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 822
+        width: 92
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df96e4a040bee2650800000000000000
+      internalID: 6210159338775800317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_Elias_14
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 822
+        width: 87
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2135884b6a2a4040800000000000000
+      internalID: 4632561806970532138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_Elias_15
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 822
+        width: 84
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8725976ea925935e0800000000000000
+      internalID: -1929420140106395016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_Elias_16
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 623
+        width: 81
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a54be1b79c2f44f10800000000000000
+      internalID: 2253192660760048730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_Elias_17
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 624
+        width: 79
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4de60fafa111def90800000000000000
+      internalID: -6922858244621701420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_Elias_18
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 625
+        width: 80
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d39c0a7be8ba4e40800000000000000
+      internalID: 5641524804739437527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_Elias_19
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 625
+        width: 87
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a6e4ec6332ded490800000000000000
+      internalID: -7719501592954345815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_Elias_20
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 425
+        width: 89
+        height: 147
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44836f52d6213e1a0800000000000000
+      internalID: -6781556353892206524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_Elias_21
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 425
+        width: 94
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bb5aeb900985bd50800000000000000
+      internalID: 6752453852020759481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_Elias_22
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 425
+        width: 95
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2dc04776f95607e0800000000000000
+      internalID: -1799652085990372049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_Elias_23
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 424
+        width: 94
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea950f50e65a774e0800000000000000
+      internalID: -1983935218868790866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_Elias_24
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 224
+        width: 89
+        height: 147
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 758e6363dc141aff0800000000000000
+      internalID: -26667773153843113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_Elias_25
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 224
+        width: 94
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95a75957459407730800000000000000
+      internalID: 3994773496576440921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_Elias_26
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 226
+        width: 79
+        height: 147
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f1ff34c24a1b9560800000000000000
+      internalID: 7321474493283561968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_Elias_27
+      rect:
+        serializedVersion: 2
+        x: 1173
+        y: 226
+        width: 77
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 226ad2c6259cbc530800000000000000
+      internalID: 3876413260121876002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_Elias_28
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 28
+        width: 82
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 526840e3451427ff0800000000000000
+      internalID: -39897616619370971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 8b1b143c89d70ba469451a70d0dcaa05
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":342.0,"y":200.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Walk_Elias_0: 3963828153014975168
+      Walk_Elias_1: -8319957032123033384
+      Walk_Elias_10: 3214676325993349163
+      Walk_Elias_11: 8277272002862424120
+      Walk_Elias_12: -4704805123228700942
+      Walk_Elias_13: 6210159338775800317
+      Walk_Elias_14: 4632561806970532138
+      Walk_Elias_15: -1929420140106395016
+      Walk_Elias_16: 2253192660760048730
+      Walk_Elias_17: -6922858244621701420
+      Walk_Elias_18: 5641524804739437527
+      Walk_Elias_19: -7719501592954345815
+      Walk_Elias_2: 8800056636539802571
+      Walk_Elias_20: -6781556353892206524
+      Walk_Elias_21: 6752453852020759481
+      Walk_Elias_22: -1799652085990372049
+      Walk_Elias_23: -1983935218868790866
+      Walk_Elias_24: -26667773153843113
+      Walk_Elias_25: 3994773496576440921
+      Walk_Elias_26: 7321474493283561968
+      Walk_Elias_27: 3876413260121876002
+      Walk_Elias_28: -39897616619370971
+      Walk_Elias_3: 4073958446161056359
+      Walk_Elias_4: -2813855133831407725
+      Walk_Elias_5: 5390915513442977587
+      Walk_Elias_6: -5348976149791971332
+      Walk_Elias_7: -4205624311705226180
+      Walk_Elias_8: -5114955419077543298
+      Walk_Elias_9: -5222466073822786776
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
