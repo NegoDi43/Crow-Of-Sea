@@ -1629,6 +1629,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5829597086185470537, guid: 1dc3a6b073a46574ca1f0d61a686c679, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5829597086185470537, guid: 1dc3a6b073a46574ca1f0d61a686c679, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5829597086185470537, guid: 1dc3a6b073a46574ca1f0d61a686c679, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 1121
+      objectReference: {fileID: 0}
+    - target: {fileID: 5829597086185470537, guid: 1dc3a6b073a46574ca1f0d61a686c679, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -24
+      objectReference: {fileID: 0}
     - target: {fileID: 6290551694702943428, guid: 1dc3a6b073a46574ca1f0d61a686c679, type: 3}
       propertyPath: m_Name
       value: InventarioUI

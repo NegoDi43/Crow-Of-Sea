@@ -28,16 +28,16 @@ RectTransform:
   m_GameObject: {fileID: 1225852391242178927}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.0400001, y: 1.0400001, z: 1.1856}
+  m_LocalScale: {x: 1, y: 1, z: 1.1856}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6103794979776315224}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.448, y: 0.416}
-  m_AnchorMax: {x: 0.5046875, y: 0.535}
-  m_AnchoredPosition: {x: -0.91259766, y: -0.042037964}
-  m_SizeDelta: {x: -11, y: -12}
+  m_AnchorMin: {x: 0.448, y: 0.43350002}
+  m_AnchorMax: {x: 0.49662122, y: 0.535}
+  m_AnchoredPosition: {x: -1.4188995, y: 0.9639969}
+  m_SizeDelta: {x: -11.127199, y: -13.127001}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6573537423695098276
 CanvasRenderer:
@@ -92,10 +92,8 @@ MonoBehaviour:
   icone: {fileID: 2977334344985298407}
   quantidadeTexto: {fileID: 2034477491266424159}
   descricao: {fileID: 0}
-  butoes:
-  - {fileID: 0}
-  - {fileID: 0}
   coldownTime: 4
+  item: {fileID: 0}
 --- !u!1 &1390818987282583686
 GameObject:
   m_ObjectHideFlags: 0
