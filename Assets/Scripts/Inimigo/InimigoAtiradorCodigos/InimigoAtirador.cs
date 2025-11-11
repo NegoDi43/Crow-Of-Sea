@@ -18,6 +18,7 @@ public class inimigoAtirador : MonoBehaviour
     [SerializeField] private AudioClip attackSound;
 
     private float lastAttackTime;
+    private Animator animator;  
 
     void Start()
     {
@@ -25,6 +26,7 @@ public class inimigoAtirador : MonoBehaviour
         statusEnemy = GetComponent<EnemyStatus>();
         player = GameObject.FindGameObjectWithTag("Player")?.transform;
         audioPlayer = GameObject.FindGameObjectWithTag("Audio").GetComponent<Audio>();
+        animator = GetComponent<Animator>();
     }
 
     void Update()
@@ -34,31 +36,31 @@ public class inimigoAtirador : MonoBehaviour
         float distance = Vector2.Distance(transform.position, player.position);
 
         // Se estiver longe, move em direção ao player
-        if (distance > attackRange)
-            MoverAtePlayer();
-        else
-        {
-            PararMovimento();
+        //if (distance > attackRange)
+            //MoverAtePlayer();
+        if (distance < attackRange)
+            {
+            //PararMovimento();
             Atirar();
         }
 
 
     }
 
-    void MoverAtePlayer()
-    {
-        Vector2 direction = (player.position - transform.position).normalized;
-        rb.linearVelocity = direction * statusEnemy.GetVelocidade();
+    //void MoverAtePlayer()
+    //{
+    //    Vector2 direction = (player.position - transform.position).normalized;
+    //    rb.linearVelocity = direction * statusEnemy.GetVelocidade();
 
-        // Opcional: vira o inimigo na direção do movimento
-        if (direction.x != 0)
-            transform.localScale = new Vector3(Mathf.Sign(direction.x), 1, 1);
-    }
+    //    // Opcional: vira o inimigo na direção do movimento
+    //    if (direction.x != 0)
+    //        transform.localScale = new Vector3(Mathf.Sign(direction.x), 1, 1);
+    //}
 
-    void PararMovimento()
-    {
-        rb.linearVelocity = Vector2.zero;
-    }
+    //void PararMovimento()
+    //{
+    //    rb.linearVelocity = Vector2.zero;
+    //}
 
     void Atirar()
     {
@@ -74,6 +76,9 @@ public class inimigoAtirador : MonoBehaviour
 
             // Toca o som de ataque
             audioPlayer.TocarSom(attackSound);
+            // Animação de tiro 
+            animator.SetTrigger("Atirar");
+
 
             TiroInimigo projScript = proj.GetComponent<TiroInimigo>();
             if (projScript != null)

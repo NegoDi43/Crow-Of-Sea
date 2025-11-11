@@ -3,7 +3,7 @@ using UnityEngine;
 public class Slash : MonoBehaviour
 {
     public Status status;       // Status do player para calcular dano
-    public float lifeTime = 0.25f;
+    public float lifeTime = 0.5f;
 
     private void Start()
     {
