@@ -11,7 +11,7 @@ public class EnemyAI : MonoBehaviour
     [SerializeField] private GameObject attackPrefab;
     [SerializeField] private Transform attackPoint;
     [SerializeField] private float attackRange = 1f;
-    [SerializeField] private float yerDetectionRange = 10f;
+    [SerializeField] private float yerDetectionRange = 5f;
     [SerializeField] private float attackCooldown = 1.5f;
     
     [Header("Audio")]
@@ -60,14 +60,19 @@ public class EnemyAI : MonoBehaviour
         Vector2 direction = (player.position - transform.position).normalized;
         rb.linearVelocity = direction * statusEnemy.GetVelocidade();
         animator.SetTrigger ("Andar");
-        animator.SetBool ("Parado", true);
+        animator.SetBool ("Andando", true);
+
+        //Vira o inimigo na direção do movimento
+        if (direction.x != 0)
+            transform.localRotation = Quaternion.Euler(0, direction.x > 0 ? 0 : 180, 0);
+
     }
 
     void PararMovimento()
     {
         rb.linearVelocity = Vector2.zero;
-        animator.SetTrigger ("Parado");
-        animator.SetBool ("Parado", false);
+        animator.SetTrigger ("Parar");
+        animator.SetBool ("Andando", false);
     }
 
     void Atacar()

@@ -39,48 +39,55 @@ public class inimigoAtirador : MonoBehaviour
         {
             Atirar();
         }
-        
 
-
-    }
-
-    //void MoverAtePlayer()
-    //{
-    //    Vector2 direction = (player.position - transform.position).normalized;
-    //    rb.linearVelocity = direction * statusEnemy.GetVelocidade();
-
-    //    // Opcional: vira o inimigo na direção do movimento
-    //    if (direction.x != 0)
-    //        transform.localScale = new Vector3(Mathf.Sign(direction.x), 1, 1);
-    //}
-
-    //void PararMovimento()
-    //{
-    //    rb.linearVelocity = Vector2.zero;
-    //}
-
-    void Atirar()
-    {
-        if (Time.time - lastAttackTime < attackCooldown) return;
-        lastAttackTime = Time.time;
-
-        if (projectilePrefab && firePoint)
+        // Rotaciona o inimigo para olhar para o player
+        else
         {
-            Vector2 direction = (player.position - firePoint.position).normalized;
-            float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
+            Vector2 direction = (player.position - transform.position).normalized;
+            if (direction.x != 0)
+                transform.localRotation = Quaternion.Euler(0, direction.x > 0 ? 0 : 180, 0);
 
-            GameObject proj = Instantiate(projectilePrefab, firePoint.position, Quaternion.Euler(0, 0, angle));
 
-            // Toca o som de ataque
-            audioPlayer.TocarSom(attackSound);
-
-            // Animação de ataque
-            animator.SetTrigger("Atirar");
-
-            TiroInimigo projScript = proj.GetComponent<TiroInimigo>();
-            if (projScript != null)
-                projScript.SetDirection(direction, statusEnemy.GetDanoMaximo());
         }
-    }
 
+        //void MoverAtePlayer()
+        //{
+        //    Vector2 direction = (player.position - transform.position).normalized;
+        //    rb.linearVelocity = direction * statusEnemy.GetVelocidade();
+
+        //    // Opcional: vira o inimigo na direção do movimento
+        //    if (direction.x != 0)
+        //        transform.localScale = new Vector3(Mathf.Sign(direction.x), 1, 1);
+        //}
+
+        //void PararMovimento()
+        //{
+        //    rb.linearVelocity = Vector2.zero;
+        //}
+
+        void Atirar()
+        {
+            if (Time.time - lastAttackTime < attackCooldown) return;
+            lastAttackTime = Time.time;
+
+            if (projectilePrefab && firePoint)
+            {
+                Vector2 direction = (player.position - firePoint.position).normalized;
+                float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
+
+                GameObject proj = Instantiate(projectilePrefab, firePoint.position, Quaternion.Euler(0, 0, angle));
+
+                // Toca o som de ataque
+                audioPlayer.TocarSom(attackSound);
+
+                // Animação de ataque
+                animator.SetTrigger("Atirar");
+
+                TiroInimigo projScript = proj.GetComponent<TiroInimigo>();
+                if (projScript != null)
+                    projScript.SetDirection(direction, statusEnemy.GetDanoMaximo());
+            }
+        }
+
+    }
 }
