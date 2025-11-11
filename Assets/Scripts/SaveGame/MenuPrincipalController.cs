@@ -34,8 +34,18 @@ public class MenuPrincipalController : MonoBehaviour
             Debug.LogWarning($"Não foi possível apagar o save (pode não existir): {e.Message}");
         }
 
-        // 2. Carrega a cena principal do jogo
-        // O jogo começará com os valores padrão (definidos no construtor do SaveData)
+        // --- 2. RESETA O CONTADOR DE TEMPO ---
+        if (SaveManager.Instance != null)
+        {
+            SaveManager.Instance.ResetPlaytime();
+        }
+        else
+        {
+            Debug.LogError("Não foi possível encontrar o SaveManager para resetar o tempo!");
+        }
+        // -------------------------------------
+
+        // 3. Carrega a cena principal do jogo
         SceneManager.LoadScene(nomeDaCenaDoJogo);
     }
 
@@ -55,7 +65,6 @@ public class MenuPrincipalController : MonoBehaviour
         try
         {
             // 1. Espera o SaveManager carregar os dados
-            // (Isso só funciona se você fez a modificação no SaveManager.cs!)
             await SaveManager.Instance.LoadGame();
 
             Debug.Log("Dados carregados com sucesso. Iniciando a cena do jogo.");

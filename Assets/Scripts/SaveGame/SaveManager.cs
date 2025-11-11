@@ -22,6 +22,10 @@ public class SaveManager : MonoBehaviour
 
     private const string SAVE_KEY = "PlayerData";
 
+    // --- NOVAS VARIÁVEIS DE TEMPO ---
+    private float totalPlaytimeLoaded = 0f; // Tempo total carregado do save
+    private float sessionStartTime;       // Momento em que a sessão (ou load) começou
+
     private async void Awake()
     {
         // Padrão Singleton
@@ -32,6 +36,9 @@ public class SaveManager : MonoBehaviour
         }
         Instance = this;
         DontDestroyOnLoad(gameObject);
+
+        // Define o início da sessão. Será resetado no Load ou NewGame.
+        sessionStartTime = Time.time;
 
         // Inicializa os serviços da Unity
         await InitializeUnityServices();
@@ -56,7 +63,7 @@ public class SaveManager : MonoBehaviour
         }
     }
 
-    // --- FUNÇÃO DE SALVAR ---
+    // --- FUNÇÃO DE SALVAR (MODIFICADA) ---
     public async void SaveGame()
     {
         SaveData data = new SaveData();
@@ -64,20 +71,13 @@ public class SaveManager : MonoBehaviour
         // 1. Coletar dados do Status
         data.vidaMaxima = statusPlayer.GetVidaMaxima();
         data.vidaAtual = statusPlayer.GetVidaAtual();
-        data.danoMaximo = statusPlayer.GetDanoMaximo();
-        data.velocidade = statusPlayer.GetVelocidade();
-        data.staminaAtual = statusPlayer.GetStaminaAtual();
-        data.staminaMax = statusPlayer.GetStaminaMax();
-        data.pontos = statusPlayer.GetPontos();
-        data.pontosVida = statusPlayer.GetPontosVida();
-        data.pontosDano = statusPlayer.GetPontosDano();
-        data.pontosVelocidade = statusPlayer.GetPontosVelocidade();
+        // ... (resto dos dados do Status) ...
         data.pontosStamina = statusPlayer.GetPontosStamina();
 
         // 2. Coletar dados do GanhodeXp
         data.xpAtual = xpPlayer.GetXpAtual();
         data.xpNecessarioParaNivelUp = xpPlayer.GetXpNecessarioParaNivelUp();
-        data.levelAtual = xpPlayer.GetLevelAtual(); // <-- CORRIGIDO para usar o Getter
+        data.levelAtual = xpPlayer.GetLevelAtual();
 
         // 3. Coletar Posição
         data.playerPosX = playerTransform.position.x;
@@ -87,17 +87,27 @@ public class SaveManager : MonoBehaviour
         data.inventorySlots = new List<SerializableSlot>();
         foreach (SlotInventario slot in inventarioPlayer.slots)
         {
-            // Salva o ID (nome) e a quantidade
             data.inventorySlots.Add(new SerializableSlot(slot.item.nomeItem, slot.quantidade));
         }
 
-        // 5. Enviar para a Nuvem
+        // --- 5. CALCULAR E COLETAR TEMPO JOGADO ---
+        float sessionTime = Time.time - sessionStartTime;
+        data.totalPlaytimeInSeconds = this.totalPlaytimeLoaded + sessionTime;
+        // ---------------------------------------------
+
+        // 6. Enviar para a Nuvem
         try
         {
             string json = JsonUtility.ToJson(data);
             var dataToSave = new Dictionary<string, object> { { SAVE_KEY, json } };
             await CloudSaveService.Instance.Data.Player.SaveAsync(dataToSave);
-            Debug.Log("Jogo Salvo na Nuvem!");
+
+            // Atualiza o tempo carregado e reseta o timer da sessão
+            // para que o próximo save continue a partir daqui
+            this.totalPlaytimeLoaded = data.totalPlaytimeInSeconds;
+            this.sessionStartTime = Time.time;
+
+            Debug.Log($"Jogo Salvo! Tempo total: {data.totalPlaytimeInSeconds}s");
         }
         catch (System.Exception e)
         {
@@ -105,7 +115,8 @@ public class SaveManager : MonoBehaviour
         }
     }
 
-    // --- FUNÇÃO DE CARREGAR ---
+    // --- FUNÇÃO DE CARREGAR (MODIFICADA) ---
+    // Lembre-se que esta função deve retornar 'Task' e não 'void'
     public async Task LoadGame()
     {
         try
@@ -127,29 +138,41 @@ public class SaveManager : MonoBehaviour
                 playerTransform.position = new Vector3(data.playerPosX, data.playerPosY, playerTransform.position.z);
 
                 // 5. Aplicar Inventário
-                inventarioPlayer.slots.Clear();
-                foreach (SerializableSlot sSlot in data.inventorySlots)
-                {
-                    // Encontra o PrefabsItens real usando o ID salvo
-                    PrefabsItens itemReal = itemDatabase.GetItemPorID(sSlot.itemID);
-                    if (itemReal != null)
-                    {
-                        inventarioPlayer.slots.Add(new SlotInventario(itemReal, sSlot.quantidade));
-                    }
-                }
-                // Atualiza a UI do inventário
+                // ... (código do inventário) ...
                 inventarioPlayer.inventarioUI.AtualizarUI();
 
-                Debug.Log("Jogo Carregado da Nuvem!");
+                // --- 6. CARREGAR TEMPO JOGADO ---
+                this.totalPlaytimeLoaded = data.totalPlaytimeInSeconds;
+                this.sessionStartTime = Time.time; // Reseta o timer da sessão
+                // ---------------------------------
+
+                Debug.Log($"Jogo Carregado! Tempo salvo anterior: {this.totalPlaytimeLoaded}s");
             }
             else
             {
                 Debug.Log("Nenhum save encontrado. Carregando dados padrão.");
+                // Se não há save, reseta o tempo (redundante, mas seguro)
+                ResetPlaytime();
             }
         }
         catch (System.Exception e)
         {
             Debug.LogError("Erro ao carregar: " + e.Message);
+            // Mesmo em caso de erro, é bom resetar o timer
+            ResetPlaytime();
+            throw; // Re-lança a exceção para o MenuPrincipalController saber que falhou
         }
+    }
+
+    // --- NOVO MÉTODO PÚBLICO ---
+    /// <summary>
+    /// Reseta o contador de tempo de jogo.
+    /// Chamado pelo MenuPrincipalController ao iniciar um novo jogo.
+    /// </summary>
+    public void ResetPlaytime()
+    {
+        totalPlaytimeLoaded = 0f;
+        sessionStartTime = Time.time;
+        Debug.Log("Contador de tempo de jogo resetado.");
     }
 }

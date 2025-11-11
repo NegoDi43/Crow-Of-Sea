@@ -29,6 +29,9 @@ public class SaveData
     // --- Dados do Inventario.cs ---
     public List<SerializableSlot> inventorySlots;
 
+    // --- NOVO CAMPO ---
+    public float totalPlaytimeInSeconds; // Tempo total em segundos
+
     // Construtor padrão para criar novos dados (usado se não houver save)
     public SaveData()
     {
@@ -49,6 +52,7 @@ public class SaveData
         this.playerPosX = 0; // Posição inicial
         this.playerPosY = 0; // Posição inicial
         this.inventorySlots = new List<SerializableSlot>();
+        this.totalPlaytimeInSeconds = 0f; // Começa com 0
     }
 }
 
