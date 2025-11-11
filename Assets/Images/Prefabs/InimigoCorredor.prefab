@@ -45,7 +45,6 @@ GameObject:
   - component: {fileID: 8472690229460860655}
   - component: {fileID: 5135510075249876941}
   - component: {fileID: 1309253465026263866}
-  - component: {fileID: 2071742278470945861}
   m_Layer: 0
   m_Name: InimigoCorredor
   m_TagString: InimigoTerrestre
@@ -116,7 +115,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 100
-  m_Sprite: {fileID: 2832333676611518841, guid: 934ce6c4088a79545a9fabf7c1bf9aaa, type: 3}
+  m_Sprite: {fileID: 7482667652216324306, guid: 75f5f34dc1b5347e0b8351032682f224, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -144,7 +143,7 @@ MonoBehaviour:
   attackPrefab: {fileID: 5620712408531709087, guid: bb55dd83c0b14174695aada6e35f0287, type: 3}
   attackPoint: {fileID: 4323353548683247691}
   attackRange: 1
-  yerDetectionRange: 5
+  yerDetectionRange: 10
   attackCooldown: 1.5
   audioPlayer: {fileID: 0}
   attackSound: {fileID: 8300000, guid: aee6282a2df54d54488defb30a35579f, type: 3}
@@ -190,7 +189,7 @@ MonoBehaviour:
   vidaMaxima: 20
   vidaAtual: 0
   danoMaximo: 5
-  velocidade: 2
+  velocidade: 3
   ganhodeXp: {fileID: 0}
 --- !u!61 &1309253465026263866
 BoxCollider2D:
@@ -229,8 +228,8 @@ BoxCollider2D:
   m_Offset: {x: 0, y: 0.21133333}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 3.6699998, y: 2.8999999}
+    pivot: {x: 0.5, y: 0.28866667}
+    oldSize: {x: 1, y: 1}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -238,25 +237,3 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!95 &2071742278470945861
-Animator:
-  serializedVersion: 7
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7518668906810166737}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 5a304d89ffddcd24d81448f7654e3757, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0

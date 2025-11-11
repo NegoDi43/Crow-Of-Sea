@@ -1,12 +1,11 @@
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class EnemyAttack : MonoBehaviour
 {
     [SerializeField] private EnemyStatus status;  // Status do inimigo que gerou o ataque
-    [SerializeField] private float speed = 5f;
-    [SerializeField] private float lifeTime = 0.25f;
-   private Vector2 direction;
+    [SerializeField] private float speed = 8f;
+    [SerializeField] private float lifeTime = 0.4f;
+    private Vector2 direction;
 
 
     void Start()
@@ -23,7 +22,6 @@ public class EnemyAttack : MonoBehaviour
     void Update()
     {
         transform.Translate(direction * speed * Time.deltaTime, Space.World);
-
     }
 
     private void OnTriggerEnter2D(Collider2D other)

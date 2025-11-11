@@ -241,7 +241,6 @@ MonoBehaviour:
   projectilePrefab: {fileID: 575410457256604051, guid: 623ba26439c0cb04bad412e91121d566, type: 3}
   firePoint: {fileID: 817851898132636544}
   cooldown: 0.5
-  playerStatus: {fileID: 0}
   quantidadeMunicao: 10
   tiroSound: {fileID: 8300000, guid: 9380f63467f2b4a4aa65003e8076cf26, type: 3}
   audioPlayer: {fileID: 0}
@@ -260,10 +259,10 @@ MonoBehaviour:
   vidaMaxima: 15
   vidaAtual: 0
   danoMaximo: 50
-  velocidade: 2.5
+  velocidade: 2.44
   staminaTotal: 50
   staminaAtual: 0
-  staminaMax: 15
+  staminaMax: 0
   pontos: 0
   pontosVida: 0
   pontosDano: 0

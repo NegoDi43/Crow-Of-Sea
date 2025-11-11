@@ -47,7 +47,7 @@ public class PlayerAttack : MonoBehaviour
     IEnumerator AtacarTempo()
     {
         player.AnimaAtacarCorte();
-        yield return new WaitForSeconds(0.05f);
+        yield return new WaitForSeconds(0.7f);
 
         lastAttackTime = Time.time;
 
