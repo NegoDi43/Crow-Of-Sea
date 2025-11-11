@@ -169,6 +169,16 @@ public class Status : MonoBehaviour
     {
         return vidaAtual;
     }
+    public void SetVidaAtualP(float vida)
+    {
+        vidaAtual += vida;
+    }
+
+    public void SetVidaAtualN(float vida)
+    {
+        vidaAtual -= vida;
+    }
+
     public float GetDanoMaximo()
     {
         return danoMaximo;
@@ -181,6 +191,11 @@ public class Status : MonoBehaviour
     {
         return staminaMax;
     }
+    public float SetStaminaAtual(float stamina)
+    {
+        return staminaAtual -= stamina;
+    }
+
     public float GetStaminaAtual()
     {
         return staminaAtual;

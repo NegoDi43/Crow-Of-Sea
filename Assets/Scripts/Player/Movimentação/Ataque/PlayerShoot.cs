@@ -6,6 +6,7 @@ public class PlayerShoot : MonoBehaviour
     [SerializeField] private GameObject projectilePrefab;     // Prefab do projétil
     [SerializeField] private Transform firePoint;             // Ponto de spawn
     [SerializeField] private float cooldown = 0.5f;           // Tempo entre tiros
+    [SerializeField] private Status playerStatus;          // Status do jogador
 
     [SerializeField] private float quantidadeMunicao = 10f;
     private float lastAttackTime;
@@ -21,6 +22,7 @@ public class PlayerShoot : MonoBehaviour
         status = FindAnyObjectByType<Status>();
         aimJoystick = FindAnyObjectByType<VirtualJoystick2D>();
         audioPlayer = GameObject.FindGameObjectWithTag("Audio").GetComponent<Audio>();
+        playerStatus = GameObject.FindGameObjectWithTag("Player").GetComponent<Status>();
     }
 
     void Update()
@@ -44,6 +46,13 @@ public class PlayerShoot : MonoBehaviour
             GameObject projectile = Instantiate(projectilePrefab, firePoint.position, Quaternion.identity);
             Projetil proj = projectile.GetComponent<Projetil>();
             audioPlayer.TocarSom(tiroSound);
+
+            // Corrigido: diminui a stamina usando um setter apropriado
+            playerStatus.SetStaminaAtual(2);
+            // Supondo que exista um método para definir a stamina atual, por exemplo:
+            // playerStatus.SetStaminaAtual(staminaAtual);
+            // Se não existir, você deve criar esse método na classe Status.
+
             if (proj != null)
             {
                 proj.status = status;
