@@ -14,7 +14,7 @@ public class TrocaFase : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.CompareTag("Barco"))
+        if (other.gameObject.CompareTag("Barco") || other.gameObject.CompareTag("Player"))
         {
             StartCoroutine(TrocarFase(1f, nomeFase)); // espera 1 segundo antes de trocar de fase
         }
