@@ -69,4 +69,24 @@ public class GanhodeXp : MonoBehaviour
             xpAtual = xpNecessarioParaNivelUp;
         }
     }
+
+    // --- NOVO MÉTODO PARA CARREGAR ---
+    public void LoadData(SaveData data)
+    {
+        xpAtual = data.xpAtual;
+        xpNecessarioParaNivelUp = data.xpNecessarioParaNivelUp;
+        levelAtual = data.levelAtual;
+
+        // Atualiza a UI
+        if (levelText != null)
+        {
+            levelText.text = levelAtual.ToString();
+        }
+    }
+
+    // --- NOVO MÉTODO GETTER PARA O SAVEMANAGER ---
+    public int GetLevelAtual()
+    {
+        return levelAtual;
+    }
 }
