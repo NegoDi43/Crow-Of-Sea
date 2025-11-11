@@ -224,4 +224,24 @@ public class Status : MonoBehaviour
         }
     }
 
+    // --- NOVO MÉTODO PARA CARREGAR ---
+    public void LoadData(SaveData data)
+    {
+        vidaMaxima = data.vidaMaxima;
+        vidaAtual = data.vidaAtual;
+        danoMaximo = data.danoMaximo;
+        velocidade = data.velocidade;
+        staminaAtual = data.staminaAtual;
+        staminaMax = data.staminaMax;
+        pontos = data.pontos;
+        pontosVida = data.pontosVida;
+        pontosDano = data.pontosDano;
+        pontosVelocidade = data.pontosVelocidade;
+        pontosStamina = data.pontosStamina;
+
+        // Garante que a UI e os limites sejam atualizados
+        AtualizaVida();
+        AtualizaStamina();
+        limites();
+    }
 }
