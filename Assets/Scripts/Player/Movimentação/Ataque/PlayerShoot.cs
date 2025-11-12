@@ -1,3 +1,4 @@
+using TMPro;
 using UnityEngine;
 
 public class PlayerShoot : MonoBehaviour
@@ -16,6 +17,9 @@ public class PlayerShoot : MonoBehaviour
     [SerializeField] private AudioClip tiroSound;
     [SerializeField] private Audio audioPlayer;
 
+    // Quanto de munição texto
+    [SerializeField] private TextMeshProUGUI muniçãoText;
+
     void Start()
     {
         status = FindAnyObjectByType<Status>();
@@ -29,6 +33,8 @@ public class PlayerShoot : MonoBehaviour
 
         if (input.sqrMagnitude > 0.01f)
             aimDirection = input.normalized;
+
+        MuniçãoQuantidade();
     }
 
     public void Attack()
@@ -55,5 +61,10 @@ public class PlayerShoot : MonoBehaviour
             }
             quantidadeMunicao--;
         }
+    }
+
+    private void MuniçãoQuantidade()
+    {
+        muniçãoText.text = "Munição: " + quantidadeMunicao.ToString("F0");
     }
 }
