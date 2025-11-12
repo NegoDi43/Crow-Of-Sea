@@ -71,8 +71,8 @@ public class EnemyAI : MonoBehaviour
     void PararMovimento()
     {
         rb.linearVelocity = Vector2.zero;
-        animator.SetTrigger ("Parar");
-        animator.SetBool ("Andando", false);
+        //animator.SetTrigger ("Parar");
+        //animator.SetBool ("Andando", false);
     }
 
     void Atacar()
@@ -86,14 +86,14 @@ public class EnemyAI : MonoBehaviour
             Vector2 direction = (player.position - attackPoint.position).normalized;
             float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
 
+            // Dispara a animação de ataque
+            animator.SetTrigger("Atacar");
+
             // Instancia o corte e rotaciona
             GameObject attackObj = Instantiate(attackPrefab, attackPoint.position, Quaternion.Euler(0, 0, angle));
 
             // Toca o som de ataque
             audioPlayer.TocarSom(attackSound);
-
-            // Dispara a animação de ataque
-            animator.SetTrigger("Atacar");
 
             // Define a direção do ataque (para o script do corte)
             EnemyAttack attack = attackObj.GetComponent<EnemyAttack>();
