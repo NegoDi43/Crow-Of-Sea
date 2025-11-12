@@ -1,0 +1,611 @@
+fileFormatVersion: 2
+guid: d0b147159351cc846b134f368f6fcdd4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6411637993997165558
+    second: "Mans\xE3oBixoFinal_0"
+  - first:
+      213: 7103765539301789644
+    second: "Mans\xE3oBixoFinal_1"
+  - first:
+      213: 6568297712165341403
+    second: "Mans\xE3oBixoFinal_2"
+  - first:
+      213: 1911085329890861803
+    second: "Mans\xE3oBixoFinal_3"
+  - first:
+      213: 5908303283927931492
+    second: "Mans\xE3oBixoFinal_4"
+  - first:
+      213: 1133985520338927120
+    second: "Mans\xE3oBixoFinal_5"
+  - first:
+      213: 254935526189133996
+    second: "Mans\xE3oBixoFinal_6"
+  - first:
+      213: -6527220969823580571
+    second: "Mans\xE3oBixoFinal_7"
+  - first:
+      213: -386188434619771624
+    second: "Mans\xE3oBixoFinal_8"
+  - first:
+      213: -4647736463190720241
+    second: "Mans\xE3oBixoFinal_9"
+  - first:
+      213: -4934663305558917250
+    second: "Mans\xE3oBixoFinal_10"
+  - first:
+      213: 2267228070307236154
+    second: "Mans\xE3oBixoFinal_11"
+  - first:
+      213: 6450609776323893117
+    second: "Mans\xE3oBixoFinal_12"
+  - first:
+      213: -6028397825259693708
+    second: "Mans\xE3oBixoFinal_13"
+  - first:
+      213: 6666479941040836710
+    second: "Mans\xE3oBixoFinal_14"
+  - first:
+      213: 1103454170445986147
+    second: "Mans\xE3oBixoFinal_15"
+  - first:
+      213: 7093023386585506284
+    second: "Mans\xE3oBixoFinal_16"
+  - first:
+      213: 6917582089848697826
+    second: "Mans\xE3oBixoFinal_17"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Mans\xE3oBixoFinal_0"
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 0
+        width: 1429
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0c966bf6394507a0800000000000000
+      internalID: -6411637993997165558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Mans\xE3oBixoFinal_1"
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 448
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccf8eb1ee15a59260800000000000000
+      internalID: 7103765539301789644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Mans\xE3oBixoFinal_2"
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 451
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd840a808f7472b50800000000000000
+      internalID: 6568297712165341403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Mans\xE3oBixoFinal_3"
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 399
+        width: 85
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be2ea9f6bf9858a10800000000000000
+      internalID: 1911085329890861803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Mans\xE3oBixoFinal_4"
+      rect:
+        serializedVersion: 2
+        x: 1396
+        y: 354
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46a5ccf78828ef150800000000000000
+      internalID: 5908303283927931492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Mans\xE3oBixoFinal_5"
+      rect:
+        serializedVersion: 2
+        x: 1416
+        y: 361
+        width: 66
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01efc3892d9bcbf00800000000000000
+      internalID: 1133985520338927120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Mans\xE3oBixoFinal_6"
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 350
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca07127a286b98300800000000000000
+      internalID: 254935526189133996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Mans\xE3oBixoFinal_7"
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 311
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56e4f235c17aa65a0800000000000000
+      internalID: -6527220969823580571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Mans\xE3oBixoFinal_8"
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 174
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 815df123aabf3aaf0800000000000000
+      internalID: -386188434619771624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Mans\xE3oBixoFinal_9"
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 151
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0103edbf4cef7fb0800000000000000
+      internalID: -4647736463190720241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Mans\xE3oBixoFinal_10"
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 142
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7f710a5edd848bb0800000000000000
+      internalID: -4934663305558917250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Mans\xE3oBixoFinal_11"
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 132
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a39057beaefc67f10800000000000000
+      internalID: 2267228070307236154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Mans\xE3oBixoFinal_12"
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 126
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d77927e2a6b258950800000000000000
+      internalID: 6450609776323893117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Mans\xE3oBixoFinal_13"
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 75
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47998a42e14d65ca0800000000000000
+      internalID: -6028397825259693708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Mans\xE3oBixoFinal_14"
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 80
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66091049f28148c50800000000000000
+      internalID: 6666479941040836710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Mans\xE3oBixoFinal_15"
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 35
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3693b5fb8b1405f00800000000000000
+      internalID: 1103454170445986147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Mans\xE3oBixoFinal_16"
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 46
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce1a7fc803b7f6260800000000000000
+      internalID: 7093023386585506284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Mans\xE3oBixoFinal_17"
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 29
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e339028240300060800000000000000
+      internalID: 6917582089848697826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "Mans\xE3oBixoFinal_0": -6411637993997165558
+      "Mans\xE3oBixoFinal_1": 7103765539301789644
+      "Mans\xE3oBixoFinal_10": -4934663305558917250
+      "Mans\xE3oBixoFinal_11": 2267228070307236154
+      "Mans\xE3oBixoFinal_12": 6450609776323893117
+      "Mans\xE3oBixoFinal_13": -6028397825259693708
+      "Mans\xE3oBixoFinal_14": 6666479941040836710
+      "Mans\xE3oBixoFinal_15": 1103454170445986147
+      "Mans\xE3oBixoFinal_16": 7093023386585506284
+      "Mans\xE3oBixoFinal_17": 6917582089848697826
+      "Mans\xE3oBixoFinal_2": 6568297712165341403
+      "Mans\xE3oBixoFinal_3": 1911085329890861803
+      "Mans\xE3oBixoFinal_4": 5908303283927931492
+      "Mans\xE3oBixoFinal_5": 1133985520338927120
+      "Mans\xE3oBixoFinal_6": 254935526189133996
+      "Mans\xE3oBixoFinal_7": -6527220969823580571
+      "Mans\xE3oBixoFinal_8": -386188434619771624
+      "Mans\xE3oBixoFinal_9": -4647736463190720241
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
