@@ -485,7 +485,7 @@ MonoBehaviour:
   velocidade: 2.44
   staminaTotal: 50
   staminaAtual: 0
-  staminaMax: 0
+  staminaMax: 15
   pontos: 0
   pontosVida: 0
   pontosDano: 0

@@ -25,6 +25,8 @@ public class Status : MonoBehaviour
     [SerializeField] private float pontosStamina = 0;
 
     [SerializeField] private PlayerController2D playerController;
+    [SerializeField] private GameObject telaMorte;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -42,6 +44,7 @@ public class Status : MonoBehaviour
         limites();
         AtualizaStamina();
         AtualizaVida();
+        Morrer();
     }
 
     //Atualiza os Status
@@ -114,6 +117,15 @@ public class Status : MonoBehaviour
             velocidade += (float)0.10;
             pontos -= 1;
             pontosVelocidade += 1;
+        }
+    }
+
+    private void Morrer()
+    {
+        if (vidaAtual <= 0)
+        {
+            //playerController.AnimaMorrer();
+            Destroy(gameObject); // ou outra lógica de morte
         }
     }
     public void UpStamina()
