@@ -1142,6 +1142,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c900e42ee0f2ae64499dc278868a24af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerController2D
+--- !u!4 &221232920 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3972985205507685118, guid: 2a4c9088c1a592542af7ff4f87fe4b64, type: 3}
+  m_PrefabInstance: {fileID: 221232918}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &221232925 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5284858684361293222, guid: 2a4c9088c1a592542af7ff4f87fe4b64, type: 3}
@@ -1329,6 +1334,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7175795189940143302, guid: 631a34f1e236a9f49be889998016a81f, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 221232920}
+    - target: {fileID: 7175795189940143302, guid: 631a34f1e236a9f49be889998016a81f, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 329595352}
     - target: {fileID: 7740411655210611574, guid: 631a34f1e236a9f49be889998016a81f, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -1803,6 +1816,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2716679e4b44efa458f3eaec3e8910c0, type: 3}
+--- !u!4 &329595352 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2073792060739774666, guid: 2716679e4b44efa458f3eaec3e8910c0, type: 3}
+  m_PrefabInstance: {fileID: 329595351}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &416302942
 PrefabInstance:
   m_ObjectHideFlags: 0
