@@ -4,6 +4,27 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/CenasDoJogo/TelaInicial.unity
+    guid: 3e007cacc4371c14888a944dc255d2f7
+  - enabled: 1
+    path: Assets/Scenes/CenasDoJogo/Creditos.unity
+    guid: 1b677f6b8fc300d43bd1acae4fb9014c
+  - enabled: 1
+    path: Assets/Scenes/CenasDoJogo/Motim.unity
+    guid: 037592675953288418a0aa1f5944d2dc
+  - enabled: 1
+    path: Assets/Scenes/CenasDoJogo/Nassau.unity
+    guid: abadce0c845084b4889a935e12c84ff8
+  - enabled: 1
+    path: Assets/Scenes/CenasDoJogo/Havana.unity
+    guid: 7a2bba852a101dc4b819cce4b09a5221
+  - enabled: 1
+    path: Assets/Scenes/CenasDoJogo/leaderboard.unity
+    guid: 13c9d193f2b295f44a330c5c16156c2f
+  - enabled: 1
+    path: Assets/Scenes/CenasDoJogo/Tortuga.unity
+    guid: 4fa6fc456fdcfec4fa1adf0d4b1f0086
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
