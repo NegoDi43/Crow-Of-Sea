@@ -21,6 +21,9 @@ EditorBuildSettings:
     path: Assets/Scenes/CenasDoJogo/Havana.unity
     guid: 7a2bba852a101dc4b819cce4b09a5221
   - enabled: 1
+    path: Assets/Scenes/CenasDoJogo/port.unity
+    guid: 959255dd5595b2a4e9af742618e83332
+  - enabled: 1
     path: Assets/Scenes/CenasDoJogo/leaderboard.unity
     guid: 13c9d193f2b295f44a330c5c16156c2f
   - enabled: 1
