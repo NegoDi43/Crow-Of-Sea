@@ -6,7 +6,7 @@ public class EnemyRespawner : MonoBehaviour
     [Header("Configuração de Respawn")]
     public GameObject enemyPrefab;        // Prefab do inimigo
     public Transform spawnPoint;          // Posição onde o inimigo nasce
-    public float respawnDelay = 10f;      // Tempo em segundos até reaparecer
+    public float respawnDelay = 15f;      // Tempo em segundos até reaparecer
 
     private GameObject currentEnemy;
     private bool isRespawning;

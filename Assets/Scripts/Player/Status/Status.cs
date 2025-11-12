@@ -6,6 +6,7 @@ public class Status : MonoBehaviour
     [Header("Status base")]
     [SerializeField] private float vidaMaxima = 15;
     [SerializeField] private float vidaAtual;
+    public float Vida => vidaAtual;
 
     [Header("Status Mutaveis")]
     [SerializeField] private float danoMaximo = 1;
@@ -27,6 +28,8 @@ public class Status : MonoBehaviour
     [SerializeField] private PlayerController2D playerController;
     [SerializeField] private GameObject telaMorte;
 
+    public static Status status;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -44,7 +47,7 @@ public class Status : MonoBehaviour
         limites();
         AtualizaStamina();
         AtualizaVida();
-        Morrer();
+        //Morrer();
     }
 
     //Atualiza os Status
@@ -120,14 +123,20 @@ public class Status : MonoBehaviour
         }
     }
 
-    private void Morrer()
-    {
-        if (vidaAtual <= 0)
-        {
-            //playerController.AnimaMorrer();
-            Destroy(gameObject); // ou outra lógica de morte
-        }
-    }
+    //private void Morrer()
+    //{
+    //    if (vidaAtual <= 0)
+    //    {
+    //        //playerController.AnimaMorrer();
+    //        StartCoroutine(EsperarMorte());
+    //    }
+    //}
+
+    //IEnumerator EsperarMorte()
+    //{
+    //    telaMorte.SetActive(true);
+    //    yield return new WaitForSeconds(2);
+    //}
     public void UpStamina()
     {
         if (pontos > 0)
@@ -232,7 +241,7 @@ public class Status : MonoBehaviour
         if (vidaAtual <= 0)
         {
             vidaAtual = 0;
-            Destroy(gameObject); // ou animação de morte
+            telaMorte.SetActive(true);
         }
     }
 

@@ -15,6 +15,9 @@ TagManager:
   - PontoDeSaida
   - Barco
   - TrocaFase
+  - Audio
+  - AudioAndar
+  - TelaMorte
   layers:
   - Default
   - TransparentFX

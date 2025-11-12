@@ -143,7 +143,7 @@ MonoBehaviour:
   rb: {fileID: 8472690229460860655}
   attackPrefab: {fileID: 5620712408531709087, guid: 6f1fd1d5375966343b22573289d3357a, type: 3}
   attackPoint: {fileID: 4323353548683247691}
-  attackRange: 1
+  attackRange: 0.5
   yerDetectionRange: 5
   attackCooldown: 1.5
   audioPlayer: {fileID: 0}
